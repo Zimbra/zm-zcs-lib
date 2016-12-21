@@ -47,7 +47,7 @@
   <dependency org="net.sf.ehcache" name="ehcache-core" rev="2.5.1" />
   <dependency org="org.freemarker" name="freemarker" rev="2.3.19" />
   <dependency org="ch.ethz.ganymed" name="ganymed-ssh2" rev="build210" />
-  <!--  <dependency org="gifencoder" name="gifencoder" rev="0.9" />-->
+  <dependency org="gifencoder" name="gifencoder" rev="0.9" />
   <dependency org="org.glassfish.gmbal" name="gmbal-api-only"
    rev="2.2.6" />
   <dependency org="com.google.guava" name="guava" rev="13.0.1" />
@@ -101,13 +101,13 @@
   <dependency org="org.json" name="json" rev="20090211" />
   <dependency org="javax.jws" name="jsr181-api" rev="1.0-MR1"/>
   <dependency org="javax.ws.rs" name="jsr311-api" rev="1.1.1" />
-    <!-- <dependency org="com.kohlschutter.junixsocket" name="junixsocket-common" rev="2.0.4"  conf="default" force="true"/>
+    <dependency org="com.kohlschutter.junixsocket" name="junixsocket-common" rev="2.0.4" />
  <dependency org="com.kohlschutter.junixsocket" name="junixsocket-rmi"
    rev="2.0.4"  transitive="false"/>
   <dependency org="com.kohlschutter.junixsocket" name="junixsocket-demo"
    rev="2.0.4"  transitive="false"/>
   <dependency org="com.kohlschutter.junixsocket" name="junixsocket-mysql"
-   rev="2.0.4" transitive="false"/>-->
+   rev="2.0.4" transitive="false"/>
 
   <dependency org="jython" name="jython" rev="2.1"/>
   <dependency org="com.jcraft" name="jzlib" rev="1.0.7" />
@@ -177,9 +177,7 @@
  
 
  <!--  <dependency org="com.101tec" name="zkclient" rev="0.1.0" /> -->
- <!--  <dependency org="zm-ews-stub" name="zm-ews-stub" rev="1.0" />
- 
- -->
+<dependency org="zimbra" name="zm-ews-stub" rev="1.0" />
 
 <exclude org="log4j" module="log4j"/>
  <exclude org="net.sf.josql" module="josql" />
