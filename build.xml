@@ -10,6 +10,9 @@
     <ivy:resolve file="ivy.xml" />
     <delete dir="${build.tmp.dir}" />
     <ivy:retrieve pattern="${dist.dir}/[artifact]-[revision].[ext]" />
+    <copy todir="${dist.dir}">
+      <fileset dir="thirdparty" includes="*.gz" />
+    </copy>
   </target>
 
 
@@ -18,16 +21,18 @@
     <ant antfile="../ant-1.7.0-ziputil-patched/build.xml" inheritAll="false" target="jar" />
     <ant antfile="../ant-tar-patched/build.xml" inheritAll="false" target="jar" />
     <ant antfile="../nekohtml-1.9.13/build.xml" inheritAll="false" target="jar" /> 
-    <!-- <ant antfile="../ical4j-0.9.16-patched/build.xml" inheritAll="false" target="jar" />-->
-    <ant antfile="../zm-common/build.xml" inheritAll="false" target="publish-local" />
+    <ant antfile="../ical4j-0.9.16-patched/build.xml" inheritAll="false" target="package" />
+    <move file="../nekohtml-1.9.13/build/lib/nekohtml.jar" tofile="../nekohtml-1.9.13/build/lib/nekohtml-1.9.13.1z.jar"/>
+    <move file="../ical4j-0.9.16-patched/build/ical4j.jar" tofile="../ical4j-0.9.16-patched/build/ical4j-0.9.16-patched.jar"/>
+   <!-- <ant antfile="../zm-common/build.xml" inheritAll="false" target="publish-local" />
     <ant antfile="../zm-soap/build.xml" inheritAll="false" target="publish-local" />
     <ant antfile="../zm-client/build.xml" inheritAll="false" target="publish-local" />
-    <ant antfile="../zm-store/build.xml" inheritAll="false" target="publish-local" />
+    <ant antfile="../zm-store/build.xml" inheritAll="false" target="publish-local" /> -->
     <copy todir="${dist.dir}">
       <fileset dir="../ant-1.7.0-ziputil-patched/build" includes="*.jar" />
       <fileset dir="../ant-tar-patched/build" includes="*.jar" />
       <fileset dir="../nekohtml-1.9.13/build/lib" includes="*.jar" />
-      <!--    <fileset dir="../ical4j-0.9.16-patched/build" includes="*.jar" /> -->
+      <fileset dir="../ical4j-0.9.16-patched/build" includes="*.jar" />
     </copy>
     <ivy:install organisation="zimbra" module="zm-native" revision="latest.integration" settingsRef="dev.settings" from="chain-resolver" to="build-dist" overwrite="true" transitive="true" type="jar" />
     <ivy:install organisation="zimbra" module="zm-charset" revision="latest.integration" settingsRef="dev.settings" from="chain-resolver" to="build-dist" overwrite="true" transitive="true" type="jar" />
