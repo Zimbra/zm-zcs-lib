@@ -60,7 +60,8 @@
    rev="4.2.2" />
   <dependency org="org.apache.httpcomponents" name="httpcore-nio"
    rev="4.2.2" />
-  <dependency org="ical4j" name="ical4j" rev="0.9.16-patched" />
+  <!--  <dependency org="ical4j" name="ical4j" rev="0.9.16-patched" /> -->
+  
   <dependency org="com.ibm.icu" name="icu4j" rev="4.8.1.1" />
   <dependency org="org.codehaus.jackson" name="jackson-mapper-asl" rev="1.9.13"/>
   <dependency org="com.github.stephenc" name="jamm" rev="0.2.5" />
@@ -123,8 +124,8 @@
 <dependency org="net.spy" name="spymemcached" rev="2.9.1" transitive="false"/>
   <dependency org="org.apache.mina" name="mina-core" rev="2.0.4" />
   <dependency org="org.apache.neethi" name="neethi" rev="3.0.2" />
-  <dependency org="net.sourceforge.nekohtml" name="nekohtml"
-   rev="1.9.13.1z" />
+  <!-- <dependency org="net.sourceforge.nekohtml" name="nekohtml"
+   rev="1.9.13.1z" /> -->
   <dependency org="net.oauth.core" name="oauth" rev="20100527"/>
   <dependency org="com.googlecode.owasp-java-html-sanitizer"
    name="owasp-java-html-sanitizer" rev="r239" />
