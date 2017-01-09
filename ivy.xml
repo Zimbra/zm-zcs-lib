@@ -121,7 +121,7 @@
    rev="3.5.0" />
   <dependency org="org.mariadb.jdbc" name="mariadb-java-client"
    rev="1.1.8" />
-  <dependency org="spy" name="spymemcached" rev="2.6" /> 
+  <dependency org="net.spy" name="spymemcached" rev="2.12.1" transitive="false"/>
   <dependency org="org.apache.mina" name="mina-core" rev="2.0.4" />
   <dependency org="org.apache.neethi" name="neethi" rev="3.0.2" />
   <!-- <dependency org="net.sourceforge.nekohtml" name="nekohtml"
