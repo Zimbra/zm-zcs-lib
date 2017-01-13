@@ -1,4 +1,4 @@
-<project xmlns:ivy="antlib:org.apache.ivy.ant" name="zm-jetty" default="dist">
+<project xmlns:ivy="antlib:org.apache.ivy.ant" name="zm-zcs-lib" default="dist">
   <import file="../zm-zcs/ant-global.xml" />
 
 
