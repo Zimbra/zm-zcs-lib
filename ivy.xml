@@ -19,6 +19,7 @@
   <dependency org="commons-codec" name="commons-codec" rev="1.7" />
   <dependency org="commons-collections" name="commons-collections"
    rev="3.2.2" />
+  <dependency org="org.apache.commons" name="commons-csv" rev="1.2"/>
   <dependency org="org.apache.commons" name="commons-compress"
    rev="1.10" />
   <dependency org="commons-dbcp" name="commons-dbcp" rev="1.4" />
