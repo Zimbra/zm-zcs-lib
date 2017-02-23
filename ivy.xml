@@ -19,6 +19,7 @@
   <dependency org="commons-codec" name="commons-codec" rev="1.7" />
   <dependency org="commons-collections" name="commons-collections"
    rev="3.2.2" />
+  <dependency org="org.apache.commons" name="commons-csv" rev="1.2"/>
   <dependency org="org.apache.commons" name="commons-compress"
    rev="1.10" />
   <dependency org="commons-dbcp" name="commons-dbcp" rev="1.4" />
@@ -45,6 +46,7 @@
   <dependency org="org.apache.cxf" name="cxf" rev="2.7.18" />
   <dependency org="dom4j" name="dom4j" rev="1.5.2" />
   <dependency org="net.sf.ehcache" name="ehcache-core" rev="2.5.1" />
+  <dependency org="org.ehcache" name="ehcache" rev="3.1.2"/>
   <dependency org="org.freemarker" name="freemarker" rev="2.3.19" />
   <dependency org="ch.ethz.ganymed" name="ganymed-ssh2" rev="build210" />
   <dependency org="gifencoder" name="gifencoder" rev="0.9" />
@@ -53,13 +55,13 @@
   <dependency org="com.google.guava" name="guava" rev="13.0.1" />
   <dependency org="org.apache.helix" name="helix-core" rev="0.6.1-incubating" />
   <dependency org="org.apache.httpcomponents" name="httpasyncclient"
-   rev="4.0-beta3" />
+   rev="4.1.2" />
   <dependency org="org.apache.httpcomponents" name="httpclient"
-   rev="4.2.1" />
+   rev="4.5.2" />
   <dependency org="org.apache.httpcomponents" name="httpcore"
-   rev="4.2.2" />
+   rev="4.4.5" />
   <dependency org="org.apache.httpcomponents" name="httpcore-nio"
-   rev="4.2.2" />
+   rev="4.4.5" />
   <!--  <dependency org="ical4j" name="ical4j" rev="0.9.16-patched" /> -->
   
   <dependency org="com.ibm.icu" name="icu4j" rev="4.8.1.1" />
@@ -122,6 +124,8 @@
   <dependency org="org.mariadb.jdbc" name="mariadb-java-client"
    rev="1.1.8" />
   <dependency org="net.spy" name="spymemcached" rev="2.12.1" transitive="false"/>
+  <dependency org="redis.clients" name="jedis" rev="2.9.0"/>
+  <dependency org="org.apache.commons" name="commons-pool2" rev="2.4.2"/>
   <dependency org="org.apache.mina" name="mina-core" rev="2.0.4" />
   <dependency org="org.apache.neethi" name="neethi" rev="3.0.2" />
   <!-- <dependency org="net.sourceforge.nekohtml" name="nekohtml"
