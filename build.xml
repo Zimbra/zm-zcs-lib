@@ -24,10 +24,6 @@
     <ant antfile="../ical4j-0.9.16-patched/build.xml" inheritAll="false" target="package" />
     <move file="../nekohtml-1.9.13/build/lib/nekohtml.jar" tofile="../nekohtml-1.9.13/build/lib/nekohtml-1.9.13.1z.jar"/>
     <move file="../ical4j-0.9.16-patched/build/ical4j.jar" tofile="../ical4j-0.9.16-patched/build/ical4j-0.9.16-patched.jar"/>
-   <!-- <ant antfile="../zm-common/build.xml" inheritAll="false" target="publish-local" />
-    <ant antfile="../zm-soap/build.xml" inheritAll="false" target="publish-local" />
-    <ant antfile="../zm-client/build.xml" inheritAll="false" target="publish-local" />
-    <ant antfile="../zm-store/build.xml" inheritAll="false" target="publish-local" /> -->
     <copy todir="${dist.dir}">
       <fileset dir="../ant-1.7.0-ziputil-patched/build" includes="*.jar" />
       <fileset dir="../ant-tar-patched/build" includes="*.jar" />
