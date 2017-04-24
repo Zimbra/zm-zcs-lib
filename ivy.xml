@@ -169,7 +169,7 @@
   <dependency org="org.codehaus.woodstox" name="woodstox-core-asl"
    rev="4.2.0" />
   <dependency org="wsdl4j" name="wsdl4j" rev="1.6.3" />
-  <dependency org="xerces" name="xercesImpl" rev="2.9.1" />
+  <dependency org="xerces" name="xercesImpl" rev="2.9.1-patch-01" />
   <dependency org="org.apache.ws.xmlschema" name="xmlschema-core"
    rev="2.0.3" />
   <dependency org="com.yahoo.platform.yui" name="yuicompressor"
