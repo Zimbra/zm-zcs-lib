@@ -130,6 +130,7 @@
   <dependency org="org.apache.neethi" name="neethi" rev="3.0.2" />
   <!-- <dependency org="net.sourceforge.nekohtml" name="nekohtml"
    rev="1.9.13.1z" /> -->
+  <dependency org="oauth" name="oauth" rev="1.4"/>
   <dependency org="net.oauth.core" name="oauth" rev="20100527"/>
   <dependency org="com.googlecode.owasp-java-html-sanitizer"
    name="owasp-java-html-sanitizer" rev="r239" />
