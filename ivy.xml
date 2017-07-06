@@ -182,7 +182,7 @@
  
 
  <!--  <dependency org="com.101tec" name="zkclient" rev="0.1.0" /> -->
-<dependency org="zimbra" name="zm-ews-stub" rev="1.0" />
+<dependency org="zimbra" name="zm-ews-stub" rev="2.0" />
 <dependency org="org.bouncycastle" name="bcmail-jdk15on" rev="1.55"/>
 <dependency org="org.bouncycastle" name="bcpkix-jdk15on" rev="1.55"/>
 <dependency org="org.bouncycastle" name="bcprov-jdk15on" rev="1.55"/>
