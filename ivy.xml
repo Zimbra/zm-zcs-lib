@@ -130,6 +130,7 @@
   <dependency org="org.apache.neethi" name="neethi" rev="3.0.2" />
   <!-- <dependency org="net.sourceforge.nekohtml" name="nekohtml"
    rev="1.9.13.1z" /> -->
+  <dependency org="oauth" name="oauth" rev="1.4"/>
   <dependency org="net.oauth.core" name="oauth" rev="20100527"/>
   <dependency org="com.googlecode.owasp-java-html-sanitizer"
    name="owasp-java-html-sanitizer" rev="r239" />
@@ -182,7 +183,7 @@
  
 
  <!--  <dependency org="com.101tec" name="zkclient" rev="0.1.0" /> -->
-<dependency org="zimbra" name="zm-ews-stub" rev="1.0" />
+<dependency org="zimbra" name="zm-ews-stub" rev="2.0" />
 <dependency org="org.bouncycastle" name="bcmail-jdk15on" rev="1.55"/>
 <dependency org="org.bouncycastle" name="bcpkix-jdk15on" rev="1.55"/>
 <dependency org="org.bouncycastle" name="bcprov-jdk15on" rev="1.55"/>
