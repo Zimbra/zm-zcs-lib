@@ -111,6 +111,9 @@
    rev="2.0.4"  transitive="false"/>
   <dependency org="com.kohlschutter.junixsocket" name="junixsocket-mysql"
    rev="2.0.4" transitive="false"/>
+  <dependency org="com.kohlschutter.junixsocket" name="junixsocket-native-common"
+   rev="2.0.4"/>
+  <dependency org="org.scijava" name="native-lib-loader" rev="2.0.2"/>
 
   <dependency org="org.python" name="jython-standalone" rev="2.7.0" />
   <dependency org="jline" name="jline" rev="0.9.93" />
