@@ -113,6 +113,7 @@
    rev="2.0.4" transitive="false"/>
 
   <dependency org="org.python" name="jython-standalone" rev="2.7.0" />
+  <dependency org="jline" name="jline" rev="0.9.93" />
   <dependency org="com.jcraft" name="jzlib" rev="1.0.7" />
   <dependency org="org.gnu.inet" name="libidn" rev="1.24" />
   <!--  <dependency org="log4j" name="log4j" rev="1.2.17" />-->
