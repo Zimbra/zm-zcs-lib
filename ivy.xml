@@ -115,7 +115,7 @@
    rev="2.0.4"/>
   <dependency org="org.scijava" name="native-lib-loader" rev="2.0.2"/>
 
-  <dependency org="org.python" name="jython-standalone" rev="2.7.0" />
+  <dependency org="org.python" name="jython-standalone" rev="2.7.1" />
   <dependency org="jline" name="jline" rev="0.9.93" />
   <dependency org="com.jcraft" name="jzlib" rev="1.0.7" />
   <dependency org="org.gnu.inet" name="libidn" rev="1.24" />
