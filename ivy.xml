@@ -62,6 +62,7 @@
    rev="4.4.5" />
   <dependency org="org.apache.httpcomponents" name="httpcore-nio"
    rev="4.4.5" />
+  <dependency org="org.apache.httpcomponents" name="httpmime" rev="4.3.1"/>
   <!--  <dependency org="ical4j" name="ical4j" rev="0.9.16-patched" /> -->
   
   <dependency org="com.ibm.icu" name="icu4j" rev="4.8.1.1" />
