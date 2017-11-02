@@ -4,9 +4,7 @@
  </info>
   <dependencies>
     <dependency org="ant" name="ant" rev="1.6.5"/>
-    <!--<dependency org="zimbra" name="ant-1.7.0-ziputil" rev="patched" /> -->
     <dependency org="ant-contrib" name="ant-contrib" rev="1.0b2"/>
-    <!-- <dependency org="ant-tar" name="ant-tar" rev="patched" />-->
     <dependency org="org.antlr" name="antlr" rev="3.2"/>
     <dependency org="org.apache.james" name="apache-jsieve-core" rev="0.5"/>
     <dependency org="log4j" name="apache-log4j-extras" rev="1.0"/>
@@ -45,7 +43,6 @@
     <dependency org="org.apache.httpcomponents" name="httpcore" rev="4.4.5"/>
     <dependency org="org.apache.httpcomponents" name="httpcore-nio" rev="4.4.5"/>
     <dependency org="org.apache.httpcomponents" name="httpmime" rev="4.3.1"/>
-    <!--  <dependency org="ical4j" name="ical4j" rev="0.9.16-patched" /> -->
     <dependency org="com.ibm.icu" name="icu4j" rev="4.8.1.1"/>
     <dependency org="org.codehaus.jackson" name="jackson-mapper-asl" rev="1.9.13"/>
     <dependency org="org.codehaus.jackson" name="jackson-core-asl" rev="1.9.13"/>
@@ -93,7 +90,6 @@
     <dependency org="jline" name="jline" rev="0.9.93"/>
     <dependency org="com.jcraft" name="jzlib" rev="1.0.7"/>
     <dependency org="org.gnu.inet" name="libidn" rev="1.24"/>
-    <!--  <dependency org="log4j" name="log4j" rev="1.2.17" />-->
     <dependency org="org.apache.lucene" name="lucene-analyzers" rev="3.5.0"/>
     <dependency org="org.apache.lucene" name="lucene-core" rev="3.5.0"/>
     <dependency org="org.apache.lucene" name="lucene-smartcn" rev="3.5.0"/>
@@ -103,8 +99,6 @@
     <dependency org="org.apache.commons" name="commons-pool2" rev="2.4.2"/>
     <dependency org="org.apache.mina" name="mina-core" rev="2.0.4"/>
     <dependency org="org.apache.neethi" name="neethi" rev="3.0.2"/>
-    <!-- <dependency org="net.sourceforge.nekohtml" name="nekohtml"
-   rev="1.9.13.1z" /> -->
     <dependency org="oauth" name="oauth" rev="1.4"/>
     <dependency org="net.oauth.core" name="oauth" rev="20100527"/>
     <dependency org="com.googlecode.owasp-java-html-sanitizer" name="owasp-java-html-sanitizer" rev="r239"/>
@@ -136,7 +130,6 @@
     <dependency org="com.yahoo.platform.yui" name="yuicompressor" rev="2.4.2-zimbra"/>
     <dependency org="org.apache.zookeeper" name="zookeeper" rev="3.4.5"/>
     <dependency org="com.101tec" name="zkclient" rev="0.1.0"/>
-    <!--  <dependency org="com.101tec" name="zkclient" rev="0.1.0" /> -->
     <dependency org="zimbra" name="zm-ews-stub" rev="2.0"/>
     <dependency org="org.bouncycastle" name="bcmail-jdk15on" rev="1.55"/>
     <dependency org="org.bouncycastle" name="bcpkix-jdk15on" rev="1.55"/>
