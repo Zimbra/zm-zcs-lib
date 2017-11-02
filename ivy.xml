@@ -79,11 +79,7 @@
     <dependency org="org.apache.httpcomponents" name="httpclient" rev="4.5.2"/>
     <dependency org="org.apache.httpcomponents" name="httpcore" rev="4.4.5"/>
     <dependency org="org.apache.httpcomponents" name="httpcore-nio" rev="4.4.5"/>
-    <dependency org="org.apache.httpcomponents" name="httpmime" rev="4.3.1"/>
     <dependency org="org.apache.james" name="apache-jsieve-core" rev="0.5"/>
-    <dependency org="org.apache.lucene" name="lucene-analyzers" rev="3.5.0"/>
-    <dependency org="org.apache.lucene" name="lucene-core" rev="3.5.0"/>
-    <dependency org="org.apache.lucene" name="lucene-smartcn" rev="3.5.0"/>
     <dependency org="org.apache.mina" name="mina-core" rev="2.0.4"/>
     <dependency org="org.apache.neethi" name="neethi" rev="3.0.2"/>
     <dependency org="org.apache.ws.xmlschema" name="xmlschema-core" rev="2.0.3"/>
