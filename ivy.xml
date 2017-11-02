@@ -79,9 +79,14 @@
     <dependency org="org.apache.httpcomponents" name="httpclient" rev="4.5.2"/>
     <dependency org="org.apache.httpcomponents" name="httpcore" rev="4.4.5"/>
     <dependency org="org.apache.httpcomponents" name="httpcore-nio" rev="4.4.5"/>
+    <dependency org="org.apache.httpcomponents" name="httpmime" rev="4.3.5"/>
     <dependency org="org.apache.james" name="apache-jsieve-core" rev="0.5"/>
+    <dependency org="org.apache.lucene" name="lucene-analyzers-common" rev="6.6.0"/>
+    <dependency org="org.apache.lucene" name="lucene-core" rev="6.6.0"/>
     <dependency org="org.apache.mina" name="mina-core" rev="2.0.4"/>
     <dependency org="org.apache.neethi" name="neethi" rev="3.0.2"/>
+    <dependency org="org.apache.solr" name="solr-core" rev="6.6.0"/>
+    <dependency org="org.apache.solr" name="solr-solrj" rev="6.6.0"/>
     <dependency org="org.apache.ws.xmlschema" name="xmlschema-core" rev="2.0.3"/>
     <dependency org="org.apache.zookeeper" name="zookeeper" rev="3.4.5"/>
     <dependency org="org.bouncycastle" name="bcmail-jdk15on" rev="1.55"/>
@@ -114,6 +119,7 @@
     <dependency org="org.json" name="json" rev="20090211"/>
     <dependency org="org.jvnet.staxex" name="stax-ex" rev="1.7.7"/>
     <dependency org="org.mariadb.jdbc" name="mariadb-java-client" rev="1.1.8"/>
+    <dependency org="org.noggit" name="noggit" rev="0.7"/>
     <dependency org="org.python" name="jython-standalone" rev="2.5.2"/>
     <dependency org="org.scijava" name="native-lib-loader" rev="2.0.2"/>
     <dependency org="org.slf4j" name="slf4j-api" rev="1.6.4"/>
