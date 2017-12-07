@@ -92,10 +92,15 @@
     <dependency org="org.bouncycastle" name="bcpkix-jdk15on" rev="1.55"/>
     <dependency org="org.bouncycastle" name="bcprov-jdk15" rev="1.46"/>
     <dependency org="org.bouncycastle" name="bcprov-jdk15on" rev="1.55"/>
-    <dependency org="org.codehaus.jackson" name="jackson-core-asl" rev="1.9.13"/>
+    <dependency org="com.fasterxml.jackson.core" name="jackson-core" rev="2.9.2"/>
+    <dependency org="com.fasterxml.jackson.core" name="jackson-annotations" rev="2.9.2"/>
+    <dependency org="com.fasterxml.jackson.core" name="jackson-databind" rev="2.9.2"/>
+    <dependency org="com.fasterxml.jackson.dataformat" name="jackson-dataformat-smile" rev="2.9.2" />
+    <dependency org="com.fasterxml.jackson.module" name="jackson-module-jaxb-annotations" rev="2.9.2"/>
     <dependency org="org.codehaus.jackson" name="jackson-mapper-asl" rev="1.9.13"/>
-    <dependency org="org.codehaus.jackson" name="jackson-smile" rev="1.9.13"/>
+    <dependency org="org.codehaus.jackson" name="jackson-core-asl" rev="1.9.13"/>
     <dependency org="org.codehaus.jackson" name="jackson-xc" rev="1.9.13"/>
+    <dependency org="org.codehaus.jackson" name="jackson-smile" rev="1.9.13"/>
     <dependency org="org.codehaus.woodstox" name="stax2-api" rev="3.1.1"/>
     <dependency org="org.codehaus.woodstox" name="woodstox-core-asl" rev="4.2.0"/>
     <dependency org="org.eclipse.jetty" name="jetty-continuation" rev="9.3.5.v20151012"/>
@@ -134,6 +139,13 @@
     <dependency org="wsdl4j" name="wsdl4j" rev="1.6.3"/>
     <dependency org="xerces" name="xercesImpl" rev="2.9.1-patch-01"/>
     <dependency org="zimbra" name="zm-ews-stub" rev="2.0"/>
+    <dependency org="io.jsonwebtoken" name="jjwt" rev="0.7.0" />
+    <dependency org="org.apache.commons" name="commons-text" rev="1.1" />
+    <dependency org="org.apache.commons" name="commons-lang3" rev="3.7" />
+    <dependency org="org.apache.commons" name="commons-rng-client-api" rev="1.0"/>
+    <dependency org="org.apache.commons" name="commons-rng-core" rev="1.0"/>
+    <dependency org="org.apache.commons" name="commons-rng-simple" rev="1.0"/>
+       
     <exclude org="com.noelios.restlet" module="com.noelios.restlet"/>
     <exclude org="javax.sql" module="jdbc-stdext"/>
     <exclude org="javax.transaction" module="jta"/>
