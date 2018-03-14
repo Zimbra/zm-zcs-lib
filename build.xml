@@ -53,17 +53,5 @@
       <fileset dir="${dist.dir}" />
       <globmapper from="zm-charset-*.jar" to="zimbra-charset.jar" />
     </copy>
-    <copy todir="${dist.dir}">
-      <fileset dir="${dist.dir}" />
-      <globmapper from="zm-soap-*.jar" to="zimbrasoap.jar" />
-    </copy>
-    <copy todir="${dist.dir}">
-      <fileset dir="${dist.dir}" />
-      <globmapper from="zm-client-*.jar" to="zimbraclient.jar" />
-    </copy>
-    <copy todir="${dist.dir}">
-      <fileset dir="${dist.dir}" />
-      <globmapper from="zm-store-*.jar" to="zimbrastore.jar" />
-    </copy>
   </target>
 </project>
