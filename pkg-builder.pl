@@ -210,8 +210,6 @@ sub stage_zimbra_core_lib($)
         cpy_file("build/dist/zm-ews-stub-2.0.jar",                                  "$stage_base_dir/opt/zimbra/lib/jars/zm-ews-stub-2.0.jar");
         cpy_file("build/dist/ehcache-3.1.2.jar",                                    "$stage_base_dir/opt/zimbra/lib/jars/ehcache-3.1.2.jar");
         cpy_file("build/dist/zimbra-charset.jar",                                   "$stage_base_dir/opt/zimbra/lib/jars/zimbra-charset.jar");
-        cpy_file("build/dist/zimbra-native.jar",                                    "$stage_base_dir/opt/zimbra/lib/jars/zimbra-native.jar");
-        cpy_file("build/dist/zimbracommon.jar",                                     "$stage_base_dir/opt/zimbra/lib/jars/zimbracommon.jar");
         cpy_file("build/dist/ant-1.6.5.jar",                                        "$stage_base_dir/opt/zimbra/lib/jars/ant-1.6.5.jar");
         cpy_file("build/dist/json-20090211.jar",                                    "$stage_base_dir/opt/zimbra/lib/jars/json-20090211.jar");
         cpy_file("build/dist/commons-logging-1.1.1.jar",                            "$stage_base_dir/opt/zimbra/lib/jars/commons-logging-1.1.1.jar");
