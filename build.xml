@@ -30,12 +30,7 @@
       <fileset dir="../nekohtml-1.9.13/build/lib" includes="*.jar" />
       <fileset dir="../ical4j-0.9.16-patched/build" includes="*.jar" />
     </copy>
-    <ivy:install organisation="zimbra" module="zm-native" revision="latest.integration" settingsRef="dev.settings" from="chain-resolver" to="build-dist" overwrite="true" transitive="true" type="jar" />
     <ivy:install organisation="zimbra" module="zm-charset" revision="latest.integration" settingsRef="dev.settings" from="chain-resolver" to="build-dist" overwrite="true" transitive="true" type="jar" />
-    <ivy:install organisation="zimbra" module="zm-common" revision="latest.integration" settingsRef="dev.settings" from="chain-resolver" to="build-dist" overwrite="true" transitive="true" type="jar" />
-    <ivy:install organisation="zimbra" module="zm-soap" revision="latest.integration" settingsRef="dev.settings" from="chain-resolver" to="build-dist" overwrite="true" transitive="true" type="jar" />
-    <ivy:install organisation="zimbra" module="zm-client" revision="latest.integration" settingsRef="dev.settings" from="chain-resolver" to="build-dist" overwrite="true" transitive="true" type="jar" />
-    <ivy:install organisation="zimbra" module="zm-store" revision="latest.integration" settingsRef="dev.settings" from="chain-resolver" to="build-dist" overwrite="true" transitive="true" type="jar" />
     <ivy:install organisation="log4j" module="log4j" revision="1.2.16" settingsRef="dev.settings" from="chain-resolver" to="build-dist" overwrite="true" transitive="true" type="jar" />
     <ivy:install organisation="zimbra"  module="zmzimbratozimbramig" revision="8.7" settingsRef="dev.settings" from="chain-resolver" to="build-dist" overwrite="true" transitive="true" type="jar" />
     <delete>
