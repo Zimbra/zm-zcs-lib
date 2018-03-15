@@ -20,7 +20,7 @@
     <ant antfile="../zm-charset/build.xml" inheritAll="false" target="publish-local" />
     <ant antfile="../ant-1.7.0-ziputil-patched/build.xml" inheritAll="false" target="jar" />
     <ant antfile="../ant-tar-patched/build.xml" inheritAll="false" target="jar" />
-    <ant antfile="../nekohtml-1.9.13/build.xml" inheritAll="false" target="jar" /> 
+    <ant antfile="../nekohtml-1.9.13/build.xml" inheritAll="false" target="jar" />
     <ant antfile="../ical4j-0.9.16-patched/build.xml" inheritAll="false" target="package" />
     <move file="../nekohtml-1.9.13/build/lib/nekohtml.jar" tofile="../nekohtml-1.9.13/build/lib/nekohtml-1.9.13.1z.jar"/>
     <move file="../ical4j-0.9.16-patched/build/ical4j.jar" tofile="../ical4j-0.9.16-patched/build/ical4j-0.9.16-patched.jar"/>
@@ -41,5 +41,9 @@
     <delete>
       <fileset dir="${dist.dir}" excludes="*.jar" />
     </delete>
+    <copy todir="${dist.dir}">
+      <fileset dir="${dist.dir}" />
+      <globmapper from="zm-charset-*.jar" to="zimbra-charset.jar" />
+    </copy>
   </target>
 </project>
