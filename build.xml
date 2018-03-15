@@ -42,14 +42,6 @@
       <fileset dir="${dist.dir}" excludes="*.jar" />
     </delete>
     <copy todir="${dist.dir}">
-         <fileset dir="${dist.dir}" />
-         <globmapper from="zm-native-*.jar" to="zimbra-native.jar" />
-       </copy>
-    <copy todir="${dist.dir}">
-      <fileset dir="${dist.dir}" />
-      <globmapper from="zm-common-*.jar" to="zimbracommon.jar" />
-    </copy>
-    <copy todir="${dist.dir}">
       <fileset dir="${dist.dir}" />
       <globmapper from="zm-charset-*.jar" to="zimbra-charset.jar" />
     </copy>
