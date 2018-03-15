@@ -46,4 +46,19 @@
       <globmapper from="zm-charset-*.jar" to="zimbra-charset.jar" />
     </copy>
   </target>
+
+   <target name="pkg" depends="clean,dist">
+    <exec dir="." executable="./pkg-builder.pl" failonerror="true" />
+  </target>
+
+ 
+
+  <target name="clean" depends="clean-pkg">
+    <delete dir="build" />
+  </target>
+
+  <target name="clean-pkg">
+    <delete dir="build/dist" />
+    <delete dir="build/stage" />
+  </target>
 </project>
