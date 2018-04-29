@@ -134,6 +134,7 @@
     <dependency org="wsdl4j" name="wsdl4j" rev="1.6.3"/>
     <dependency org="xerces" name="xercesImpl" rev="2.9.1-patch-01"/>
     <dependency org="zimbra" name="zm-ews-stub" rev="2.0"/>
+    <dependency org="com.auth0" name="java-jwt" rev="3.2.0"/>
     <exclude org="com.noelios.restlet" module="com.noelios.restlet"/>
     <exclude org="javax.sql" module="jdbc-stdext"/>
     <exclude org="javax.transaction" module="jta"/>
