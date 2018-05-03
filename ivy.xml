@@ -57,6 +57,7 @@
     <dependency org="jivesoftware" name="smackx" rev="3.1.0"/>
     <dependency org="jline" name="jline" rev="0.9.93"/>
     <dependency org="log4j" name="apache-log4j-extras" rev="1.0"/>
+    <dependency org="net.bytebuddy" name="byte-buddy" rev="1.8.10"/>
     <dependency org="net.freeutils" name="jcharset" rev="2.0"/>
     <dependency org="net.freeutils" name="jtnef" rev="1.9.0"/>
     <dependency org="net.java.dev.jna" name="jna" rev="3.4.0"/>
@@ -115,6 +116,8 @@
     <dependency org="org.igniterealtime.smack" name="smackx-jingle" rev="3.2.1"/>
     <dependency org="org.jfree" name="jcommon" rev="1.0.21"/>
     <dependency org="org.jfree" name="jfreechart" rev="1.0.15"/>
+    <dependency org="org.jodd" name="jodd-bean" rev="4.3.2"/>
+    <dependency org="org.jodd" name="jodd-core" rev="4.3.2"/>
     <dependency org="org.json" name="json" rev="20090211"/>
     <dependency org="org.jvnet.staxex" name="stax-ex" rev="1.7.7"/>
     <dependency org="org.mariadb.jdbc" name="mariadb-java-client" rev="1.1.8"/>
