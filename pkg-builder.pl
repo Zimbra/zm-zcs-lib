@@ -98,6 +98,7 @@ sub stage_zimbra_core_lib($)
         cpy_file("build/dist/apache-log4j-extras-1.0.jar",                          "$stage_base_dir/opt/zimbra/lib/jars/apache-log4j-extras-1.0.jar");
         cpy_file("build/dist/asm-3.3.1.jar",                                        "$stage_base_dir/opt/zimbra/lib/jars/asm-3.3.1.jar");
         cpy_file("build/dist/bcprov-jdk15-1.46.jar",                                "$stage_base_dir/opt/zimbra/lib/jars/bcprov-jdk15-1.46.jar");
+        cpy_file("build/dist/byte-buddy-1.8.10.jar",                                "$stage_base_dir/opt/zimbra/lib/jars/byte-buddy-1.8.10.jar");
         cpy_file("build/dist/commons-cli-1.2.jar",                                  "$stage_base_dir/opt/zimbra/lib/jars/commons-cli-1.2.jar");
         cpy_file("build/dist/commons-codec-1.7.jar",                                "$stage_base_dir/opt/zimbra/lib/jars/commons-codec-1.7.jar");
         cpy_file("build/dist/commons-collections-3.2.2.jar",                        "$stage_base_dir/opt/zimbra/lib/jars/commons-collections-3.2.2.jar");
@@ -155,6 +156,8 @@ sub stage_zimbra_core_lib($)
         cpy_file("build/dist/jersey-servlet-1.11.jar",                              "$stage_base_dir/opt/zimbra/lib/jars/jersey-servlet-1.11.jar");
         cpy_file("build/dist/jfreechart-1.0.15.jar",                                "$stage_base_dir/opt/zimbra/lib/jars/jfreechart-1.0.15.jar");
         cpy_file("build/dist/jna-3.4.0.jar",                                        "$stage_base_dir/opt/zimbra/lib/jars/jna-3.4.0.jar");
+        cpy_file("build/dist/jodd-bean-4.3.2.jar",                                  "$stage_base_dir/opt/zimbra/lib/jars/jodd-bean-4.3.2.jar");
+        cpy_file("build/dist/jodd-core-4.3.2.jar",                                  "$stage_base_dir/opt/zimbra/lib/jars/jodd-core-4.3.2.jar");
         cpy_file("build/dist/jsr181-api-1.0-MR1.jar",                               "$stage_base_dir/opt/zimbra/lib/jars/jsr181-api-1.0-MR1.jar");
         cpy_file("build/dist/jsr311-api-1.1.1.jar",                                 "$stage_base_dir/opt/zimbra/lib/jars/jsr311-api-1.1.1.jar");
         cpy_file("build/dist/junixsocket-common-2.0.4.jar",                         "$stage_base_dir/opt/zimbra/lib/jars/junixsocket-common-2.0.4.jar");
@@ -232,6 +235,7 @@ sub stage_zimbra_store_lib($)
        cpy_file("build/dist/zimbra-charset.jar",                                    "$stage_base_dir/opt/zimbra/jetty_base/common/endorsed/zimbra-charset.jar");
        cpy_file("build/dist/apache-log4j-extras-1.0.jar",                           "$stage_base_dir/opt/zimbra/jetty_base/common/lib/apache-log4j-extras-1.0.jar");
        cpy_file("build/dist/bcprov-jdk15on-1.55.jar",                               "$stage_base_dir/opt/zimbra/jetty_base/common/lib/bcprov-jdk15on-1.55.jar");
+       cpy_file("build/dist/byte-buddy-1.8.10.jar",                                 "$stage_base_dir/opt/zimbra/jetty_base/common/lib/byte-buddy-1.8.10.jar");
        cpy_file("build/dist/commons-cli-1.2.jar",                                   "$stage_base_dir/opt/zimbra/jetty_base/common/lib/commons-cli-1.2.jar");
        cpy_file("build/dist/commons-codec-1.7.jar",                                 "$stage_base_dir/opt/zimbra/jetty_base/common/lib/commons-codec-1.7.jar");
        cpy_file("build/dist/commons-collections-3.2.2.jar",                         "$stage_base_dir/opt/zimbra/jetty_base/common/lib/commons-collections-3.2.2.jar");
@@ -258,6 +262,8 @@ sub stage_zimbra_store_lib($)
        cpy_file("build/dist/jcommon-1.0.21.jar",                                    "$stage_base_dir/opt/zimbra/jetty_base/common/lib/jcommon-1.0.21.jar");
        cpy_file("build/dist/jdom-1.1.jar",                                          "$stage_base_dir/opt/zimbra/jetty_base/common/lib/jdom-1.1.jar");
        cpy_file("build/dist/jfreechart-1.0.15.jar",                                 "$stage_base_dir/opt/zimbra/jetty_base/common/lib/jfreechart-1.0.15.jar");
+       cpy_file("build/dist/jodd-bean-4.3.2.jar",                                   "$stage_base_dir/opt/zimbra/jetty_base/common/lib/jodd-bean-4.3.2.jar");
+       cpy_file("build/dist/jodd-core-4.3.2.jar",                                   "$stage_base_dir/opt/zimbra/jetty_base/common/lib/jodd-core-4.3.2.jar");
        cpy_file("build/dist/json-20090211.jar",                                     "$stage_base_dir/opt/zimbra/jetty_base/common/lib/json-20090211.jar");
        cpy_file("build/dist/jtnef-1.9.0.jar",                                       "$stage_base_dir/opt/zimbra/jetty_base/common/lib/jtnef-1.9.0.jar");
        cpy_file("build/dist/junixsocket-common-2.0.4.jar",                          "$stage_base_dir/opt/zimbra/jetty_base/common/lib/junixsocket-common-2.0.4.jar");
