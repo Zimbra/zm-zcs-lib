@@ -96,11 +96,7 @@
     <dependency org="com.fasterxml.jackson.core" name="jackson-annotations" rev="2.9.2"/>
     <dependency org="com.fasterxml.jackson.core" name="jackson-databind" rev="2.9.2"/>
     <dependency org="com.fasterxml.jackson.dataformat" name="jackson-dataformat-smile" rev="2.9.2" />
-    <dependency org="com.fasterxml.jackson.module" name="jackson-module-jaxb-annotations" rev="2.9.2"/>
-    <dependency org="org.codehaus.jackson" name="jackson-mapper-asl" rev="1.9.13"/>
-    <dependency org="org.codehaus.jackson" name="jackson-core-asl" rev="1.9.13"/>
-    <dependency org="org.codehaus.jackson" name="jackson-xc" rev="1.9.13"/>
-    <dependency org="org.codehaus.jackson" name="jackson-smile" rev="1.9.13"/>
+    <dependency org="com.fasterxml.jackson.module" name="jackson-module-jaxb-annotations" rev="2.8.9"/>
     <dependency org="org.codehaus.woodstox" name="stax2-api" rev="3.1.1"/>
     <dependency org="org.codehaus.woodstox" name="woodstox-core-asl" rev="4.2.0"/>
     <dependency org="org.eclipse.jetty" name="jetty-continuation" rev="9.3.5.v20151012"/>
