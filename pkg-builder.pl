@@ -164,7 +164,7 @@ sub stage_zimbra_core_lib($)
         cpy_file("build/dist/junixsocket-rmi-2.0.4.jar",                            "$stage_base_dir/opt/zimbra/lib/jars/junixsocket-rmi-2.0.4.jar");
         cpy_file("build/dist/junixsocket-native-common-2.0.4.jar",                  "$stage_base_dir/opt/zimbra/lib/jars/junixsocket-native-common-2.0.4.jar");
         cpy_file("build/dist/native-lib-loader-2.0.2.jar",                          "$stage_base_dir/opt/zimbra/lib/jars/native-lib-loader-2.0.2.jar");
-        cpy_file("build/dist/jython-standalone-2.5.2.jar",                          "$stage_base_dir/opt/zimbra/lib/jars/jython-standalone-2.5.2.jar");
+        cpy_file("build/dist/jython-standalone-2.7.1.jar",                          "$stage_base_dir/opt/zimbra/lib/jars/jython-standalone-2.7.1.jar");
         cpy_file("build/dist/jline-0.9.93.jar",                                     "$stage_base_dir/opt/zimbra/lib/jars/jline-0.9.93.jar");
         cpy_file("build/dist/jzlib-1.0.7.jar",                                      "$stage_base_dir/opt/zimbra/lib/jars/jzlib-1.0.7.jar");
         cpy_file("build/dist/libidn-1.24.jar",                                      "$stage_base_dir/opt/zimbra/lib/jars/libidn-1.24.jar");
