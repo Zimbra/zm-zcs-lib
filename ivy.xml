@@ -90,7 +90,6 @@
     <dependency org="org.apache.zookeeper" name="zookeeper" rev="3.4.5"/>
     <dependency org="org.bouncycastle" name="bcmail-jdk15on" rev="1.55"/>
     <dependency org="org.bouncycastle" name="bcpkix-jdk15on" rev="1.55"/>
-    <dependency org="org.bouncycastle" name="bcprov-jdk15" rev="1.46"/>
     <dependency org="org.bouncycastle" name="bcprov-jdk15on" rev="1.55"/>
     <dependency org="com.fasterxml.jackson.core" name="jackson-core" rev="2.9.2"/>
     <dependency org="com.fasterxml.jackson.core" name="jackson-annotations" rev="2.9.2"/>
