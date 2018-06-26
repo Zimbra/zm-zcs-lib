@@ -118,7 +118,7 @@
     <dependency org="org.json" name="json" rev="20090211"/>
     <dependency org="org.jvnet.staxex" name="stax-ex" rev="1.7.7"/>
     <dependency org="org.mariadb.jdbc" name="mariadb-java-client" rev="1.1.8"/>
-    <dependency org="org.python" name="jython-standalone" rev="2.7.1"/>
+    <dependency org="org.python" name="jython-standalone" rev="2.5.2"/>
     <dependency org="org.scijava" name="native-lib-loader" rev="2.0.2"/>
     <dependency org="org.slf4j" name="slf4j-api" rev="1.6.4"/>
     <dependency org="org.slf4j" name="slf4j-log4j12" rev="1.6.4"/>
