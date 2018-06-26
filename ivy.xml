@@ -142,6 +142,7 @@
     <dependency org="org.apache.commons" name="commons-rng-client-api" rev="1.0"/>
     <dependency org="org.apache.commons" name="commons-rng-core" rev="1.0"/>
     <dependency org="org.apache.commons" name="commons-rng-simple" rev="1.0"/>
+    <dependency org="com.auth0" name="java-jwt" rev="3.2.0"/>
     <exclude org="com.noelios.restlet" module="com.noelios.restlet"/>
     <exclude org="javax.sql" module="jdbc-stdext"/>
     <exclude org="javax.transaction" module="jta"/>
