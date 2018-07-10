@@ -97,7 +97,7 @@ sub stage_zimbra_core_lib($)
         cpy_file("build/dist/apache-jsieve-core-0.5.jar",                           "$stage_base_dir/opt/zimbra/lib/jars/apache-jsieve-core-0.5.jar");
         cpy_file("build/dist/apache-log4j-extras-1.0.jar",                          "$stage_base_dir/opt/zimbra/lib/jars/apache-log4j-extras-1.0.jar");
         cpy_file("build/dist/asm-3.3.1.jar",                                        "$stage_base_dir/opt/zimbra/lib/jars/asm-3.3.1.jar");
-        cpy_file("build/dist/bcprov-jdk15-1.46.jar",                                "$stage_base_dir/opt/zimbra/lib/jars/bcprov-jdk15-1.46.jar");
+        cpy_file("build/dist/bcprov-jdk15on-1.55.jar",                              "$stage_base_dir/opt/zimbra/lib/jars/bcprov-jdk15on-1.55.jar");
         cpy_file("build/dist/commons-cli-1.2.jar",                                  "$stage_base_dir/opt/zimbra/lib/jars/commons-cli-1.2.jar");
         cpy_file("build/dist/commons-codec-1.7.jar",                                "$stage_base_dir/opt/zimbra/lib/jars/commons-codec-1.7.jar");
         cpy_file("build/dist/commons-collections-3.2.2.jar",                        "$stage_base_dir/opt/zimbra/lib/jars/commons-collections-3.2.2.jar");
@@ -122,7 +122,7 @@ sub stage_zimbra_core_lib($)
         cpy_file("build/dist/ganymed-ssh2-build210.jar",                            "$stage_base_dir/opt/zimbra/lib/jars/ganymed-ssh2-build210.jar");
         cpy_file("build/dist/gifencoder-0.9.jar",                                   "$stage_base_dir/opt/zimbra/lib/jars/gifencoder-0.9.jar");
         cpy_file("build/dist/gmbal-api-only-2.2.6.jar",                             "$stage_base_dir/opt/zimbra/lib/jars/gmbal-api-only-2.2.6.jar");
-        cpy_file("build/dist/guava-13.0.1.jar",                                     "$stage_base_dir/opt/zimbra/lib/jars/guava-13.0.1.jar");
+        cpy_file("build/dist/guava-23.0.jar",                                       "$stage_base_dir/opt/zimbra/lib/jars/guava-23.0.jar");
         cpy_file("build/dist/helix-core-0.6.1-incubating.jar",                      "$stage_base_dir/opt/zimbra/lib/jars/helix-core-0.6.1-incubating.jar");
         cpy_file("build/dist/httpasyncclient-4.1.2.jar",                            "$stage_base_dir/opt/zimbra/lib/jars/httpasyncclient-4.1.2.jar");
         cpy_file("build/dist/httpclient-4.5.2.jar",                                 "$stage_base_dir/opt/zimbra/lib/jars/httpclient-4.5.2.jar");
@@ -131,10 +131,11 @@ sub stage_zimbra_core_lib($)
         cpy_file("build/dist/httpmime-4.3.1.jar",                                   "$stage_base_dir/opt/zimbra/lib/jars/httpmime-4.3.1.jar");
         cpy_file("build/dist/ical4j-0.9.16-patched.jar",                            "$stage_base_dir/opt/zimbra/lib/jars/ical4j-0.9.16-patched.jar");
         cpy_file("build/dist/icu4j-4.8.1.1.jar",                                    "$stage_base_dir/opt/zimbra/lib/jars/icu4j-4.8.1.1.jar");
-        cpy_file("build/dist/jackson-mapper-asl-1.9.13.jar",                        "$stage_base_dir/opt/zimbra/lib/jars/jackson-mapper-asl-1.9.13.jar");
-        cpy_file("build/dist/jackson-core-asl-1.9.13.jar",                          "$stage_base_dir/opt/zimbra/lib/jars/jackson-core-asl-1.9.13.jar");
-        cpy_file("build/dist/jackson-xc-1.9.13.jar",                                "$stage_base_dir/opt/zimbra/lib/jars/jackson-xc-1.9.13.jar");
-        cpy_file("build/dist/jackson-smile-1.9.13.jar",                             "$stage_base_dir/opt/zimbra/lib/jars/jackson-smile-1.9.13.jar");
+        cpy_file("build/dist/jackson-core-2.9.2.jar",                               "$stage_base_dir/opt/zimbra/lib/jars/jackson-core-2.9.2.jar");
+        cpy_file("build/dist/jackson-annotations-2.9.2.jar",                        "$stage_base_dir/opt/zimbra/lib/jars/jackson-annotations-2.9.2.jar");
+        cpy_file("build/dist/jackson-databind-2.9.2.jar",                           "$stage_base_dir/opt/zimbra/lib/jars/jackson-databind-2.9.2.jar");
+        cpy_file("build/dist/jackson-dataformat-smile-2.9.2.jar",                   "$stage_base_dir/opt/zimbra/lib/jars/jackson-dataformat-smile-2.9.2.jar");
+        cpy_file("build/dist/jackson-module-jaxb-annotations-2.8.9.jar",            "$stage_base_dir/opt/zimbra/lib/jars/jackson-module-jaxb-annotations-2.8.9.jar");
         cpy_file("build/dist/jamm-0.2.5.jar",                                       "$stage_base_dir/opt/zimbra/lib/jars/jamm-0.2.5.jar");
         cpy_file("build/dist/javax.servlet-api-3.1.0.jar",                          "$stage_base_dir/opt/zimbra/lib/jars/javax.servlet-api-3.1.0.jar");
         cpy_file("build/dist/javax.ws.rs-api-2.0-m10.jar",                          "$stage_base_dir/opt/zimbra/lib/jars/javax.ws.rs-api-2.0-m10.jar");
@@ -223,9 +224,8 @@ sub stage_zimbra_store_lib($)
 {
    my $stage_base_dir = shift;
 
-       cpy_file("build/dist/bcpkix-jdk15on-1.55.jar",                               "$stage_base_dir/opt/zimbra/lib/ext-common/bcpkix-jdk15on-1.55.jar");
+       cpy_file("build/dist/bcpkix-jdk15on-1.55.jar",                               "$stage_base_dir/opt/zimbra/jetty_base/common/lib/bcpkix-jdk15on-1.55.jar");
        cpy_file("build/dist/bcmail-jdk15on-1.55.jar",                               "$stage_base_dir/opt/zimbra/lib/ext-common/bcmail-jdk15on-1.55.jar");
-       cpy_file("build/dist/bcprov-jdk15on-1.55.jar",                               "$stage_base_dir/opt/zimbra/lib/ext-common/bcprov-jdk15on-1.55.jar");
        cpy_file("build/dist/zmzimbratozimbramig-8.7.jar",                           "$stage_base_dir/opt/zimbra/lib/jars/zmzimbratozimbramig.jar");
        cpy_file("build/dist/jcharset-2.0.jar",                                      "$stage_base_dir/opt/zimbra/jetty_base/common/endorsed/jcharset.jar");
        cpy_file("build/dist/zimbra-charset.jar",                                    "$stage_base_dir/opt/zimbra/jetty_base/common/endorsed/zimbra-charset.jar");
@@ -246,7 +246,7 @@ sub stage_zimbra_store_lib($)
        cpy_file("build/dist/concurrentlinkedhashmap-lru-1.3.1.jar",                 "$stage_base_dir/opt/zimbra/jetty_base/common/lib/concurrentlinkedhashmap-lru-1.3.1.jar");
        cpy_file("build/dist/dom4j-1.5.2.jar",                                       "$stage_base_dir/opt/zimbra/jetty_base/common/lib/dom4j-1.5.2.jar");
        cpy_file("build/dist/ganymed-ssh2-build210.jar",                             "$stage_base_dir/opt/zimbra/jetty_base/common/lib/ganymed-ssh2-build210.jar");
-       cpy_file("build/dist/guava-13.0.1.jar",                                      "$stage_base_dir/opt/zimbra/jetty_base/common/lib/guava-13.0.1.jar");
+       cpy_file("build/dist/guava-23.0.jar",                                        "$stage_base_dir/opt/zimbra/jetty_base/common/lib/guava-23.0.jar");
        cpy_file("build/dist/httpasyncclient-4.1.2.jar",                             "$stage_base_dir/opt/zimbra/jetty_base/common/lib/httpasyncclient-4.1.2.jar");
        cpy_file("build/dist/httpclient-4.5.2.jar",                                  "$stage_base_dir/opt/zimbra/jetty_base/common/lib/httpclient-4.5.2.jar");
        cpy_file("build/dist/httpcore-4.4.5.jar",                                    "$stage_base_dir/opt/zimbra/jetty_base/common/lib/httpcore-4.4.5.jar");
@@ -278,6 +278,13 @@ sub stage_zimbra_store_lib($)
        cpy_file("build/dist/nekohtml-1.9.13.1z.jar",                                "$stage_base_dir/opt/zimbra/jetty_base/common/lib/nekohtml-1.9.13.1z.jar");
        cpy_file("build/dist/zmzimbratozimbramig-8.7.jar",                           "$stage_base_dir/opt/zimbra/lib/jars/zmzimbratozimbramig.jar");
        cpy_file("build/dist/jcharset-2.0.jar",                                      "$stage_base_dir/opt/zimbra/jetty_base/common/endorsed/jcharset.jar");
+       cpy_file("build/dist/java-semver-0.9.0.jar",                                 "$stage_base_dir/opt/zimbra/jetty_base/common/lib/java-semver-0.9.0.jar");
+       cpy_file("build/dist/closure-compiler-v20180204.jar",                         "$stage_base_dir/opt/zimbra/jetty_base/common/lib/closure-compiler-v20180204.jar");
+       cpy_file("build/dist/commons-text-1.1.jar",                                  "$stage_base_dir/opt/zimbra/jetty_base/common/lib/commons-text-1.1.jar");
+       cpy_file("build/dist/commons-lang3-3.7.jar",                                 "$stage_base_dir/opt/zimbra/jetty_base/common/lib/commons-lang3-3.7.jar");
+       cpy_file("build/dist/commons-rng-client-api-1.0.jar",                        "$stage_base_dir/opt/zimbra/jetty_base/common/lib/commons-rng-client-api-1.0.jar");
+       cpy_file("build/dist/commons-rng-core-1.0.jar",                              "$stage_base_dir/opt/zimbra/jetty_base/common/lib/commons-rng-core-1.0.jar");
+       cpy_file("build/dist/commons-rng-simple-1.0.jar",                            "$stage_base_dir/opt/zimbra/jetty_base/common/lib/commons-rng-simple-1.0.jar");
        return ["."];
 }
 
