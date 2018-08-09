@@ -61,7 +61,7 @@ sub git_timestamp_from_dirs($)
 my %PKG_GRAPH = (
    "zimbra-common-core-libs" => {
       summary   => "Replace zimbra core libs",
-      version   => "1.0.0",
+      version   => "2.0.0",
       revision  => 1,
       hard_deps => [],
       soft_deps => [],
@@ -72,7 +72,7 @@ my %PKG_GRAPH = (
    },
    "zimbra-mbox-store-libs" => {
       summary   => "Replace zimbra store libs",
-      version   => "1.0.0",
+      version   => "2.0.0",
       revision  => 1,
       hard_deps => [],
       soft_deps => [],
