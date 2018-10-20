@@ -282,7 +282,8 @@ sub stage_zimbra_store_lib($)
        cpy_file("build/dist/jzlib-1.0.7.jar",                                       "$stage_base_dir/opt/zimbra/jetty_base/common/lib/jzlib-1.0.7.jar");
        cpy_file("build/dist/libidn-1.24.jar",                                       "$stage_base_dir/opt/zimbra/jetty_base/common/lib/libidn-1.24.jar");
        cpy_file("build/dist/log4j-1.2.16.jar",                                      "$stage_base_dir/opt/zimbra/jetty_base/common/lib/log4j-1.2.16.jar");
-       cpy_file("build/dist/mail-1.4.7.jar",                                        "$stage_base_dir/opt/zimbra/jetty_base/common/lib/mail-1.4.7.jar");
+       cpy_file("build/dist/javax.mail-1.6.2.jar",                                  "$stage_base_dir/opt/zimbra/lib/jars/javax.mail-1.6.2.jar");
+       cpy_file("build/dist/javax.mail-api-1.6.2.jar",                              "$stage_base_dir/opt/zimbra/lib/jars/javax.mail-api-1.6.2.jar");
        cpy_file("build/dist/mariadb-java-client-1.1.8.jar",                         "$stage_base_dir/opt/zimbra/jetty_base/common/lib/mariadb-java-client-1.1.8.jar");
        cpy_file("build/dist/oauth-20100527.jar",                                    "$stage_base_dir/opt/zimbra/jetty_base/common/lib/oauth-20100527.jar");
        cpy_file("build/dist/spymemcached-2.12.1.jar",                               "$stage_base_dir/opt/zimbra/jetty_base/common/lib/spymemcached-2.12.1.jar");
