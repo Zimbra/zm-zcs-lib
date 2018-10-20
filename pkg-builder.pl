@@ -172,7 +172,8 @@ sub stage_zimbra_core_lib($)
         cpy_file("build/dist/lucene-analyzers-3.5.0.jar",                           "$stage_base_dir/opt/zimbra/lib/jars/lucene-analyzers-3.5.0.jar");
         cpy_file("build/dist/lucene-core-3.5.0.jar",                                "$stage_base_dir/opt/zimbra/lib/jars/lucene-core-3.5.0.jar");
         cpy_file("build/dist/lucene-smartcn-3.5.0.jar",                             "$stage_base_dir/opt/zimbra/lib/jars/lucene-smartcn-3.5.0.jar");
-        cpy_file("build/dist/mail-1.4.5.jar",                                       "$stage_base_dir/opt/zimbra/lib/jars/mail-1.4.5.jar");
+        cpy_file("build/dist/javax.mail-1.6.2.jar",                                 "$stage_base_dir/opt/zimbra/lib/jars/javax.mail-1.6.2.jar");
+        cpy_file("build/dist/javax.mail-api-1.6.2.jar",                             "$stage_base_dir/opt/zimbra/lib/jars/javax.mail-api-1.6.2.jar");
         cpy_file("build/dist/mariadb-java-client-1.1.8.jar",                        "$stage_base_dir/opt/zimbra/lib/jars/mariadb-java-client-1.1.8.jar");
         cpy_file("build/dist/mina-core-2.0.4.jar",                                  "$stage_base_dir/opt/zimbra/lib/jars/mina-core-2.0.4.jar");
         cpy_file("build/dist/neethi-3.0.2.jar",                                     "$stage_base_dir/opt/zimbra/lib/jars/neethi-3.0.2.jar");
