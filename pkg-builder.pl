@@ -292,12 +292,16 @@ sub stage_zimbra_store_lib($)
        cpy_file("build/dist/zmzimbratozimbramig-8.7.jar",                           "$stage_base_dir/opt/zimbra/lib/jars/zmzimbratozimbramig.jar");
        cpy_file("build/dist/jcharset-2.0.jar",                                      "$stage_base_dir/opt/zimbra/jetty_base/common/endorsed/jcharset.jar");
        cpy_file("build/dist/java-semver-0.9.0.jar",                                 "$stage_base_dir/opt/zimbra/jetty_base/common/lib/java-semver-0.9.0.jar");
-       cpy_file("build/dist/closure-compiler-v20180204.jar",                         "$stage_base_dir/opt/zimbra/jetty_base/common/lib/closure-compiler-v20180204.jar");
+       cpy_file("build/dist/closure-compiler-v20180204.jar",                        "$stage_base_dir/opt/zimbra/jetty_base/common/lib/closure-compiler-v20180204.jar");
        cpy_file("build/dist/commons-text-1.1.jar",                                  "$stage_base_dir/opt/zimbra/jetty_base/common/lib/commons-text-1.1.jar");
        cpy_file("build/dist/commons-lang3-3.7.jar",                                 "$stage_base_dir/opt/zimbra/jetty_base/common/lib/commons-lang3-3.7.jar");
        cpy_file("build/dist/commons-rng-client-api-1.0.jar",                        "$stage_base_dir/opt/zimbra/jetty_base/common/lib/commons-rng-client-api-1.0.jar");
        cpy_file("build/dist/commons-rng-core-1.0.jar",                              "$stage_base_dir/opt/zimbra/jetty_base/common/lib/commons-rng-core-1.0.jar");
        cpy_file("build/dist/commons-rng-simple-1.0.jar",                            "$stage_base_dir/opt/zimbra/jetty_base/common/lib/commons-rng-simple-1.0.jar");
+       cpy_file("build/dist/jaxb-core-2.2.7.jar",                                   "$stage_base_dir/opt/zimbra/jetty_base/common/lib/jaxb-core-2.2.7.jar");
+       cpy_file("build/dist/jaxws-api-2.2.6.jar",                                   "$stage_base_dir/opt/zimbra/jetty_base/common/lib/jaxws-api-2.2.6.jar");
+       cpy_file("build/dist/jaxb-impl-2.2.6.jar",                                   "$stage_base_dir/opt/zimbra/jetty_base/common/lib/jaxb-impl-2.2.6.jar");
+       cpy_file("build/dist/javax.xml.soap-api-1.4.0.jar",                          "$stage_base_dir/opt/zimbra/jetty_base/common/lib/javax.xml.soap-api-1.4.0.jar");
        return ["."];
 }
 
