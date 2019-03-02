@@ -44,7 +44,7 @@
     <dependency org="dom4j" name="dom4j" rev="1.5.2"/>
     <dependency org="gifencoder" name="gifencoder" rev="0.9"/>
     <dependency org="javax.jws" name="jsr181-api" rev="1.0-MR1"/>
-    <dependency org="javax.mail" name="mail" rev="1.4.5"/>
+    <dependency org="javax.mail" name="mail" rev="1.4.7"/>
     <dependency org="javax.servlet" name="javax.servlet-api" rev="3.1.0"/>
     <dependency org="javax.ws.rs" name="javax.ws.rs-api" rev="2.0-m10"/>
     <dependency org="javax.ws.rs" name="jsr311-api" rev="1.1.1"/>
@@ -140,12 +140,13 @@
     <dependency org="org.apache.commons" name="commons-rng-core" rev="1.0"/>
     <dependency org="org.apache.commons" name="commons-rng-simple" rev="1.0"/>
     <dependency org="com.auth0" name="java-jwt" rev="3.2.0"/>
-    <dependency org="javax.activation" name="activation" rev="1.1"/>
+    <dependency org="javax.activation" name="activation" rev="1.1.1"/>
     <dependency org="javax.xml.soap" name="javax.xml.soap-api" rev="1.4.0"/>
     <dependency org="com.sun.xml.bind" name="jaxb-core" rev="2.3.0.1"/>
     <dependency org="com.sun.xml.bind" name="jaxb-impl" rev="2.3.1"/>
     <dependency org="javax.xml.bind" name="jaxb-api" rev="2.3.1"/>
     <dependency org="javax.xml.ws" name="jaxws-api" rev="2.3.1"/>
+    <dependency org="com.sun.istack" name="istack-commons-runtime" rev="3.0.8"/>
     <exclude org="com.noelios.restlet" module="com.noelios.restlet"/>
     <exclude org="javax.sql" module="jdbc-stdext"/>
     <exclude org="javax.transaction" module="jta"/>

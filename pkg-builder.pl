@@ -185,7 +185,7 @@ sub stage_zimbra_core_lib($)
         cpy_file("build/dist/lucene-analyzers-3.5.0.jar",                           "$stage_base_dir/opt/zimbra/lib/jars/lucene-analyzers-3.5.0.jar");
         cpy_file("build/dist/lucene-core-3.5.0.jar",                                "$stage_base_dir/opt/zimbra/lib/jars/lucene-core-3.5.0.jar");
         cpy_file("build/dist/lucene-smartcn-3.5.0.jar",                             "$stage_base_dir/opt/zimbra/lib/jars/lucene-smartcn-3.5.0.jar");
-        cpy_file("build/dist/mail-1.4.5.jar",                                       "$stage_base_dir/opt/zimbra/lib/jars/mail-1.4.5.jar");
+        cpy_file("build/dist/mail-1.4.7.jar",                                       "$stage_base_dir/opt/zimbra/lib/jars/mail-1.4.7.jar");
         cpy_file("build/dist/mariadb-java-client-1.1.8.jar",                        "$stage_base_dir/opt/zimbra/lib/jars/mariadb-java-client-1.1.8.jar");
         cpy_file("build/dist/mina-core-2.0.4.jar",                                  "$stage_base_dir/opt/zimbra/lib/jars/mina-core-2.0.4.jar");
         cpy_file("build/dist/neethi-3.0.2.jar",                                     "$stage_base_dir/opt/zimbra/lib/jars/neethi-3.0.2.jar");
@@ -227,7 +227,8 @@ sub stage_zimbra_core_lib($)
         cpy_file("build/dist/ant-1.6.5.jar",                                        "$stage_base_dir/opt/zimbra/lib/jars/ant-1.6.5.jar");
         cpy_file("build/dist/json-20090211.jar",                                    "$stage_base_dir/opt/zimbra/lib/jars/json.jar");
         cpy_file("build/dist/commons-logging-1.1.1.jar",                            "$stage_base_dir/opt/zimbra/lib/jars/commons-logging.jar");
-        cpy_file("build/dist/activation-1.1.jar",                                   "$stage_base_dir/opt/zimbra/lib/jars/activation-1.1.jar");
+        cpy_file("build/dist/activation-1.1.1.jar",                                 "$stage_base_dir/opt/zimbra/lib/jars/activation-1.1.1.jar");
+        cpy_file("build/dist/istack-commons-runtime-3.0.8.jar",                     "$stage_base_dir/opt/zimbra/lib/jars/istack-commons-runtime-3.0.8.jar");
 
    
    return ["."];
@@ -299,7 +300,7 @@ sub stage_zimbra_store_lib($)
        cpy_file("build/dist/commons-rng-client-api-1.0.jar",                        "$stage_base_dir/opt/zimbra/jetty_base/common/lib/commons-rng-client-api-1.0.jar");
        cpy_file("build/dist/commons-rng-core-1.0.jar",                              "$stage_base_dir/opt/zimbra/jetty_base/common/lib/commons-rng-core-1.0.jar");
        cpy_file("build/dist/commons-rng-simple-1.0.jar",                            "$stage_base_dir/opt/zimbra/jetty_base/common/lib/commons-rng-simple-1.0.jar");
-       cpy_file("build/dist/activation-1.1.jar",                                    "$stage_base_dir/opt/zimbra/jetty_base/common/lib/activation-1.1.jar");
+       cpy_file("build/dist/activation-1.1.1.jar",                                  "$stage_base_dir/opt/zimbra/jetty_base/common/lib/activation-1.1.1.jar");
        cpy_file("build/dist/javax.xml.soap-api-1.4.0.jar",                          "$stage_base_dir/opt/zimbra/jetty_base/common/lib/javax.xml.soap-api-1.4.0.jar");
        cpy_file("build/dist/jaxb-core-2.3.0.1.jar",                                 "$stage_base_dir/opt/zimbra/jetty_base/common/lib/jaxb-core-2.3.0.1.jar");
        cpy_file("build/dist/jaxb-impl-2.3.1.jar",                                   "$stage_base_dir/opt/zimbra/jetty_base/common/lib/jaxb-impl-2.3.1.jar");
