@@ -147,6 +147,8 @@
     <dependency org="javax.xml.bind" name="jaxb-api" rev="2.3.1"/>
     <dependency org="javax.xml.ws" name="jaxws-api" rev="2.3.1"/>
     <dependency org="com.sun.istack" name="istack-commons-runtime" rev="3.0.8"/>
+    <dependency org="com.sun.xml.messaging.saaj" name="saaj-impl" rev="1.5.1"/>
+    <dependency org="com.sun.org.apache.xml.internal" name="resolver" rev="20050927"/>
     <exclude org="com.noelios.restlet" module="com.noelios.restlet"/>
     <exclude org="javax.sql" module="jdbc-stdext"/>
     <exclude org="javax.transaction" module="jta"/>
