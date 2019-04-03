@@ -229,6 +229,7 @@ sub stage_zimbra_core_lib($)
         cpy_file("build/dist/commons-logging-1.1.1.jar",                            "$stage_base_dir/opt/zimbra/lib/jars/commons-logging.jar");
         cpy_file("build/dist/activation-1.1.1.jar",                                 "$stage_base_dir/opt/zimbra/lib/jars/activation-1.1.1.jar");
         cpy_file("build/dist/istack-commons-runtime-3.0.8.jar",                     "$stage_base_dir/opt/zimbra/lib/jars/istack-commons-runtime-3.0.8.jar");
+        cpy_file("build/dist/resolver-20050927.jar",                                "$stage_base_dir/opt/zimbra/lib/jars/resolver-20050927.jar");
 
    
    return ["."];
@@ -306,6 +307,7 @@ sub stage_zimbra_store_lib($)
        cpy_file("build/dist/jaxb-impl-2.3.1.jar",                                   "$stage_base_dir/opt/zimbra/jetty_base/common/lib/jaxb-impl-2.3.1.jar");
        cpy_file("build/dist/jaxb-api-2.3.1.jar",                                    "$stage_base_dir/opt/zimbra/jetty_base/common/lib/jaxb-api-2.3.1.jar");
        cpy_file("build/dist/jaxws-api-2.3.1.jar",                                   "$stage_base_dir/opt/zimbra/jetty_base/common/lib/jaxws-api-2.3.1.jar");
+       cpy_file("build/dist/saaj-impl-1.5.1.jar",                                   "$stage_base_dir/opt/zimbra/lib/ext-common/saaj-impl-1.5.1.jar");
        return ["."];
 }
 
