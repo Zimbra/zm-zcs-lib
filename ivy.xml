@@ -44,7 +44,8 @@
     <dependency org="dom4j" name="dom4j" rev="1.5.2"/>
     <dependency org="gifencoder" name="gifencoder" rev="0.9"/>
     <dependency org="javax.jws" name="jsr181-api" rev="1.0-MR1"/>
-    <dependency org="javax.mail" name="mail" rev="1.4.7"/>
+    <dependency org="com.sun.mail" name="javax.mail" rev="1.6.2"/>
+    <dependency org="javax.mail" name="javax.mail-api" rev="1.6.2"/>
     <dependency org="javax.servlet" name="javax.servlet-api" rev="3.1.0"/>
     <dependency org="javax.ws.rs" name="javax.ws.rs-api" rev="2.0-m10"/>
     <dependency org="javax.ws.rs" name="jsr311-api" rev="1.1.1"/>
