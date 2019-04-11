@@ -42,8 +42,18 @@
     </copy>
   </target>
 
+<!-- Property added to have the functionality of passing version as an argument  -->
+  <property name="zmzcslibs.ext.patch.revision" value="1" />
+  <property name="zmzcslibs.ext.patch.version"
+      value="${zimbra.buildinfo.majorversion}.${zimbra.buildinfo.minorversion}.${zimbra.buildinfo.microversion}"/>
+
    <target name="pkg" depends="clean,dist">
-    <exec dir="." executable="./pkg-builder.pl" failonerror="true" />
+    <exec dir="." executable="./pkg-builder.pl" failonerror="true" >
+    <arg value="-v"/>
+    <arg value="${zmzcslibs.ext.patch.version}"/>
+    <arg value="-r"/>
+    <arg value="${zmzcslibs.ext.patch.revision}"/>
+    </exec>
   </target>
 
  
