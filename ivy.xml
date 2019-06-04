@@ -135,7 +135,7 @@
    rev="1.9.13.1z" /> -->
   <dependency org="net.oauth.core" name="oauth" rev="20100527"/>
   <dependency org="com.googlecode.owasp-java-html-sanitizer"
-   name="owasp-java-html-sanitizer" rev="r239" />
+   name="owasp-java-html-sanitizer" rev="20190503.1" />
   <dependency org="com.sun.xml.ws" name="policy" rev="2.3"/>
   <dependency org="javax.servlet" name="javax.servlet-api"
    rev="3.1.0" />
