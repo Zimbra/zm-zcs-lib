@@ -308,8 +308,6 @@ sub stage_zimbra_store_lib($)
        cpy_file("build/dist/jaxb-api-2.3.1.jar",                                    "$stage_base_dir/opt/zimbra/jetty_base/common/lib/jaxb-api-2.3.1.jar");
        cpy_file("build/dist/jaxws-api-2.3.1.jar",                                   "$stage_base_dir/opt/zimbra/jetty_base/common/lib/jaxws-api-2.3.1.jar");
        cpy_file("build/dist/saaj-impl-1.5.1.jar",                                   "$stage_base_dir/opt/zimbra/lib/ext-common/saaj-impl-1.5.1.jar");
-       cpy_file("build/dist/jetty-servlets-9.4.18.v20190429.jar",                   "$stage_base_dir/opt/zimbra/jetty/webapps/service/WEB-INF/lib/jetty-servlets-9.4.18.v20190429.jar");
-       cpy_file("build/dist/jetty-servlet-9.4.18.v20190429.jar",                    "$stage_base_dir/opt/zimbra/jetty/webapps/service/WEB-INF/lib/jetty-servlet-9.4.18.v20190429.jar");
        return ["."];
 }
 
