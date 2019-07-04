@@ -261,10 +261,10 @@ sub stage_zimbra_store_lib($)
        cpy_file("build/dist/dom4j-1.5.2.jar",                                       "$stage_base_dir/opt/zimbra/jetty_base/common/lib/dom4j-1.5.2.jar");
        cpy_file("build/dist/ganymed-ssh2-build210.jar",                             "$stage_base_dir/opt/zimbra/jetty_base/common/lib/ganymed-ssh2-build210.jar");
        cpy_file("build/dist/guava-23.0.jar",                                        "$stage_base_dir/opt/zimbra/jetty_base/common/lib/guava-23.0.jar");
-       cpy_file("build/dist/httpasyncclient-4.1.4.jar",                             "$stage_base_dir/opt/zimbra/jetty_base/common/lib/httpasyncclient-4.1.2.jar");
-       cpy_file("build/dist/httpclient-4.5.8.jar",                                  "$stage_base_dir/opt/zimbra/jetty_base/common/lib/httpclient-4.5.2.jar");
-       cpy_file("build/dist/httpcore-4.4.11.jar",                                    "$stage_base_dir/opt/zimbra/jetty_base/common/lib/httpcore-4.4.5.jar");
-       cpy_file("build/dist/httpcore-nio-4.4.11.jar",                                "$stage_base_dir/opt/zimbra/jetty_base/common/lib/httpcore-nio-4.4.5.jar");
+       cpy_file("build/dist/httpasyncclient-4.1.4.jar",                             "$stage_base_dir/opt/zimbra/jetty_base/common/lib/httpasyncclient-4.1.4.jar");
+       cpy_file("build/dist/httpclient-4.5.8.jar",                                  "$stage_base_dir/opt/zimbra/jetty_base/common/lib/httpclient-4.5.8.jar");
+       cpy_file("build/dist/httpcore-4.4.11.jar",                                    "$stage_base_dir/opt/zimbra/jetty_base/common/lib/httpcore-4.4.11.jar");
+       cpy_file("build/dist/httpcore-nio-4.4.11.jar",                                "$stage_base_dir/opt/zimbra/jetty_base/common/lib/httpcore-nio-4.4.11.jar");
        cpy_file("build/dist/httpmime-4.3.1.jar",                                    "$stage_base_dir/opt/zimbra/jetty_base/common/lib/httpmime-4.3.1.jar");
        cpy_file("build/dist/icu4j-4.8.1.1.jar",                                     "$stage_base_dir/opt/zimbra/jetty_base/common/lib/icu4j-4.8.1.1.jar");
        cpy_file("build/dist/jaxen-1.1.3.jar",                                       "$stage_base_dir/opt/zimbra/jetty_base/common/lib/jaxen-1.1.3.jar");
