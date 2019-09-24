@@ -22,6 +22,7 @@
     <ant antfile="../ant-tar-patched/build.xml" inheritAll="false" target="jar" />
     <ant antfile="../nekohtml-1.9.13/build.xml" inheritAll="false" target="jar" />
     <ant antfile="../ical4j-0.9.16-patched/build.xml" inheritAll="false" target="package" />
+    <ant antfile="../java-html-sanitizer-release-20190610.1/build.xml" inheritAll="false" target="jar" />
     <move file="../nekohtml-1.9.13/build/lib/nekohtml.jar" tofile="../nekohtml-1.9.13/build/lib/nekohtml-1.9.13.1z.jar"/>
     <move file="../ical4j-0.9.16-patched/build/ical4j.jar" tofile="../ical4j-0.9.16-patched/build/ical4j-0.9.16-patched.jar"/>
     <copy todir="${dist.dir}">
@@ -29,6 +30,7 @@
       <fileset dir="../ant-tar-patched/build" includes="*.jar" />
       <fileset dir="../nekohtml-1.9.13/build/lib" includes="*.jar" />
       <fileset dir="../ical4j-0.9.16-patched/build" includes="*.jar" />
+      <fileset dir="../java-html-sanitizer-release-20190610.1/build/lib" includes="*.jar" />
     </copy>
     <ivy:install organisation="zimbra" module="zm-charset" revision="latest.integration" settingsRef="dev.settings" from="chain-resolver" to="build-dist" overwrite="true" transitive="true" type="jar" />
     <ivy:install organisation="log4j" module="log4j" revision="1.2.16" settingsRef="dev.settings" from="chain-resolver" to="build-dist" overwrite="true" transitive="true" type="jar" />
