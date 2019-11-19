@@ -311,7 +311,7 @@ sub stage_zimbra_store_lib($)
        cpy_file("build/dist/jaxb-api-2.3.1.jar",                                    "$stage_base_dir/opt/zimbra/jetty_base/common/lib/jaxb-api-2.3.1.jar");
        cpy_file("build/dist/jaxws-api-2.3.1.jar",                                   "$stage_base_dir/opt/zimbra/jetty_base/common/lib/jaxws-api-2.3.1.jar");
        cpy_file("build/dist/saaj-impl-1.5.1.jar",                                   "$stage_base_dir/opt/zimbra/lib/ext-common/saaj-impl-1.5.1.jar");
-       cpy_file("build/dist/antisamy-1.5.8z.jar",                                   "$stage_base_dir/opt/zimbra/jetty_base/webapps/services/WEB-INF/lib/antisamy-1.5.8z.jar");
+       cpy_file("build/dist/antisamy-1.5.8z.jar",                                   "$stage_base_dir/opt/zimbra/jetty_base/webapps/service/WEB-INF/lib/antisamy-1.5.8z.jar");
        return ["."];
 }
 
