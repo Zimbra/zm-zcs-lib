@@ -117,8 +117,8 @@ sub stage_zimbra_core_lib($)
         cpy_file("build/dist/commons-compress-1.20.jar",                            "$stage_base_dir/opt/zimbra/lib/jars/commons-compress-1.20.jar");
         cpy_file("build/dist/commons-csv-1.2.jar",                                  "$stage_base_dir/opt/zimbra/lib/jars/commons-csv-1.2.jar");
         cpy_file("build/dist/commons-dbcp-1.4.jar",                                 "$stage_base_dir/opt/zimbra/lib/jars/commons-dbcp-1.4.jar");
-        cpy_file("build/dist/commons-fileupload-1.2.2.jar",                         "$stage_base_dir/opt/zimbra/lib/jars/commons-fileupload-1.2.2.jar");
         cpy_file("build/dist/commons-io-2.6.jar",                                   "$stage_base_dir/opt/zimbra/lib/jars/commons-io-2.6.jar");
+        cpy_file("build/dist/commons-fileupload-1.4.jar",                           "$stage_base_dir/opt/zimbra/lib/jars/commons-fileupload-1.4.jar");
         cpy_file("build/dist/commons-lang-2.6.jar",                                 "$stage_base_dir/opt/zimbra/lib/jars/commons-lang-2.6.jar");
         cpy_file("build/dist/commons-net-3.3.jar",                                  "$stage_base_dir/opt/zimbra/lib/jars/commons-net-3.3.jar");
         cpy_file("build/dist/commons-pool-1.6.jar",                                 "$stage_base_dir/opt/zimbra/lib/jars/commons-pool-1.6.jar");
@@ -255,8 +255,8 @@ sub stage_zimbra_store_lib($)
        cpy_file("build/dist/commons-collections-3.2.2.jar",                         "$stage_base_dir/opt/zimbra/jetty_base/common/lib/commons-collections-3.2.2.jar");
        cpy_file("build/dist/commons-compress-1.20.jar",                             "$stage_base_dir/opt/zimbra/jetty_base/common/lib/commons-compress-1.20.jar");
        cpy_file("build/dist/commons-dbcp-1.4.jar",                                  "$stage_base_dir/opt/zimbra/jetty_base/common/lib/commons-dbcp-1.4.jar");
-       cpy_file("build/dist/commons-fileupload-1.2.2.jar",                          "$stage_base_dir/opt/zimbra/jetty_base/common/lib/commons-fileupload-1.2.2.jar");
        cpy_file("build/dist/commons-io-2.6.jar",                                    "$stage_base_dir/opt/zimbra/jetty_base/common/lib/commons-io-2.6.jar");
+       cpy_file("build/dist/commons-fileupload-1.4.jar",                            "$stage_base_dir/opt/zimbra/jetty_base/common/lib/commons-fileupload-1.4.jar");
        cpy_file("build/dist/commons-lang-2.6.jar",                                  "$stage_base_dir/opt/zimbra/jetty_base/common/lib/commons-lang-2.6.jar");
        cpy_file("build/dist/commons-logging-1.1.1.jar",                             "$stage_base_dir/opt/zimbra/jetty_base/common/lib/commons-logging-1.1.1.jar");
        cpy_file("build/dist/commons-net-3.3.jar",                                   "$stage_base_dir/opt/zimbra/jetty_base/common/lib/commons-net-3.3.jar");
