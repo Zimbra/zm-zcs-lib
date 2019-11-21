@@ -61,7 +61,7 @@
     <dependency org="net.spy" name="spymemcached" rev="2.12.1" transitive="false"/>
     <dependency org="oauth" name="oauth" rev="1.4"/>
     <dependency org="org.antlr" name="antlr" rev="3.2"/>
-    <dependency org="org.apache.commons" name="commons-compress" rev="1.10"/>
+    <dependency org="org.apache.commons" name="commons-compress" rev="1.19"/>
     <dependency org="org.apache.commons" name="commons-csv" rev="1.2"/>
     <dependency org="org.apache.commons" name="commons-pool2" rev="2.4.2"/>
     <dependency org="org.apache.curator" name="curator-client" rev="2.0.1-incubating"/>
