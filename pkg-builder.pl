@@ -143,9 +143,9 @@ sub stage_zimbra_core_lib($)
         cpy_file("build/dist/httpmime-4.3.1.jar",                                   "$stage_base_dir/opt/zimbra/lib/jars/httpmime-4.3.1.jar");
         cpy_file("build/dist/ical4j-0.9.16-patched.jar",                            "$stage_base_dir/opt/zimbra/lib/jars/ical4j-0.9.16-patched.jar");
         cpy_file("build/dist/icu4j-4.8.1.1.jar",                                    "$stage_base_dir/opt/zimbra/lib/jars/icu4j-4.8.1.1.jar");
-        cpy_file("build/dist/jackson-core-2.9.2.jar",                               "$stage_base_dir/opt/zimbra/lib/jars/jackson-core-2.9.2.jar");
-        cpy_file("build/dist/jackson-annotations-2.9.2.jar",                        "$stage_base_dir/opt/zimbra/lib/jars/jackson-annotations-2.9.2.jar");
-        cpy_file("build/dist/jackson-databind-2.9.2.jar",                           "$stage_base_dir/opt/zimbra/lib/jars/jackson-databind-2.9.2.jar");
+        cpy_file("build/dist/jackson-core-2.10.1.jar",                              "$stage_base_dir/opt/zimbra/lib/jars/jackson-core-2.10.1.jar");
+        cpy_file("build/dist/jackson-annotations-2.10.1.jar",                       "$stage_base_dir/opt/zimbra/lib/jars/jackson-annotations-2.10.1.jar");
+        cpy_file("build/dist/jackson-databind-2.10.1.jar",                          "$stage_base_dir/opt/zimbra/lib/jars/jackson-databind-2.10.1.jar");
         cpy_file("build/dist/jackson-dataformat-smile-2.9.2.jar",                   "$stage_base_dir/opt/zimbra/lib/jars/jackson-dataformat-smile-2.9.2.jar");
         cpy_file("build/dist/jackson-module-jaxb-annotations-2.8.9.jar",            "$stage_base_dir/opt/zimbra/lib/jars/jackson-module-jaxb-annotations-2.8.9.jar");
         cpy_file("build/dist/jamm-0.2.5.jar",                                       "$stage_base_dir/opt/zimbra/lib/jars/jamm-0.2.5.jar");
