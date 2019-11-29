@@ -39,7 +39,7 @@
     <dependency org="commons-logging" name="commons-logging" rev="1.1.1"/>
     <dependency org="commons-net" name="commons-net" rev="3.3"/>
     <dependency org="commons-pool" name="commons-pool" rev="1.6"/>
-    <dependency org="org.dom4j" name="dom4j" rev="2.1.1"/>
+    <dependency org="org.dom4j" name="dom4j" rev="${dom4j.version}"/>
     <dependency org="gifencoder" name="gifencoder" rev="0.9"/>
     <dependency org="javax.jws" name="jsr181-api" rev="1.0-MR1"/>
     <dependency org="javax.mail" name="mail" rev="1.4.7"/>
