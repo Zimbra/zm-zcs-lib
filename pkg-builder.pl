@@ -129,7 +129,7 @@ sub stage_zimbra_core_lib($)
         cpy_file("build/dist/curator-recipes-2.0.1-incubating.jar",                 "$stage_base_dir/opt/zimbra/lib/jars/curator-recipes-2.0.1-incubating.jar");
         cpy_file("build/dist/curator-x-discovery-2.0.1-incubating.jar",             "$stage_base_dir/opt/zimbra/lib/jars/curator-x-discovery-2.0.1-incubating.jar");
         cpy_file("build/dist/cxf-core-3.3.4.jar",                                   "$stage_base_dir/opt/zimbra/lib/jars/cxf-core-3.3.4.jar");
-        cpy_file("build/dist/dom4j-1.5.2.jar",                                      "$stage_base_dir/opt/zimbra/lib/jars/dom4j-1.5.2.jar");
+        cpy_file("build/dist/dom4j-2.1.1.jar",                                      "$stage_base_dir/opt/zimbra/lib/jars/dom4j-2.1.1.jar");
         cpy_file("build/dist/freemarker-2.3.19.jar",                                "$stage_base_dir/opt/zimbra/lib/jars/freemarker-2.3.19.jar");
         cpy_file("build/dist/ganymed-ssh2-build210.jar",                            "$stage_base_dir/opt/zimbra/lib/jars/ganymed-ssh2-build210.jar");
         cpy_file("build/dist/gifencoder-0.9.jar",                                   "$stage_base_dir/opt/zimbra/lib/jars/gifencoder-0.9.jar");
@@ -262,7 +262,7 @@ sub stage_zimbra_store_lib($)
        cpy_file("build/dist/commons-net-3.3.jar",                                   "$stage_base_dir/opt/zimbra/jetty_base/common/lib/commons-net-3.3.jar");
        cpy_file("build/dist/commons-pool-1.6.jar",                                  "$stage_base_dir/opt/zimbra/jetty_base/common/lib/commons-pool-1.6.jar");
        cpy_file("build/dist/concurrentlinkedhashmap-lru-1.3.1.jar",                 "$stage_base_dir/opt/zimbra/jetty_base/common/lib/concurrentlinkedhashmap-lru-1.3.1.jar");
-       cpy_file("build/dist/dom4j-1.5.2.jar",                                       "$stage_base_dir/opt/zimbra/jetty_base/common/lib/dom4j-1.5.2.jar");
+       cpy_file("build/dist/dom4j-2.1.1.jar",                                       "$stage_base_dir/opt/zimbra/jetty_base/common/lib/dom4j-2.1.1.jar");
        cpy_file("build/dist/ganymed-ssh2-build210.jar",                             "$stage_base_dir/opt/zimbra/jetty_base/common/lib/ganymed-ssh2-build210.jar");
        cpy_file("build/dist/guava-23.0.jar",                                        "$stage_base_dir/opt/zimbra/jetty_base/common/lib/guava-23.0.jar");
        cpy_file("build/dist/httpasyncclient-4.1.4.jar",                             "$stage_base_dir/opt/zimbra/jetty_base/common/lib/httpasyncclient-4.1.4.jar");
