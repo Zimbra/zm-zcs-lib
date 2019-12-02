@@ -84,9 +84,9 @@
     <dependency org="org.apache.neethi" name="neethi" rev="3.0.2"/>
     <dependency org="org.apache.ws.xmlschema" name="xmlschema-core" rev="2.0.3"/>
     <dependency org="org.apache.zookeeper" name="zookeeper" rev="3.4.5"/>
-    <dependency org="org.bouncycastle" name="bcmail-jdk15on" rev="1.55"/>
-    <dependency org="org.bouncycastle" name="bcpkix-jdk15on" rev="1.55"/>
-    <dependency org="org.bouncycastle" name="bcprov-jdk15on" rev="1.55"/>
+    <dependency org="org.bouncycastle" name="bcmail-jdk15on" rev="1.64"/>
+    <dependency org="org.bouncycastle" name="bcpkix-jdk15on" rev="1.64"/>
+    <dependency org="org.bouncycastle" name="bcprov-jdk15on" rev="1.64"/>
     <dependency org="com.fasterxml.jackson.core" name="jackson-core" rev="2.10.1"/>
     <dependency org="com.fasterxml.jackson.core" name="jackson-annotations" rev="2.10.1"/>
     <dependency org="com.fasterxml.jackson.core" name="jackson-databind" rev="2.10.1"/>

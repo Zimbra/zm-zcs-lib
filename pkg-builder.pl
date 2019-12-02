@@ -110,7 +110,7 @@ sub stage_zimbra_core_lib($)
         cpy_file("build/dist/apache-jsieve-core-0.5.jar",                           "$stage_base_dir/opt/zimbra/lib/jars/apache-jsieve-core-0.5.jar");
         cpy_file("build/dist/apache-log4j-extras-1.0.jar",                          "$stage_base_dir/opt/zimbra/lib/jars/apache-log4j-extras-1.0.jar");
         cpy_file("build/dist/asm-3.3.1.jar",                                        "$stage_base_dir/opt/zimbra/lib/jars/asm-3.3.1.jar");
-        cpy_file("build/dist/bcprov-jdk15on-1.55.jar",                              "$stage_base_dir/opt/zimbra/lib/jars/bcprov-jdk15on-1.55.jar");
+        cpy_file("build/dist/bcprov-jdk15on-1.64.jar",                              "$stage_base_dir/opt/zimbra/lib/jars/bcprov-jdk15on-1.64.jar");
         cpy_file("build/dist/commons-cli-1.2.jar",                                  "$stage_base_dir/opt/zimbra/lib/jars/commons-cli-1.2.jar");
         cpy_file("build/dist/commons-codec-1.7.jar",                                "$stage_base_dir/opt/zimbra/lib/jars/commons-codec-1.7.jar");
         cpy_file("build/dist/commons-collections-3.2.2.jar",                        "$stage_base_dir/opt/zimbra/lib/jars/commons-collections-3.2.2.jar");
@@ -239,13 +239,13 @@ sub stage_zimbra_store_lib($)
 {
    my $stage_base_dir = shift;
 
-       cpy_file("build/dist/bcpkix-jdk15on-1.55.jar",                               "$stage_base_dir/opt/zimbra/jetty_base/common/lib/bcpkix-jdk15on-1.55.jar");
-       cpy_file("build/dist/bcmail-jdk15on-1.55.jar",                               "$stage_base_dir/opt/zimbra/lib/ext-common/bcmail-jdk15on-1.55.jar");
+       cpy_file("build/dist/bcpkix-jdk15on-1.64.jar",                               "$stage_base_dir/opt/zimbra/jetty_base/common/lib/bcpkix-jdk15on-1.64.jar");
+       cpy_file("build/dist/bcmail-jdk15on-1.64.jar",                               "$stage_base_dir/opt/zimbra/lib/ext-common/bcmail-jdk15on-1.64.jar");
        cpy_file("build/dist/zmzimbratozimbramig-8.7.jar",                           "$stage_base_dir/opt/zimbra/lib/jars/zmzimbratozimbramig.jar");
        cpy_file("build/dist/jcharset-2.0.jar",                                      "$stage_base_dir/opt/zimbra/jetty_base/common/endorsed/jcharset.jar");
        cpy_file("build/dist/zimbra-charset.jar",                                    "$stage_base_dir/opt/zimbra/jetty_base/common/endorsed/zimbra-charset.jar");
        cpy_file("build/dist/apache-log4j-extras-1.0.jar",                           "$stage_base_dir/opt/zimbra/jetty_base/common/lib/apache-log4j-extras-1.0.jar");
-       cpy_file("build/dist/bcprov-jdk15on-1.55.jar",                               "$stage_base_dir/opt/zimbra/jetty_base/common/lib/bcprov-jdk15on-1.55.jar");
+       cpy_file("build/dist/bcprov-jdk15on-1.64.jar",                               "$stage_base_dir/opt/zimbra/jetty_base/common/lib/bcprov-jdk15on-1.64.jar");
        cpy_file("build/dist/commons-cli-1.2.jar",                                   "$stage_base_dir/opt/zimbra/jetty_base/common/lib/commons-cli-1.2.jar");
        cpy_file("build/dist/commons-codec-1.7.jar",                                 "$stage_base_dir/opt/zimbra/jetty_base/common/lib/commons-codec-1.7.jar");
        cpy_file("build/dist/commons-collections-3.2.2.jar",                         "$stage_base_dir/opt/zimbra/jetty_base/common/lib/commons-collections-3.2.2.jar");
