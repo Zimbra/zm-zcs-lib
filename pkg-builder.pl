@@ -221,7 +221,7 @@ sub stage_zimbra_core_lib($)
         cpy_file("build/dist/wsdl4j-1.6.3.jar",                                     "$stage_base_dir/opt/zimbra/lib/jars/wsdl4j-1.6.3.jar");
         cpy_file("build/dist/xercesImpl-2.9.1-patch-01.jar",                        "$stage_base_dir/opt/zimbra/lib/jars/xercesImpl-2.9.1-patch-01.jar");
         cpy_file("build/dist/xmlschema-core-2.0.3.jar",                             "$stage_base_dir/opt/zimbra/lib/jars/xmlschema-core-2.0.3.jar");
-        cpy_file("build/dist/yuicompressor-2.4.2-zimbra.jar",                       "$stage_base_dir/opt/zimbra/lib/jars/yuicompressor-2.4.2-zimbra.jar");
+        cpy_file("build/dist/yuicompressor-2.4.8.jar",                              "$stage_base_dir/opt/zimbra/lib/jars/yuicompressor-2.4.8.jar");
         cpy_file("build/dist/zkclient-0.1.0.jar",                                   "$stage_base_dir/opt/zimbra/lib/jars/zkclient-0.1.0.jar");
         cpy_file("build/dist/zookeeper-3.4.5.jar",                                  "$stage_base_dir/opt/zimbra/lib/jars/zookeeper-3.4.5.jar");
         cpy_file("build/dist/zm-ews-stub-2.0.jar",                                  "$stage_base_dir/opt/zimbra/lib/jars/zm-ews-stub-2.0.jar");
@@ -290,7 +290,7 @@ sub stage_zimbra_store_lib($)
        cpy_file("build/dist/spymemcached-2.12.1.jar",                               "$stage_base_dir/opt/zimbra/jetty_base/common/lib/spymemcached-2.12.1.jar");
        cpy_file("build/dist/unboundid-ldapsdk-2.3.5.jar",                           "$stage_base_dir/opt/zimbra/jetty_base/common/lib/unboundid-ldapsdk-2.3.5.jar");
        cpy_file("build/dist/xercesImpl-2.9.1-patch-01.jar",                         "$stage_base_dir/opt/zimbra/jetty_base/common/lib/xercesImpl-2.9.1-patch-01.jar");
-       cpy_file("build/dist/yuicompressor-2.4.2-zimbra.jar",                        "$stage_base_dir/opt/zimbra/jetty_base/common/lib/yuicompressor-2.4.2-zimbra.jar");
+       cpy_file("build/dist/yuicompressor-2.4.8.jar",                               "$stage_base_dir/opt/zimbra/jetty_base/common/lib/yuicompressor-2.4.8.jar");
        cpy_file("build/dist/ant-1.7.0-ziputil-patched.jar",                         "$stage_base_dir/opt/zimbra/jetty_base/common/lib/ant-1.7.0-ziputil-patched.jar");
        cpy_file("build/dist/ical4j-0.9.16-patched.jar",                             "$stage_base_dir/opt/zimbra/jetty_base/common/lib/ical4j-0.9.16-patched.jar");
        cpy_file("build/dist/nekohtml-1.9.13.1z.jar",                                "$stage_base_dir/opt/zimbra/jetty_base/common/lib/nekohtml-1.9.13.1z.jar");
