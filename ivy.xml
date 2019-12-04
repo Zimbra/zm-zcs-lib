@@ -120,7 +120,6 @@
     <dependency org="org.slf4j" name="slf4j-api" rev="1.6.4"/>
     <dependency org="org.slf4j" name="slf4j-log4j12" rev="1.6.4"/>
     <dependency org="org.springframework" name="spring-aop" rev="5.1.10.RELEASE"/>
-    <dependency org="org.springframework" name="spring-asm" rev="3.0.7.RELEASE"/>
     <dependency org="org.springframework" name="spring-beans" rev="5.1.10.RELEASE"/>
     <dependency org="org.springframework" name="spring-context" rev="5.1.10.RELEASE"/>
     <dependency org="org.springframework" name="spring-core" rev="5.1.10.RELEASE"/>
