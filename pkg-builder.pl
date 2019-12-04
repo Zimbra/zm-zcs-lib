@@ -199,7 +199,6 @@ sub stage_zimbra_core_lib($)
         cpy_file("build/dist/slf4j-api-1.6.4.jar",                                  "$stage_base_dir/opt/zimbra/lib/jars/slf4j-api-1.6.4.jar");
         cpy_file("build/dist/slf4j-log4j12-1.6.4.jar",                              "$stage_base_dir/opt/zimbra/lib/jars/slf4j-log4j12-1.6.4.jar");
         cpy_file("build/dist/spring-aop-5.1.10.RELEASE.jar",                        "$stage_base_dir/opt/zimbra/lib/jars/spring-aop-5.1.10.RELEASE.jar");
-        cpy_file("build/dist/spring-asm-3.0.7.RELEASE.jar",                         "$stage_base_dir/opt/zimbra/lib/jars/spring-asm-3.0.7.RELEASE.jar");
         cpy_file("build/dist/spring-beans-5.1.10.RELEASE.jar",                      "$stage_base_dir/opt/zimbra/lib/jars/spring-beans-5.1.10.RELEASE.jar");
         cpy_file("build/dist/spring-context-5.1.10.RELEASE.jar",                    "$stage_base_dir/opt/zimbra/lib/jars/spring-context-5.1.10.RELEASE.jar");
         cpy_file("build/dist/spring-core-5.1.10.RELEASE.jar",                       "$stage_base_dir/opt/zimbra/lib/jars/spring-core-5.1.10.RELEASE.jar");
