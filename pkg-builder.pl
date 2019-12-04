@@ -198,10 +198,6 @@ sub stage_zimbra_core_lib($)
         cpy_file("build/dist/policy-2.3.jar",                                       "$stage_base_dir/opt/zimbra/lib/jars/policy-2.3.jar");
         cpy_file("build/dist/slf4j-api-1.6.4.jar",                                  "$stage_base_dir/opt/zimbra/lib/jars/slf4j-api-1.6.4.jar");
         cpy_file("build/dist/slf4j-log4j12-1.6.4.jar",                              "$stage_base_dir/opt/zimbra/lib/jars/slf4j-log4j12-1.6.4.jar");
-        cpy_file("build/dist/smack-3.1.0.jar",                                      "$stage_base_dir/opt/zimbra/lib/jars/smack-3.1.0.jar");
-        cpy_file("build/dist/smackx-3.1.0.jar",                                     "$stage_base_dir/opt/zimbra/lib/jars/smackx-3.1.0.jar");
-        cpy_file("build/dist/smackx-debug-3.2.1.jar",                               "$stage_base_dir/opt/zimbra/lib/jars/smackx-debug-3.2.1.jar");
-        cpy_file("build/dist/smackx-jingle-3.2.1.jar",                              "$stage_base_dir/opt/zimbra/lib/jars/smackx-jingle-3.2.1.jar");
         cpy_file("build/dist/spring-aop-5.1.10.RELEASE.jar",                        "$stage_base_dir/opt/zimbra/lib/jars/spring-aop-5.1.10.RELEASE.jar");
         cpy_file("build/dist/spring-asm-3.0.7.RELEASE.jar",                         "$stage_base_dir/opt/zimbra/lib/jars/spring-asm-3.0.7.RELEASE.jar");
         cpy_file("build/dist/spring-beans-5.1.10.RELEASE.jar",                      "$stage_base_dir/opt/zimbra/lib/jars/spring-beans-5.1.10.RELEASE.jar");
