@@ -9,9 +9,8 @@
     <dependency org="ch.ethz.ganymed" name="ganymed-ssh2" rev="build210"/>
     <dependency org="com.101tec" name="zkclient" rev="0.1.0"/>
     <dependency org="com.github.stephenc" name="jamm" rev="0.2.5"/>
-    <dependency org="com.google.guava" name="guava" rev="23.0"/>
+    <dependency org="com.google.guava" name="guava" rev="28.1-jre"/>
     <dependency org="com.googlecode.concurrentlinkedhashmap" name="concurrentlinkedhashmap-lru" rev="1.3.1"/>
-    <dependency org="com.googlecode.owasp-java-html-sanitizer" name="owasp-java-html-sanitizer" rev="r239"/>
     <dependency org="com.ibm.icu" name="icu4j" rev="4.8.1.1"/>
     <dependency org="com.jcraft" name="jzlib" rev="1.0.7"/>
     <dependency org="com.kohlschutter.junixsocket" name="junixsocket-common" rev="2.0.4"/>
@@ -34,14 +33,13 @@
     <dependency org="commons-codec" name="commons-codec" rev="1.7"/>
     <dependency org="commons-collections" name="commons-collections" rev="3.2.2"/>
     <dependency org="commons-dbcp" name="commons-dbcp" rev="1.4"/>
-    <dependency org="commons-fileupload" name="commons-fileupload" rev="1.2.2"/>
-    <dependency org="commons-httpclient" name="commons-httpclient" rev="3.1"/>
-    <dependency org="commons-io" name="commons-io" rev="1.4"/>
+    <dependency org="commons-fileupload" name="commons-fileupload" rev="1.4"/>
+    <dependency org="commons-io" name="commons-io" rev="2.6"/>
     <dependency org="commons-lang" name="commons-lang" rev="2.6"/>
     <dependency org="commons-logging" name="commons-logging" rev="1.1.1"/>
     <dependency org="commons-net" name="commons-net" rev="3.3"/>
     <dependency org="commons-pool" name="commons-pool" rev="1.6"/>
-    <dependency org="dom4j" name="dom4j" rev="1.5.2"/>
+    <dependency org="org.dom4j" name="dom4j" rev="${dom4j.version}"/>
     <dependency org="gifencoder" name="gifencoder" rev="0.9"/>
     <dependency org="javax.jws" name="jsr181-api" rev="1.0-MR1"/>
     <dependency org="javax.mail" name="mail" rev="1.4.7"/>
@@ -51,8 +49,6 @@
     <dependency org="jaxen" name="jaxen" rev="1.1.3"/>
     <dependency org="jcs" name="jcs" rev="1.3"/>
     <dependency org="jdom" name="jdom" rev="1.1"/>
-    <dependency org="jivesoftware" name="smack" rev="3.1.0"/>
-    <dependency org="jivesoftware" name="smackx" rev="3.1.0"/>
     <dependency org="jline" name="jline" rev="0.9.93"/>
     <dependency org="log4j" name="apache-log4j-extras" rev="1.0"/>
     <dependency org="net.freeutils" name="jcharset" rev="2.0"/>
@@ -63,19 +59,22 @@
     <dependency org="net.spy" name="spymemcached" rev="2.12.1" transitive="false"/>
     <dependency org="oauth" name="oauth" rev="1.4"/>
     <dependency org="org.antlr" name="antlr" rev="3.2"/>
-    <dependency org="org.apache.commons" name="commons-compress" rev="1.10"/>
+    <dependency org="org.apache.commons" name="commons-compress" rev="1.20"/>
     <dependency org="org.apache.commons" name="commons-csv" rev="1.2"/>
     <dependency org="org.apache.commons" name="commons-pool2" rev="2.4.2"/>
     <dependency org="org.apache.curator" name="curator-client" rev="2.0.1-incubating"/>
     <dependency org="org.apache.curator" name="curator-framework" rev="2.0.1-incubating"/>
     <dependency org="org.apache.curator" name="curator-recipes" rev="2.0.1-incubating"/>
     <dependency org="org.apache.curator" name="curator-x-discovery" rev="2.0.1-incubating"/>
-    <dependency org="org.apache.cxf" name="cxf" rev="2.7.18"/>
+    <dependency org="org.apache.cxf" name="cxf-core" rev="3.3.4" />
+    <dependency org="org.apache.cxf" name="cxf-rt-frontend-jaxws" rev="3.3.4" />
+    <dependency org="org.apache.cxf" name="cxf-rt-transports-http" rev="3.3.4" />
+    <dependency org="org.apache.cxf" name="cxf-rt-bindings-soap" rev="3.3.4" />
     <dependency org="org.apache.helix" name="helix-core" rev="0.6.1-incubating"/>
-    <dependency org="org.apache.httpcomponents" name="httpasyncclient" rev="4.1.2"/>
-    <dependency org="org.apache.httpcomponents" name="httpclient" rev="4.5.2"/>
-    <dependency org="org.apache.httpcomponents" name="httpcore" rev="4.4.5"/>
-    <dependency org="org.apache.httpcomponents" name="httpcore-nio" rev="4.4.5"/>
+    <dependency org="org.apache.httpcomponents" name="httpasyncclient" rev="4.1.4"/>
+    <dependency org="org.apache.httpcomponents" name="httpclient" rev="4.5.8"/>
+    <dependency org="org.apache.httpcomponents" name="httpcore" rev="4.4.11"/>
+    <dependency org="org.apache.httpcomponents" name="httpcore-nio" rev="4.4.11"/>
     <dependency org="org.apache.httpcomponents" name="httpmime" rev="4.3.1"/>
     <dependency org="org.apache.james" name="apache-jsieve-core" rev="0.5"/>
     <dependency org="org.apache.lucene" name="lucene-analyzers" rev="3.5.0"/>
@@ -85,46 +84,46 @@
     <dependency org="org.apache.neethi" name="neethi" rev="3.0.2"/>
     <dependency org="org.apache.ws.xmlschema" name="xmlschema-core" rev="2.0.3"/>
     <dependency org="org.apache.zookeeper" name="zookeeper" rev="3.4.5"/>
-    <dependency org="org.bouncycastle" name="bcmail-jdk15on" rev="1.55"/>
-    <dependency org="org.bouncycastle" name="bcpkix-jdk15on" rev="1.55"/>
-    <dependency org="org.bouncycastle" name="bcprov-jdk15on" rev="1.55"/>
-    <dependency org="com.fasterxml.jackson.core" name="jackson-core" rev="2.9.2"/>
-    <dependency org="com.fasterxml.jackson.core" name="jackson-annotations" rev="2.9.2"/>
-    <dependency org="com.fasterxml.jackson.core" name="jackson-databind" rev="2.9.2"/>
+    <dependency org="org.bouncycastle" name="bcmail-jdk15on" rev="1.64"/>
+    <dependency org="org.bouncycastle" name="bcpkix-jdk15on" rev="1.64"/>
+    <dependency org="org.bouncycastle" name="bcprov-jdk15on" rev="1.64"/>
+    <dependency org="com.fasterxml.jackson.core" name="jackson-core" rev="2.10.1"/>
+    <dependency org="com.fasterxml.jackson.core" name="jackson-annotations" rev="2.10.1"/>
+    <dependency org="com.fasterxml.jackson.core" name="jackson-databind" rev="2.10.1"/>
     <dependency org="com.fasterxml.jackson.dataformat" name="jackson-dataformat-smile" rev="2.9.2" />
     <dependency org="com.fasterxml.jackson.module" name="jackson-module-jaxb-annotations" rev="2.8.9"/>
     <dependency org="org.codehaus.woodstox" name="stax2-api" rev="3.1.1"/>
     <dependency org="org.codehaus.woodstox" name="woodstox-core-asl" rev="4.2.0"/>
-    <dependency org="org.eclipse.jetty" name="jetty-continuation" rev="9.3.5.v20151012"/>
-    <dependency org="org.eclipse.jetty" name="jetty-http" rev="9.3.5.v20151012"/>
-    <dependency org="org.eclipse.jetty" name="jetty-io" rev="9.3.5.v20151012"/>
-    <dependency org="org.eclipse.jetty" name="jetty-rewrite" rev="9.3.5.v20151012"/>
-    <dependency org="org.eclipse.jetty" name="jetty-security" rev="9.3.5.v20151012"/>
-    <dependency org="org.eclipse.jetty" name="jetty-server" rev="9.3.5.v20151012"/>
-    <dependency org="org.eclipse.jetty" name="jetty-servlet" rev="9.3.5.v20151012"/>
-    <dependency org="org.eclipse.jetty" name="jetty-servlets" rev="9.3.5.v20151012"/>
-    <dependency org="org.eclipse.jetty" name="jetty-util" rev="9.3.5.v20151012"/>
+    <dependency org="org.eclipse.jetty" name="jetty-continuation" rev="9.4.18.v20190429"/>
+    <dependency org="org.eclipse.jetty" name="jetty-http" rev="9.4.18.v20190429"/>
+    <dependency org="org.eclipse.jetty" name="jetty-io" rev="9.4.18.v20190429"/>
+    <dependency org="org.eclipse.jetty" name="jetty-rewrite" rev="9.4.18.v20190429"/>
+    <dependency org="org.eclipse.jetty" name="jetty-security" rev="9.4.18.v20190429"/>
+    <dependency org="org.eclipse.jetty" name="jetty-server" rev="9.4.18.v20190429"/>
+    <dependency org="org.eclipse.jetty" name="jetty-servlet" rev="9.4.18.v20190429"/>
+    <dependency org="org.eclipse.jetty" name="jetty-servlets" rev="9.4.18.v20190429"/>
+    <dependency org="org.eclipse.jetty" name="jetty-util" rev="9.4.18.v20190429"/>
+    <dependency org="org.eclipse.jetty" name="apache-jsp" rev="9.4.18.v20190429"/>
+    <dependency org="org.eclipse.jetty" name="jetty-servlets" rev="9.4.18.v20190429"/>
+    <dependency org="org.eclipse.jetty" name="jetty-servlet" rev="9.4.18.v20190429"/>
     <dependency org="org.ehcache" name="ehcache" rev="3.1.2"/>
     <dependency org="org.freemarker" name="freemarker" rev="2.3.19"/>
     <dependency org="org.glassfish.gmbal" name="gmbal-api-only" rev="2.2.6"/>
     <dependency org="org.gnu.inet" name="libidn" rev="1.24"/>
-    <dependency org="org.igniterealtime.smack" name="smackx-debug" rev="3.2.1"/>
-    <dependency org="org.igniterealtime.smack" name="smackx-jingle" rev="3.2.1"/>
     <dependency org="org.jfree" name="jcommon" rev="1.0.21"/>
     <dependency org="org.jfree" name="jfreechart" rev="1.0.15"/>
     <dependency org="org.json" name="json" rev="20090211"/>
     <dependency org="org.jvnet.staxex" name="stax-ex" rev="1.7.7"/>
-    <dependency org="org.mariadb.jdbc" name="mariadb-java-client" rev="1.1.8"/>
+    <dependency org="org.mariadb.jdbc" name="mariadb-java-client" rev="2.4.3"/>
     <dependency org="org.python" name="jython-standalone" rev="2.5.2"/>
     <dependency org="org.scijava" name="native-lib-loader" rev="2.0.2"/>
     <dependency org="org.slf4j" name="slf4j-api" rev="1.6.4"/>
     <dependency org="org.slf4j" name="slf4j-log4j12" rev="1.6.4"/>
-    <dependency org="org.springframework" name="spring-aop" rev="3.0.7.RELEASE"/>
-    <dependency org="org.springframework" name="spring-asm" rev="3.0.7.RELEASE"/>
-    <dependency org="org.springframework" name="spring-beans" rev="3.0.7.RELEASE"/>
-    <dependency org="org.springframework" name="spring-context" rev="3.0.7.RELEASE"/>
-    <dependency org="org.springframework" name="spring-core" rev="3.0.7.RELEASE"/>
-    <dependency org="org.springframework" name="spring-expression" rev="3.0.7.RELEASE"/>
+    <dependency org="org.springframework" name="spring-aop" rev="5.1.10.RELEASE"/>
+    <dependency org="org.springframework" name="spring-beans" rev="5.1.10.RELEASE"/>
+    <dependency org="org.springframework" name="spring-context" rev="5.1.10.RELEASE"/>
+    <dependency org="org.springframework" name="spring-core" rev="5.1.10.RELEASE"/>
+    <dependency org="org.springframework" name="spring-expression" rev="5.1.10.RELEASE"/>
     <dependency org="org.syslog4j" name="syslog4j" rev="0.9.46" transitive="false"/>
     <dependency org="org.xerial" name="sqlite-jdbc" rev="3.7.15-M1"/>
     <dependency org="redis.clients" name="jedis" rev="2.9.0"/>
@@ -147,6 +146,13 @@
     <dependency org="javax.xml.bind" name="jaxb-api" rev="2.3.1"/>
     <dependency org="javax.xml.ws" name="jaxws-api" rev="2.3.1"/>
     <dependency org="com.sun.istack" name="istack-commons-runtime" rev="3.0.8"/>
+    <dependency org="com.sun.xml.messaging.saaj" name="saaj-impl" rev="1.5.1"/>
+    <dependency org="com.sun.org.apache.xml.internal" name="resolver" rev="20050927"/>
+    <dependency org="javax.annotation" name="javax.annotation-api" rev="1.2"/>
+    <dependency org="org.apache.xmlgraphics" name="batik-css" rev="1.7"/>
+    <dependency org="org.w3c.css" name="sac" rev="1.3"/>
+    <dependency org="org.apache.xmlgraphics" name="batik-i18n" rev="1.9"/>
+    <dependency org="org.apache.xmlgraphics" name="batik-util" rev="1.8"/>
     <exclude org="com.noelios.restlet" module="com.noelios.restlet"/>
     <exclude org="javax.sql" module="jdbc-stdext"/>
     <exclude org="javax.transaction" module="jta"/>
