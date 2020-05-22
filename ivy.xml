@@ -5,7 +5,7 @@
   <dependencies>
     <dependency org="ant" name="ant" rev="1.6.5"/>
     <dependency org="ant-contrib" name="ant-contrib" rev="1.0b2"/>
-    <dependency org="asm" name="asm" rev="3.3.1"/>
+    <dependency org="org.ow2.asm" name="asm" rev="8.0.1"/>
     <dependency org="ch.ethz.ganymed" name="ganymed-ssh2" rev="build210"/>
     <dependency org="com.101tec" name="zkclient" rev="0.1.0"/>
     <dependency org="com.github.stephenc" name="jamm" rev="0.2.5"/>
@@ -30,7 +30,7 @@
     <dependency org="com.unboundid" name="unboundid-ldapsdk" rev="2.3.5"/>
     <dependency org="com.yahoo.platform.yui" name="yuicompressor" rev="2.4.2-zimbra"/>
     <dependency org="commons-cli" name="commons-cli" rev="1.2"/>
-    <dependency org="commons-codec" name="commons-codec" rev="1.7"/>
+    <dependency org="commons-codec" name="commons-codec" rev="1.14"/>
     <dependency org="commons-collections" name="commons-collections" rev="3.2.2"/>
     <dependency org="commons-dbcp" name="commons-dbcp" rev="1.4"/>
     <dependency org="commons-fileupload" name="commons-fileupload" rev="1.4"/>
