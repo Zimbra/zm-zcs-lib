@@ -162,5 +162,6 @@
     <exclude org="net.sf.josql" module="gentlyweb-utils"/>
     <exclude org="net.sf.josql" module="josql"/>
     <exclude org="org.restlet" module="org.restlet"/>
+    <dependency org="org.apache.tika" name="tika-app" rev="1.24.1"/>
   </dependencies>
 </ivy-module>
