@@ -155,6 +155,7 @@
     <dependency org="org.apache.xmlgraphics" name="batik-i18n" rev="1.9"/>
     <dependency org="org.apache.xmlgraphics" name="batik-util" rev="1.8"/>
     <dependency org="org.apache.tika" name="tika-app" rev="1.24.1"/>
+    <dependency org="com.github.jtidy" name="jtidy" rev="1.0.2"/>
     <exclude org="com.noelios.restlet" module="com.noelios.restlet"/>
     <exclude org="javax.sql" module="jdbc-stdext"/>
     <exclude org="javax.transaction" module="jta"/>
