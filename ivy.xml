@@ -6,8 +6,8 @@
     <dependency org="ant" name="ant" rev="1.6.5"/>
     <dependency org="ant-contrib" name="ant-contrib" rev="1.0b2"/>
     <dependency org="asm" name="asm" rev="3.3.1"/>
-    <dependency org="org.apache.sshd" name="sshd-common" rev="2.6.0"/>
-    <dependency org="org.apache.sshd" name="sshd-core" rev="2.6.0"/>
+    <dependency org="org.apache.sshd" name="sshd-common" rev="2.6.1"/>
+    <dependency org="org.apache.sshd" name="sshd-core" rev="2.6.1"/>
     <dependency org="com.101tec" name="zkclient" rev="0.1.0"/>
     <dependency org="com.github.stephenc" name="jamm" rev="0.2.5"/>
     <dependency org="com.google.guava" name="guava" rev="23.0"/>
@@ -119,8 +119,8 @@
     <dependency org="org.mariadb.jdbc" name="mariadb-java-client" rev="2.4.3"/>
     <dependency org="org.python" name="jython-standalone" rev="2.5.2"/>
     <dependency org="org.scijava" name="native-lib-loader" rev="2.0.2"/>
-    <dependency org="org.slf4j" name="slf4j-api" rev="1.6.4"/>
-    <dependency org="org.slf4j" name="slf4j-log4j12" rev="1.6.4"/>
+    <dependency org="org.slf4j" name="slf4j-api" rev="1.7.30"/>
+    <dependency org="org.slf4j" name="slf4j-log4j12" rev="1.7.30"/>
     <dependency org="org.springframework" name="spring-aop" rev="3.0.7.RELEASE"/>
     <dependency org="org.springframework" name="spring-asm" rev="3.0.7.RELEASE"/>
     <dependency org="org.springframework" name="spring-beans" rev="3.0.7.RELEASE"/>
