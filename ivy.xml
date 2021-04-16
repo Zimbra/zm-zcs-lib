@@ -8,6 +8,7 @@
     <dependency org="org.ow2.asm" name="asm" rev="8.0.1"/>
     <dependency org="org.apache.sshd" name="sshd-common" rev="2.6.0"/>
     <dependency org="org.apache.sshd" name="sshd-core" rev="2.6.0"/>
+    <dependency org="net.i2p.crypto" name="eddsa" rev="0.3.0"/>
     <dependency org="com.101tec" name="zkclient" rev="0.1.0"/>
     <dependency org="com.github.stephenc" name="jamm" rev="0.2.5"/>
     <dependency org="com.google.guava" name="guava" rev="28.1-jre"/>
