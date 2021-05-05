@@ -312,6 +312,14 @@ sub stage_zimbra_store_lib($)
        cpy_file("build/dist/saaj-impl-1.5.1.jar",                                   "$stage_base_dir/opt/zimbra/lib/ext-common/saaj-impl-1.5.1.jar");
        cpy_file("build/dist/antisamy-1.5.8z.jar",                                   "$stage_base_dir/opt/zimbra/jetty_base/webapps/service/WEB-INF/lib/antisamy-1.5.8z.jar");
        cpy_file("build/dist/UserAgentUtils-1.21.jar",                               "$stage_base_dir/opt/zimbra/jetty_base/common/lib/UserAgentUtils-1.21.jar");
+       cpy_file("build/dist/poi-4.1.2.jar",                                         "$stage_base_dir/opt/zimbra/jetty_base/common/lib/poi-4.1.2.jar");
+       cpy_file("build/dist/poi-ooxml-4.1.2.jar",                                   "$stage_base_dir/opt/zimbra/jetty_base/common/lib/poi-ooxml-4.1.2.jar");
+       cpy_file("build/dist/poi-ooxml-schemas-4.1.2.jar",                           "$stage_base_dir/opt/zimbra/jetty_base/common/lib/poi-ooxml-schemas-4.1.2.jar");
+       cpy_file("build/dist/poi-scratchpad-4.1.2.jar",                              "$stage_base_dir/opt/zimbra/jetty_base/common/lib/poi-scratchpad-4.1.2.jar");
+       cpy_file("build/dist/poi-excelant-4.1.2.jar",                                "$stage_base_dir/opt/zimbra/jetty_base/common/lib/poi-excelant-4.1.2.jar");
+       cpy_file("build/dist/xmlbeans-3.1.0.jar",                                    "$stage_base_dir/opt/zimbra/jetty_base/common/lib/xmlbeans-3.1.0.jar");
+       cpy_file("build/dist/commons-collections4-4.4.jar",                          "$stage_base_dir/opt/zimbra/jetty_base/common/lib/commons-collections4-4.4.jar");
+       cpy_file("build/dist/SparseBitSet-1.2.jar",                                  "$stage_base_dir/opt/zimbra/jetty_base/common/lib/SparseBitSet-1.2.jar");
        return ["."];
 }
 
