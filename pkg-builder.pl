@@ -261,6 +261,7 @@ sub stage_zimbra_store_lib($)
        cpy_file("build/dist/dom4j-2.1.1.jar",                                       "$stage_base_dir/opt/zimbra/jetty_base/common/lib/dom4j-2.1.1.jar");
        cpy_file("build/dist/sshd-common-2.6.1.jar",                                 "$stage_base_dir/opt/zimbra/jetty_base/common/lib/sshd-common-2.6.1.jar");
        cpy_file("build/dist/sshd-core-2.6.1.jar",                                   "$stage_base_dir/opt/zimbra/jetty_base/common/lib/sshd-core-2.6.1.jar");
+       cpy_file("build/dist/eddsa-0.3.0.jar",                                       "$stage_base_dir/opt/zimbra/jetty_base/common/lib/eddsa-0.3.0.jar");
        cpy_file("build/dist/slf4j-api-1.7.30.jar",                                   "$stage_base_dir/opt/zimbra/jetty_base/common/lib/slf4j-api-1.7.30.jar");
        cpy_file("build/dist/guava-28.1-jre.jar",                                    "$stage_base_dir/opt/zimbra/jetty_base/common/lib/guava-28.1-jre.jar");
        cpy_file("build/dist/httpasyncclient-4.1.4.jar",                             "$stage_base_dir/opt/zimbra/jetty_base/common/lib/httpasyncclient-4.1.4.jar");
