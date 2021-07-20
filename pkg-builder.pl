@@ -195,8 +195,8 @@ sub stage_zimbra_core_lib($)
         cpy_file("build/dist/batik-util-1.8.jar",                                   "$stage_base_dir/opt/zimbra/lib/jars/batik-util-1.8.jar");
         cpy_file("build/dist/sac-1.3.jar",                                          "$stage_base_dir/opt/zimbra/lib/jars/sac-1.3.jar");
         cpy_file("build/dist/policy-2.3.jar",                                       "$stage_base_dir/opt/zimbra/lib/jars/policy-2.3.jar");
-        cpy_file("build/dist/slf4j-api-1.7.30.jar",                                  "$stage_base_dir/opt/zimbra/lib/jars/slf4j-api-1.7.30.jar");
-        cpy_file("build/dist/slf4j-log4j12-1.7.30.jar",                              "$stage_base_dir/opt/zimbra/lib/jars/slf4j-log4j12-1.7.30.jar");
+        cpy_file("build/dist/slf4j-api-1.7.30.jar",                                 "$stage_base_dir/opt/zimbra/lib/jars/slf4j-api-1.7.30.jar");
+        cpy_file("build/dist/slf4j-log4j12-1.7.30.jar",                             "$stage_base_dir/opt/zimbra/lib/jars/slf4j-log4j12-1.7.30.jar");
         cpy_file("build/dist/spring-aop-5.1.10.RELEASE.jar",                        "$stage_base_dir/opt/zimbra/lib/jars/spring-aop-5.1.10.RELEASE.jar");
         cpy_file("build/dist/spring-beans-5.1.10.RELEASE.jar",                      "$stage_base_dir/opt/zimbra/lib/jars/spring-beans-5.1.10.RELEASE.jar");
         cpy_file("build/dist/spring-context-5.1.10.RELEASE.jar",                    "$stage_base_dir/opt/zimbra/lib/jars/spring-context-5.1.10.RELEASE.jar");
@@ -314,6 +314,9 @@ sub stage_zimbra_store_lib($)
        cpy_file("build/dist/pdfbox-2.0.24.jar",                                     "$stage_base_dir/opt/zimbra/jetty_base/common/lib/pdfbox-2.0.24.jar");
        cpy_file("build/dist/jempbox-1.8.16.jar",                                    "$stage_base_dir/opt/zimbra/jetty_base/common/lib/jempbox-1.8.16.jar");
        cpy_file("build/dist/fontbox-2.0.24.jar",                                    "$stage_base_dir/opt/zimbra/jetty_base/common/lib/fontbox-2.0.24.jar");
+       cpy_file("build/dist/commons-math3-3.6.1.jar",                               "$stage_base_dir/opt/zimbra/jetty_base/common/lib/commons-math3-3.6.1.jar");
+       cpy_file("build/dist/commons-csv-1.2.jar",                                   "$stage_base_dir/opt/zimbra/jetty_base/common/lib/commons-csv-1.2.jar");
+       cpy_file("build/dist/xz-1.8.jar",                                            "$stage_base_dir/opt/zimbra/jetty_base/common/lib/xz-1.8.jar");
        cpy_file("build/dist/saaj-impl-1.5.1.jar",                                   "$stage_base_dir/opt/zimbra/lib/ext-common/saaj-impl-1.5.1.jar");
        cpy_file("build/dist/antisamy-1.5.8z.jar",                                   "$stage_base_dir/opt/zimbra/jetty_base/webapps/service/WEB-INF/lib/antisamy-1.5.8z.jar");
        cpy_file("build/dist/UserAgentUtils-1.21.jar",                               "$stage_base_dir/opt/zimbra/jetty_base/common/lib/UserAgentUtils-1.21.jar");
