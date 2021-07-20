@@ -262,12 +262,12 @@ sub stage_zimbra_store_lib($)
        cpy_file("build/dist/sshd-common-2.6.1.jar",                                 "$stage_base_dir/opt/zimbra/jetty_base/common/lib/sshd-common-2.6.1.jar");
        cpy_file("build/dist/sshd-core-2.6.1.jar",                                   "$stage_base_dir/opt/zimbra/jetty_base/common/lib/sshd-core-2.6.1.jar");
        cpy_file("build/dist/eddsa-0.3.0.jar",                                       "$stage_base_dir/opt/zimbra/jetty_base/common/lib/eddsa-0.3.0.jar");
-       cpy_file("build/dist/slf4j-api-1.7.30.jar",                                   "$stage_base_dir/opt/zimbra/jetty_base/common/lib/slf4j-api-1.7.30.jar");
+       cpy_file("build/dist/slf4j-api-1.7.30.jar",                                  "$stage_base_dir/opt/zimbra/jetty_base/common/lib/slf4j-api-1.7.30.jar");
        cpy_file("build/dist/guava-28.1-jre.jar",                                    "$stage_base_dir/opt/zimbra/jetty_base/common/lib/guava-28.1-jre.jar");
        cpy_file("build/dist/httpasyncclient-4.1.4.jar",                             "$stage_base_dir/opt/zimbra/jetty_base/common/lib/httpasyncclient-4.1.4.jar");
        cpy_file("build/dist/httpclient-4.5.8.jar",                                  "$stage_base_dir/opt/zimbra/jetty_base/common/lib/httpclient-4.5.8.jar");
-       cpy_file("build/dist/httpcore-4.4.11.jar",                                    "$stage_base_dir/opt/zimbra/jetty_base/common/lib/httpcore-4.4.11.jar");
-       cpy_file("build/dist/httpcore-nio-4.4.11.jar",                                "$stage_base_dir/opt/zimbra/jetty_base/common/lib/httpcore-nio-4.4.11.jar");
+       cpy_file("build/dist/httpcore-4.4.11.jar",                                   "$stage_base_dir/opt/zimbra/jetty_base/common/lib/httpcore-4.4.11.jar");
+       cpy_file("build/dist/httpcore-nio-4.4.11.jar",                               "$stage_base_dir/opt/zimbra/jetty_base/common/lib/httpcore-nio-4.4.11.jar");
        cpy_file("build/dist/httpmime-4.3.1.jar",                                    "$stage_base_dir/opt/zimbra/jetty_base/common/lib/httpmime-4.3.1.jar");
        cpy_file("build/dist/icu4j-4.8.1.1.jar",                                     "$stage_base_dir/opt/zimbra/jetty_base/common/lib/icu4j-4.8.1.1.jar");
        cpy_file("build/dist/jaxen-1.1.3.jar",                                       "$stage_base_dir/opt/zimbra/jetty_base/common/lib/jaxen-1.1.3.jar");
@@ -328,6 +328,8 @@ sub stage_zimbra_store_lib($)
        cpy_file("build/dist/xmlbeans-3.1.0.jar",                                    "$stage_base_dir/opt/zimbra/jetty_base/common/lib/xmlbeans-3.1.0.jar");
        cpy_file("build/dist/commons-collections4-4.4.jar",                          "$stage_base_dir/opt/zimbra/jetty_base/common/lib/commons-collections4-4.4.jar");
        cpy_file("build/dist/SparseBitSet-1.2.jar",                                  "$stage_base_dir/opt/zimbra/jetty_base/common/lib/SparseBitSet-1.2.jar");
+       cpy_file("build/dist/metadata-extractor-2.16.0.jar",                         "$stage_base_dir/opt/zimbra/jetty_base/common/lib/metadata-extractor-2.16.0.jar");
+       cpy_file("build/dist/xmpcore-6.1.11.jar",                                    "$stage_base_dir/opt/zimbra/jetty_base/common/lib/xmpcore-6.1.11.jar");
        return ["."];
 }
 
