@@ -317,6 +317,8 @@ sub stage_zimbra_store_lib($)
        cpy_file("build/dist/commons-math3-3.6.1.jar",                               "$stage_base_dir/opt/zimbra/jetty_base/common/lib/commons-math3-3.6.1.jar");
        cpy_file("build/dist/commons-csv-1.8.jar",                                   "$stage_base_dir/opt/zimbra/jetty_base/common/lib/commons-csv-1.8.jar");
        cpy_file("build/dist/xz-1.8.jar",                                            "$stage_base_dir/opt/zimbra/jetty_base/common/lib/xz-1.8.jar");
+       cpy_file("build/dist/metadata-extractor-2.16.0.jar",                         "$stage_base_dir/opt/zimbra/jetty_base/common/lib/metadata-extractor-2.16.0.jar");
+       cpy_file("build/dist/xmpcore-6.1.11.jar",                                    "$stage_base_dir/opt/zimbra/jetty_base/common/lib/xmpcore-6.1.11.jar");
        cpy_file("build/dist/saaj-impl-1.5.1.jar",                                   "$stage_base_dir/opt/zimbra/lib/ext-common/saaj-impl-1.5.1.jar");
        cpy_file("build/dist/antisamy-1.5.8z.jar",                                   "$stage_base_dir/opt/zimbra/jetty_base/webapps/service/WEB-INF/lib/antisamy-1.5.8z.jar");
        cpy_file("build/dist/UserAgentUtils-1.21.jar",                               "$stage_base_dir/opt/zimbra/jetty_base/common/lib/UserAgentUtils-1.21.jar");
