@@ -156,6 +156,12 @@
     <dependency org="org.apache.xmlgraphics" name="batik-i18n" rev="1.9"/>
     <dependency org="org.apache.xmlgraphics" name="batik-util" rev="1.8"/>
     <dependency org="org.apache.tika" name="tika-app" rev="1.24.1"/>
+    <dependency org="org.apache.tika" name="tika-parsers" rev="1.24.1"/>
+    <dependency org="org.apache.pdfbox" name="pdfbox" rev="2.0.24"/>
+    <dependency org="org.apache.pdfbox" name="jempbox" rev="1.8.16"/>
+    <dependency org="org.apache.pdfbox" name="fontbox" rev="2.0.24"/>
+    <dependency org="org.apache.commons" name="commons-math3" rev="3.6.1"/>
+    <dependency org="org.tukaani" name="xz" rev="1.9"/>
     <dependency org="eu.bitwalker" name="UserAgentUtils" rev="1.21"/>
     <dependency org="org.apache.tika" name="tika-core" rev="1.24.1"/>
     <dependency org="org.apache.poi" name="poi-ooxml" rev="4.1.2"/>
