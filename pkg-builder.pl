@@ -191,8 +191,8 @@ sub stage_zimbra_core_lib($)
         cpy_file("build/dist/oauth-20100527.jar",                                   "$stage_base_dir/opt/zimbra/lib/jars/oauth-20100527.jar");
         cpy_file("build/dist/antisamy-1.5.8z2.jar",                                  "$stage_base_dir/opt/zimbra/lib/jars/antisamy-1.5.8z2.jar");
         cpy_file("build/dist/batik-css-1.7.jar",                                    "$stage_base_dir/opt/zimbra/lib/jars/batik-css-1.7.jar");
-        cpy_file("build/dist/batik-i18n-1.9.jar",                                   "$stage_base_dir/opt/zimbra/lib/jars/batik-i18n-1.9.jar");
-        cpy_file("build/dist/batik-util-1.8.jar",                                   "$stage_base_dir/opt/zimbra/lib/jars/batik-util-1.8.jar");
+        cpy_file("build/dist/batik-i18n-1.14.jar",                                  "$stage_base_dir/opt/zimbra/lib/jars/batik-i18n-1.14.jar");
+        cpy_file("build/dist/batik-util-1.14.jar",                                  "$stage_base_dir/opt/zimbra/lib/jars/batik-util-1.14.jar");
         cpy_file("build/dist/sac-1.3.jar",                                          "$stage_base_dir/opt/zimbra/lib/jars/sac-1.3.jar");
         cpy_file("build/dist/policy-2.3.jar",                                       "$stage_base_dir/opt/zimbra/lib/jars/policy-2.3.jar");
         cpy_file("build/dist/slf4j-api-1.7.30.jar",                                 "$stage_base_dir/opt/zimbra/lib/jars/slf4j-api-1.7.30.jar");
@@ -293,7 +293,7 @@ sub stage_zimbra_store_lib($)
        cpy_file("build/dist/ant-1.7.0-ziputil-patched.jar",                         "$stage_base_dir/opt/zimbra/jetty_base/common/lib/ant-1.7.0-ziputil-patched.jar");
        cpy_file("build/dist/ical4j-0.9.16-patched.jar",                             "$stage_base_dir/opt/zimbra/jetty_base/common/lib/ical4j-0.9.16-patched.jar");
        cpy_file("build/dist/nekohtml-1.9.13.1z.jar",                                "$stage_base_dir/opt/zimbra/jetty_base/common/lib/nekohtml-1.9.13.1z.jar");
-       cpy_file("build/dist/owasp-java-html-sanitizer-20190610.3z.jar",             "$stage_base_dir/opt/zimbra/jetty_base/common/lib/owasp-java-html-sanitizer-20190610.3z.jar");
+       cpy_file("build/dist/owasp-java-html-sanitizer-20190610.4z.jar",             "$stage_base_dir/opt/zimbra/jetty_base/common/lib/owasp-java-html-sanitizer-20190610.4z.jar");
        cpy_file("build/dist/zmzimbratozimbramig-8.7.jar",                           "$stage_base_dir/opt/zimbra/lib/jars/zmzimbratozimbramig.jar");
        cpy_file("build/dist/jcharset-2.0.jar",                                      "$stage_base_dir/opt/zimbra/jetty_base/common/endorsed/jcharset.jar");
        cpy_file("build/dist/java-semver-0.9.0.jar",                                 "$stage_base_dir/opt/zimbra/jetty_base/common/lib/java-semver-0.9.0.jar");
