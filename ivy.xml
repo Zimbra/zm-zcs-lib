@@ -133,7 +133,7 @@
     <dependency org="redis.clients" name="jedis" rev="2.9.0"/>
     <dependency org="wsdl4j" name="wsdl4j" rev="1.6.3"/>
     <dependency org="xerces" name="xercesImpl" rev="2.9.1-patch-01"/>
-    <dependency org="zimbra" name="zm-ews-stub" rev="2.0"/>
+    <dependency org="zimbra" name="zm-ews-stub" rev="3.0"/>
     <dependency org="com.google.javascript" name="closure-compiler" rev="v20180204"/>
     <dependency org="com.github.zafarkhaja" name="java-semver" rev="0.9.0"/>
     <dependency org="io.jsonwebtoken" name="jjwt" rev="0.7.0" />
