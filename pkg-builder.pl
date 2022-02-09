@@ -218,7 +218,7 @@ sub stage_zimbra_core_lib($)
         cpy_file("build/dist/yuicompressor-2.4.2-zimbra.jar",                       "$stage_base_dir/opt/zimbra/lib/jars/yuicompressor-2.4.2-zimbra.jar");
         cpy_file("build/dist/zkclient-0.1.0.jar",                                   "$stage_base_dir/opt/zimbra/lib/jars/zkclient-0.1.0.jar");
         cpy_file("build/dist/zookeeper-3.4.5.jar",                                  "$stage_base_dir/opt/zimbra/lib/jars/zookeeper-3.4.5.jar");
-        cpy_file("build/dist/zm-ews-stub-2.0.jar",                                  "$stage_base_dir/opt/zimbra/lib/jars/zm-ews-stub-2.0.jar");
+        cpy_file("build/dist/zm-ews-stub-3.0.jar",                                  "$stage_base_dir/opt/zimbra/lib/jars/zm-ews-stub-3.0.jar");
         cpy_file("build/dist/ehcache-3.1.2.jar",                                    "$stage_base_dir/opt/zimbra/lib/jars/ehcache-3.1.2.jar");
         cpy_file("build/dist/zimbra-charset.jar",                                   "$stage_base_dir/opt/zimbra/lib/jars/zimbra-charset.jar");
         cpy_file("build/dist/ant-1.6.5.jar",                                        "$stage_base_dir/opt/zimbra/lib/jars/ant-1.6.5.jar");
