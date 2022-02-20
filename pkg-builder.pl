@@ -179,13 +179,14 @@ sub stage_zimbra_core_lib($)
         cpy_file("build/dist/jline-0.9.93.jar",                                     "$stage_base_dir/opt/zimbra/lib/jars/jline-0.9.93.jar");
         cpy_file("build/dist/jzlib-1.0.7.jar",                                      "$stage_base_dir/opt/zimbra/lib/jars/jzlib-1.0.7.jar");
         cpy_file("build/dist/libidn-1.24.jar",                                      "$stage_base_dir/opt/zimbra/lib/jars/libidn-1.24.jar");
-        cpy_file("build/dist/log4j-1.2.16.jar",                                     "$stage_base_dir/opt/zimbra/lib/jars/log4j-1.2.16.jar");
+        cpy_file("build/dist/log4j-api-2.17.1.jar",                                 "$stage_base_dir/opt/zimbra/lib/jars/log4j-api-2.17.1.jar");
+        cpy_file("build/dist/log4j-core-2.17.1.jar",                                "$stage_base_dir/opt/zimbra/lib/jars/log4j-core-2.17.1.jar");
         cpy_file("build/dist/lucene-analyzers-3.5.0.jar",                           "$stage_base_dir/opt/zimbra/lib/jars/lucene-analyzers-3.5.0.jar");
         cpy_file("build/dist/lucene-core-3.5.0.jar",                                "$stage_base_dir/opt/zimbra/lib/jars/lucene-core-3.5.0.jar");
         cpy_file("build/dist/lucene-smartcn-3.5.0.jar",                             "$stage_base_dir/opt/zimbra/lib/jars/lucene-smartcn-3.5.0.jar");
         cpy_file("build/dist/mail-1.4.7.jar",                                       "$stage_base_dir/opt/zimbra/lib/jars/mail-1.4.7.jar");
         cpy_file("build/dist/mariadb-java-client-2.4.3.jar",                        "$stage_base_dir/opt/zimbra/lib/jars/mariadb-java-client-2.4.3.jar");
-        cpy_file("build/dist/mina-core-2.0.4.jar",                                  "$stage_base_dir/opt/zimbra/lib/jars/mina-core-2.0.4.jar");
+        cpy_file("build/dist/mina-core-2.1.6.jar",                                  "$stage_base_dir/opt/zimbra/lib/jars/mina-core-2.1.6.jar");
         cpy_file("build/dist/neethi-3.0.2.jar",                                     "$stage_base_dir/opt/zimbra/lib/jars/neethi-3.0.2.jar");
         cpy_file("build/dist/nekohtml-1.9.13.1z.jar",                               "$stage_base_dir/opt/zimbra/lib/jars/nekohtml-1.9.13.1z.jar");
         cpy_file("build/dist/oauth-20100527.jar",                                   "$stage_base_dir/opt/zimbra/lib/jars/oauth-20100527.jar");
@@ -195,8 +196,8 @@ sub stage_zimbra_core_lib($)
         cpy_file("build/dist/batik-util-1.14.jar",                                  "$stage_base_dir/opt/zimbra/lib/jars/batik-util-1.14.jar");
         cpy_file("build/dist/sac-1.3.jar",                                          "$stage_base_dir/opt/zimbra/lib/jars/sac-1.3.jar");
         cpy_file("build/dist/policy-2.3.jar",                                       "$stage_base_dir/opt/zimbra/lib/jars/policy-2.3.jar");
-        cpy_file("build/dist/slf4j-api-1.7.30.jar",                                 "$stage_base_dir/opt/zimbra/lib/jars/slf4j-api-1.7.30.jar");
-        cpy_file("build/dist/slf4j-log4j12-1.7.30.jar",                             "$stage_base_dir/opt/zimbra/lib/jars/slf4j-log4j12-1.7.30.jar");
+        cpy_file("build/dist/slf4j-api-1.7.36.jar",                                 "$stage_base_dir/opt/zimbra/lib/jars/slf4j-api-1.7.36.jar");
+        cpy_file("build/dist/slf4j-simple-1.7.36.jar",                             "$stage_base_dir/opt/zimbra/lib/jars/slf4j-simple-1.7.36.jar");
         cpy_file("build/dist/spring-aop-5.3.18.jar",                                "$stage_base_dir/opt/zimbra/lib/jars/spring-aop-5.3.18.jar");
         cpy_file("build/dist/spring-beans-5.3.18.jar",                              "$stage_base_dir/opt/zimbra/lib/jars/spring-beans-5.3.18.jar");
         cpy_file("build/dist/spring-context-5.3.18.jar",                            "$stage_base_dir/opt/zimbra/lib/jars/spring-context-5.3.18.jar");
@@ -262,7 +263,7 @@ sub stage_zimbra_store_lib($)
        cpy_file("build/dist/sshd-common-2.6.1.jar",                                 "$stage_base_dir/opt/zimbra/jetty_base/common/lib/sshd-common-2.6.1.jar");
        cpy_file("build/dist/sshd-core-2.6.1.jar",                                   "$stage_base_dir/opt/zimbra/jetty_base/common/lib/sshd-core-2.6.1.jar");
        cpy_file("build/dist/eddsa-0.3.0.jar",                                       "$stage_base_dir/opt/zimbra/jetty_base/common/lib/eddsa-0.3.0.jar");
-       cpy_file("build/dist/slf4j-api-1.7.30.jar",                                  "$stage_base_dir/opt/zimbra/jetty_base/common/lib/slf4j-api-1.7.30.jar");
+       cpy_file("build/dist/slf4j-api-1.7.36.jar",                                  "$stage_base_dir/opt/zimbra/jetty_base/common/lib/slf4j-api-1.7.36.jar");
        cpy_file("build/dist/guava-28.1-jre.jar",                                    "$stage_base_dir/opt/zimbra/jetty_base/common/lib/guava-28.1-jre.jar");
        cpy_file("build/dist/httpasyncclient-4.1.4.jar",                             "$stage_base_dir/opt/zimbra/jetty_base/common/lib/httpasyncclient-4.1.4.jar");
        cpy_file("build/dist/httpclient-4.5.8.jar",                                  "$stage_base_dir/opt/zimbra/jetty_base/common/lib/httpclient-4.5.8.jar");
@@ -282,7 +283,8 @@ sub stage_zimbra_store_lib($)
        cpy_file("build/dist/junixsocket-rmi-2.3.2.jar",                             "$stage_base_dir/opt/zimbra/jetty_base/common/lib/junixsocket-rmi-2.3.2.jar");
        cpy_file("build/dist/jzlib-1.0.7.jar",                                       "$stage_base_dir/opt/zimbra/jetty_base/common/lib/jzlib-1.0.7.jar");
        cpy_file("build/dist/libidn-1.24.jar",                                       "$stage_base_dir/opt/zimbra/jetty_base/common/lib/libidn-1.24.jar");
-       cpy_file("build/dist/log4j-1.2.16.jar",                                      "$stage_base_dir/opt/zimbra/jetty_base/common/lib/log4j-1.2.16.jar");
+       cpy_file("build/dist/log4j-api-2.17.1.jar",                                  "$stage_base_dir/opt/zimbra/jetty_base/common/lib/log4j-api-2.17.1.jar");
+       cpy_file("build/dist/log4j-core-2.17.1.jar",                                 "$stage_base_dir/opt/zimbra/jetty_base/common/lib/log4j-core-2.17.1.jar");
        cpy_file("build/dist/mail-1.4.7.jar",                                        "$stage_base_dir/opt/zimbra/jetty_base/common/lib/mail-1.4.7.jar");
        cpy_file("build/dist/mariadb-java-client-2.4.3.jar",                         "$stage_base_dir/opt/zimbra/jetty_base/common/lib/mariadb-java-client-2.4.3.jar");
        cpy_file("build/dist/oauth-20100527.jar",                                    "$stage_base_dir/opt/zimbra/jetty_base/common/lib/oauth-20100527.jar");
