@@ -84,7 +84,7 @@
     <dependency org="org.apache.lucene" name="lucene-analyzers" rev="3.5.0"/>
     <dependency org="org.apache.lucene" name="lucene-core" rev="3.5.0"/>
     <dependency org="org.apache.lucene" name="lucene-smartcn" rev="3.5.0"/>
-    <dependency org="org.apache.mina" name="mina-core" rev="2.0.4"/>
+    <dependency org="org.apache.mina" name="mina-core" rev="2.1.6"/>
     <dependency org="org.apache.neethi" name="neethi" rev="3.0.2"/>
     <dependency org="org.apache.ws.xmlschema" name="xmlschema-core" rev="2.0.3"/>
     <dependency org="org.apache.zookeeper" name="zookeeper" rev="3.4.5"/>
@@ -123,8 +123,8 @@
     <dependency org="org.mariadb.jdbc" name="mariadb-java-client" rev="2.4.3"/>
     <dependency org="org.python" name="jython-standalone" rev="2.5.2"/>
     <dependency org="org.scijava" name="native-lib-loader" rev="2.3.5"/>
-    <dependency org="org.slf4j" name="slf4j-api" rev="1.7.30"/>
-    <dependency org="org.slf4j" name="slf4j-log4j12" rev="1.7.30"/>
+    <dependency org="org.slf4j" name="slf4j-api" rev="1.7.36"/>
+    <dependency org="org.slf4j" name="slf4j-simple" rev="1.7.36"/>
     <dependency org="org.springframework" name="spring-aop" rev="5.3.18"/>
     <dependency org="org.springframework" name="spring-asm" rev="3.0.7.RELEASE"/>
     <dependency org="org.springframework" name="spring-beans" rev="5.3.18"/>
@@ -164,7 +164,8 @@
     <exclude org="com.noelios.restlet" module="com.noelios.restlet"/>
     <exclude org="javax.sql" module="jdbc-stdext"/>
     <exclude org="javax.transaction" module="jta"/>
-    <exclude org="log4j" module="log4j"/>
+    <exclude org="org.apache.logging.log4j" module="log4j-core"/>
+    <exclude org="org.apache.logging.log4j" module="log4j-api"/>
     <exclude org="maven-plugins" module="maven-cobertura-plugin"/>
     <exclude org="maven-plugins" module="maven-findbugs-plugin"/>
     <exclude org="net.sf.josql" module="gentlyweb-utils"/>
