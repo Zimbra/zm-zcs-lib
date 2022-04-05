@@ -68,10 +68,10 @@
     <dependency org="org.apache.curator" name="curator-framework" rev="2.0.1-incubating"/>
     <dependency org="org.apache.curator" name="curator-recipes" rev="2.0.1-incubating"/>
     <dependency org="org.apache.curator" name="curator-x-discovery" rev="2.0.1-incubating"/>
-    <dependency org="org.apache.cxf" name="cxf-core" rev="3.3.4" />
-    <dependency org="org.apache.cxf" name="cxf-rt-frontend-jaxws" rev="3.3.4" />
-    <dependency org="org.apache.cxf" name="cxf-rt-transports-http" rev="3.3.4" />
-    <dependency org="org.apache.cxf" name="cxf-rt-bindings-soap" rev="3.3.4" />
+    <dependency org="org.apache.cxf" name="cxf-core" rev="3.5.1" />
+    <dependency org="org.apache.cxf" name="cxf-rt-frontend-jaxws" rev="3.5.1" />
+    <dependency org="org.apache.cxf" name="cxf-rt-transports-http" rev="3.5.1" />
+    <dependency org="org.apache.cxf" name="cxf-rt-bindings-soap" rev="3.5.1" />
     <dependency org="org.apache.helix" name="helix-core" rev="0.6.1-incubating"/>
     <dependency org="org.apache.httpcomponents" name="httpasyncclient" rev="4.1.4"/>
     <dependency org="org.apache.httpcomponents" name="httpclient" rev="4.5.8"/>
@@ -121,11 +121,11 @@
     <dependency org="org.scijava" name="native-lib-loader" rev="2.3.5"/>
     <dependency org="org.slf4j" name="slf4j-api" rev="1.7.30"/>
     <dependency org="org.slf4j" name="slf4j-log4j12" rev="1.7.30"/>
-    <dependency org="org.springframework" name="spring-aop" rev="5.1.10.RELEASE"/>
-    <dependency org="org.springframework" name="spring-beans" rev="5.1.10.RELEASE"/>
-    <dependency org="org.springframework" name="spring-context" rev="5.1.10.RELEASE"/>
-    <dependency org="org.springframework" name="spring-core" rev="5.1.10.RELEASE"/>
-    <dependency org="org.springframework" name="spring-expression" rev="5.1.10.RELEASE"/>
+    <dependency org="org.springframework" name="spring-aop" rev="5.3.18"/>
+    <dependency org="org.springframework" name="spring-beans" rev="5.3.18"/>
+    <dependency org="org.springframework" name="spring-context" rev="5.3.18"/>
+    <dependency org="org.springframework" name="spring-core" rev="5.3.18"/>
+    <dependency org="org.springframework" name="spring-expression" rev="5.3.18"/>
     <dependency org="org.syslog4j" name="syslog4j" rev="0.9.46" transitive="false"/>
     <dependency org="org.xerial" name="sqlite-jdbc" rev="3.7.15-M1"/>
     <dependency org="redis.clients" name="jedis" rev="2.9.0"/>
