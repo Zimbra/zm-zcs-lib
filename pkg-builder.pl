@@ -229,7 +229,7 @@ sub stage_zimbra_core_lib($)
         cpy_file("build/dist/istack-commons-runtime-3.0.8.jar",                     "$stage_base_dir/opt/zimbra/lib/jars/istack-commons-runtime-3.0.8.jar");
         cpy_file("build/dist/resolver-20050927.jar",                                "$stage_base_dir/opt/zimbra/lib/jars/resolver-20050927.jar");
         cpy_file("build/dist/javax.annotation-api-1.2.jar",                         "$stage_base_dir/opt/zimbra/lib/jars/javax.annotation-api-1.2.jar");
-        cpy_file("build/dist/apache-jsp-9.4.18.v20190429.jar",                      "$stage_base_dir/opt/zimbra/lib/jars/apache-jsp-9.4.18.v20190429.jar");
+        cpy_file("build/dist/apache-jsp-9.4.46.v20220331.jar",                      "$stage_base_dir/opt/zimbra/lib/jars/9.4.46.v20220331.jar");
         cpy_file("build/dist/UserAgentUtils-1.21.jar",                              "$stage_base_dir/opt/zimbra/lib/jars/UserAgentUtils-1.21.jar");
         cpy_file("build/dist/tika-core-1.24.1.jar",                                 "$stage_base_dir/opt/zimbra/lib/jars/tika-core-1.24.1.jar");
         return ["."];
