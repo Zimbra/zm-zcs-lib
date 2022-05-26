@@ -242,7 +242,7 @@ sub stage_zimbra_store_lib($)
 
        cpy_file("build/dist/bcpkix-jdk15on-1.64.jar",                               "$stage_base_dir/opt/zimbra/jetty_base/common/lib/bcpkix-jdk15on-1.64.jar");
        cpy_file("build/dist/bcmail-jdk15on-1.64.jar",                               "$stage_base_dir/opt/zimbra/lib/ext-common/bcmail-jdk15on-1.64.jar");
-       cpy_file("build/dist/zmzimbratozimbramig-8.7.jar",                           "$stage_base_dir/opt/zimbra/lib/jars/zmzimbratozimbramig.jar");
+       cpy_file("build/dist/zmzimbratozimbramig-8.8.jar",                           "$stage_base_dir/opt/zimbra/lib/jars/zmzimbratozimbramig.jar");
        cpy_file("build/dist/jcharset-2.0.jar",                                      "$stage_base_dir/opt/zimbra/jetty_base/common/endorsed/jcharset.jar");
        cpy_file("build/dist/zimbra-charset.jar",                                    "$stage_base_dir/opt/zimbra/jetty_base/common/endorsed/zimbra-charset.jar");
        cpy_file("build/dist/apache-log4j-extras-1.0.jar",                           "$stage_base_dir/opt/zimbra/jetty_base/common/lib/apache-log4j-extras-1.0.jar");
@@ -296,7 +296,7 @@ sub stage_zimbra_store_lib($)
        cpy_file("build/dist/ical4j-0.9.16-patched.jar",                             "$stage_base_dir/opt/zimbra/jetty_base/common/lib/ical4j-0.9.16-patched.jar");
        cpy_file("build/dist/nekohtml-1.9.13.1z.jar",                                "$stage_base_dir/opt/zimbra/jetty_base/common/lib/nekohtml-1.9.13.1z.jar");
        cpy_file("build/dist/owasp-java-html-sanitizer-20190610.4z.jar",             "$stage_base_dir/opt/zimbra/jetty_base/common/lib/owasp-java-html-sanitizer-20190610.4z.jar");
-       cpy_file("build/dist/zmzimbratozimbramig-8.7.jar",                           "$stage_base_dir/opt/zimbra/lib/jars/zmzimbratozimbramig.jar");
+       cpy_file("build/dist/zmzimbratozimbramig-8.8.jar",                           "$stage_base_dir/opt/zimbra/lib/jars/zmzimbratozimbramig.jar");
        cpy_file("build/dist/jcharset-2.0.jar",                                      "$stage_base_dir/opt/zimbra/jetty_base/common/endorsed/jcharset.jar");
        cpy_file("build/dist/java-semver-0.9.0.jar",                                 "$stage_base_dir/opt/zimbra/jetty_base/common/lib/java-semver-0.9.0.jar");
        cpy_file("build/dist/closure-compiler-v20180204.jar",                        "$stage_base_dir/opt/zimbra/jetty_base/common/lib/closure-compiler-v20180204.jar");
