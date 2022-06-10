@@ -232,6 +232,7 @@ sub stage_zimbra_core_lib($)
         cpy_file("build/dist/apache-jsp-9.4.46.v20220331.jar",                      "$stage_base_dir/opt/zimbra/lib/jars/apache-jsp-9.4.46.v20220331.jar");
         cpy_file("build/dist/UserAgentUtils-1.21.jar",                              "$stage_base_dir/opt/zimbra/lib/jars/UserAgentUtils-1.21.jar");
         cpy_file("build/dist/tika-core-1.24.1.jar",                                 "$stage_base_dir/opt/zimbra/lib/jars/tika-core-1.24.1.jar");
+	cpy_file("build/dist/zmlocalconfig",                                        "$stage_base_dir/opt/zimbra/lib/patches/localconfig/zmlocalconfig");
         return ["."];
 }
 
@@ -381,7 +382,9 @@ sub make_package($)
          }
       }
    }
-
+   if ( $pkg_name =~ "zimbra-common-core-libs" ){
+	   push( @cmd, "--pkg-post-install-script=scripts/postinst.sh" );
+   }
    push( @cmd, @{ [ map { "--pkg-replaces=$_"; } @{ $pkg_info->{replaces} } ] } )                                                              if ( $pkg_info->{replaces} );
    push( @cmd, @{ [ map { "--pkg-depends=$_"; } @{ $pkg_info->{other_deps} } ] } )                                                             if ( $pkg_info->{other_deps} );
    push( @cmd, @{ [ map { "--pkg-depends=$_ (>= $PKG_GRAPH{$_}->{version})"; } @{ $pkg_info->{soft_deps} } ] } )                               if ( $pkg_info->{soft_deps} );
