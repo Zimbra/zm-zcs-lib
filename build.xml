@@ -10,6 +10,7 @@
     <ivy:resolve file="ivy.xml" />
     <delete dir="${build.tmp.dir}" />
     <ivy:retrieve pattern="${dist.dir}/[artifact]-[revision].[ext]" />
+    <copy file="../zm-core-utils/src/bin/zmlocalconfig" todir="${dist.dir}"/>
     <copy todir="${dist.dir}">
       <fileset dir="thirdparty" includes="*.gz" />
     </copy>
