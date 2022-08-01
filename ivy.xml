@@ -172,6 +172,8 @@
     <dependency org="com.zaxxer" name="SparseBitSet" rev="1.2"/>
     <dependency org="com.drewnoakes" name="metadata-extractor" rev="2.16.0"/>
     <dependency org="com.adobe.xmp" name="xmpcore" rev="6.1.11"/>
+    <dependency org="io.openio.sds" name="openio-api" rev="2.0.3"/>
+    <dependency org="com.google.code.gson" name="gson" rev="2.8.2"/>
     <exclude org="com.noelios.restlet" module="com.noelios.restlet"/>
     <exclude org="javax.sql" module="jdbc-stdext"/>
     <exclude org="javax.transaction" module="jta"/>
