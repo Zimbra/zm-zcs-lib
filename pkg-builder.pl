@@ -332,6 +332,11 @@ sub stage_zimbra_store_lib($)
        cpy_file("build/dist/SparseBitSet-1.2.jar",                                  "$stage_base_dir/opt/zimbra/jetty_base/common/lib/SparseBitSet-1.2.jar");
        cpy_file("build/dist/metadata-extractor-2.16.0.jar",                         "$stage_base_dir/opt/zimbra/jetty_base/common/lib/metadata-extractor-2.16.0.jar");
        cpy_file("build/dist/xmpcore-6.1.11.jar",                                    "$stage_base_dir/opt/zimbra/jetty_base/common/lib/xmpcore-6.1.11.jar");
+       cpy_file("build/dist/jackson-databind-2.10.1.jar",                           "$stage_base_dir/opt/zimbra/jetty_base/common/lib/jackson-databind-2.10.1.jar");
+       cpy_file("build/dist/jackson-core-2.10.1.jar",                               "$stage_base_dir/opt/zimbra/jetty_base/common/lib/jackson-core-2.10.1.jar");
+       cpy_file("build/dist/jackson-annotations-2.10.1.jar",                        "$stage_base_dir/opt/zimbra/jetty_base/common/lib/jackson-annotations-2.10.1.jar");
+       cpy_file("build/dist/openio-api-2.0.3.jar",                                  "$stage_base_dir/opt/zimbra/jetty_base/common/lib/openio-api-2.0.3.jar");
+       cpy_file("build/dist/gson-2.8.2.jar",                                        "$stage_base_dir/opt/zimbra/jetty_base/common/lib/gson-2.8.2.jar");
        return ["."];
 }
 
