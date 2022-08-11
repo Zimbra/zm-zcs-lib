@@ -174,6 +174,7 @@
     <dependency org="com.adobe.xmp" name="xmpcore" rev="6.1.11"/>
     <dependency org="io.openio.sds" name="openio-api" rev="2.0.3"/>
     <dependency org="com.google.code.gson" name="gson" rev="2.8.2"/>
+    <dependency org="org.apache.james" name="apache-mime4j-core" rev="0.8.7"/>
     <exclude org="com.noelios.restlet" module="com.noelios.restlet"/>
     <exclude org="javax.sql" module="jdbc-stdext"/>
     <exclude org="javax.transaction" module="jta"/>
