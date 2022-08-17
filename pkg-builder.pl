@@ -231,6 +231,7 @@ sub stage_zimbra_core_lib($)
         cpy_file("build/dist/apache-jsp-9.4.46.v20220331.jar",                      "$stage_base_dir/opt/zimbra/lib/jars/apache-jsp-9.4.46.v20220331.jar");
         cpy_file("build/dist/UserAgentUtils-1.21.jar",                              "$stage_base_dir/opt/zimbra/lib/jars/UserAgentUtils-1.21.jar");
         cpy_file("build/dist/tika-core-1.24.1.jar",                                 "$stage_base_dir/opt/zimbra/lib/jars/tika-core-1.24.1.jar");
+	cpy_file("build/dist/apache-mime4j-core-0.8.7.jar",                         "$stage_base_dir/opt/zimbra/lib/jars/apache-mime4j-core-0.8.7.jar");
 	cpy_file("build/dist/zmlocalconfig",                                        "$stage_base_dir/opt/zimbra/lib/patches/localconfig/zmlocalconfig");
         return ["."];
 }
@@ -337,6 +338,7 @@ sub stage_zimbra_store_lib($)
        cpy_file("build/dist/jackson-annotations-2.10.1.jar",                        "$stage_base_dir/opt/zimbra/jetty_base/common/lib/jackson-annotations-2.10.1.jar");
        cpy_file("build/dist/openio-api-2.0.3.jar",                                  "$stage_base_dir/opt/zimbra/jetty_base/common/lib/openio-api-2.0.3.jar");
        cpy_file("build/dist/gson-2.8.2.jar",                                        "$stage_base_dir/opt/zimbra/jetty_base/common/lib/gson-2.8.2.jar");
+       cpy_file("build/dist/apache-mime4j-core-0.8.7.jar",                          "$stage_base_dir/opt/zimbra/jetty_base/common/lib/apache-mime4j-core-0.8.7.jar");
        return ["."];
 }
 
