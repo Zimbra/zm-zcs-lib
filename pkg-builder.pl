@@ -154,7 +154,7 @@ sub stage_zimbra_core_lib($)
         cpy_file("build/dist/jaxb-impl-2.3.1.jar",                                  "$stage_base_dir/opt/zimbra/lib/jars/jaxb-impl-2.3.1.jar");
         cpy_file("build/dist/jaxen-1.1.3.jar",                                      "$stage_base_dir/opt/zimbra/lib/jars/jaxen-1.1.3.jar");
         cpy_file("build/dist/jaxws-api-2.3.1.jar",                                  "$stage_base_dir/opt/zimbra/lib/jars/jaxws-api-2.3.1.jar");
-        cpy_file("build/dist/jaxws-rt-2.2.6.jar",                                   "$stage_base_dir/opt/zimbra/lib/jars/jaxws-rt-2.2.6.jar");
+        cpy_file("build/dist/jaxws-rt-4.0.0.jar",                                   "$stage_base_dir/opt/zimbra/lib/jars/jaxws-rt-4.0.0.jar");
         cpy_file("build/dist/jcharset-2.0.jar",                                     "$stage_base_dir/opt/zimbra/lib/jars/jcharset-2.0.jar");
         cpy_file("build/dist/jcommon-1.0.21.jar",                                   "$stage_base_dir/opt/zimbra/lib/jars/jcommon-1.0.21.jar");
         cpy_file("build/dist/jcs-1.3.jar",                                          "$stage_base_dir/opt/zimbra/lib/jars/jcs-1.3.jar");
