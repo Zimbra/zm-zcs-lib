@@ -68,10 +68,10 @@
     <dependency org="org.apache.curator" name="curator-framework" rev="2.0.1-incubating"/>
     <dependency org="org.apache.curator" name="curator-recipes" rev="2.0.1-incubating"/>
     <dependency org="org.apache.curator" name="curator-x-discovery" rev="2.0.1-incubating"/>
-    <dependency org="org.apache.cxf" name="cxf-core" rev="3.5.1" />
-    <dependency org="org.apache.cxf" name="cxf-rt-frontend-jaxws" rev="3.5.1" />
-    <dependency org="org.apache.cxf" name="cxf-rt-transports-http" rev="3.5.1" />
-    <dependency org="org.apache.cxf" name="cxf-rt-bindings-soap" rev="3.5.1" />
+    <dependency org="org.apache.cxf" name="cxf-core" rev="3.5.5" />
+    <dependency org="org.apache.cxf" name="cxf-rt-frontend-jaxws" rev="3.5.5" />
+    <dependency org="org.apache.cxf" name="cxf-rt-transports-http" rev="3.5.5" />
+    <dependency org="org.apache.cxf" name="cxf-rt-bindings-soap" rev="3.5.5" />
     <dependency org="org.apache.helix" name="helix-core" rev="0.6.1-incubating"/>
     <dependency org="org.apache.httpcomponents" name="httpasyncclient" rev="4.1.4"/>
     <dependency org="org.apache.httpcomponents" name="httpclient" rev="4.5.8"/>

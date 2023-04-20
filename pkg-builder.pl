@@ -128,7 +128,7 @@ sub stage_zimbra_core_lib($)
         cpy_file("build/dist/curator-framework-2.0.1-incubating.jar",               "$stage_base_dir/opt/zimbra/lib/jars/curator-framework-2.0.1-incubating.jar");
         cpy_file("build/dist/curator-recipes-2.0.1-incubating.jar",                 "$stage_base_dir/opt/zimbra/lib/jars/curator-recipes-2.0.1-incubating.jar");
         cpy_file("build/dist/curator-x-discovery-2.0.1-incubating.jar",             "$stage_base_dir/opt/zimbra/lib/jars/curator-x-discovery-2.0.1-incubating.jar");
-        cpy_file("build/dist/cxf-core-3.5.1.jar",                                   "$stage_base_dir/opt/zimbra/lib/jars/cxf-core-3.5.1.jar");
+        cpy_file("build/dist/cxf-core-3.5.5.jar",                                   "$stage_base_dir/opt/zimbra/lib/jars/cxf-core-3.5.5.jar");
         cpy_file("build/dist/dom4j-2.1.1.jar",                                      "$stage_base_dir/opt/zimbra/lib/jars/dom4j-2.1.1.jar");
         cpy_file("build/dist/freemarker-2.3.19.jar",                                "$stage_base_dir/opt/zimbra/lib/jars/freemarker-2.3.19.jar");
         cpy_file("build/dist/gifencoder-0.9.jar",                                   "$stage_base_dir/opt/zimbra/lib/jars/gifencoder-0.9.jar");
