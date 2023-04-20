@@ -119,11 +119,11 @@
     <dependency org="org.scijava" name="native-lib-loader" rev="2.3.5"/>
     <dependency org="org.slf4j" name="slf4j-api" rev="1.7.36"/>
     <dependency org="org.slf4j" name="slf4j-simple" rev="1.7.36"/>
-    <dependency org="org.springframework" name="spring-aop" rev="5.3.18"/>
-    <dependency org="org.springframework" name="spring-beans" rev="5.3.18"/>
-    <dependency org="org.springframework" name="spring-context" rev="5.3.18"/>
-    <dependency org="org.springframework" name="spring-core" rev="5.3.18"/>
-    <dependency org="org.springframework" name="spring-expression" rev="5.3.18"/>
+    <dependency org="org.springframework" name="spring-aop" rev="6.0.8"/>
+    <dependency org="org.springframework" name="spring-beans" rev="6.0.8"/>
+    <dependency org="org.springframework" name="spring-context" rev="6.0.8"/>
+    <dependency org="org.springframework" name="spring-core" rev="6.0.8"/>
+    <dependency org="org.springframework" name="spring-expression" rev="6.0.8"/>
     <dependency org="org.syslog4j" name="syslog4j" rev="0.9.46" transitive="false"/>
     <dependency org="org.xerial" name="sqlite-jdbc" rev="3.7.15-M1"/>
     <dependency org="redis.clients" name="jedis" rev="2.9.0"/>

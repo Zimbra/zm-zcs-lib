@@ -198,11 +198,11 @@ sub stage_zimbra_core_lib($)
         cpy_file("build/dist/policy-2.3.jar",                                       "$stage_base_dir/opt/zimbra/lib/jars/policy-2.3.jar");
         cpy_file("build/dist/slf4j-api-1.7.36.jar",                                 "$stage_base_dir/opt/zimbra/lib/jars/slf4j-api-1.7.36.jar");
         cpy_file("build/dist/slf4j-simple-1.7.36.jar",                             "$stage_base_dir/opt/zimbra/lib/jars/slf4j-simple-1.7.36.jar");
-        cpy_file("build/dist/spring-aop-5.3.18.jar",                                "$stage_base_dir/opt/zimbra/lib/jars/spring-aop-5.3.18.jar");
-        cpy_file("build/dist/spring-beans-5.3.18.jar",                              "$stage_base_dir/opt/zimbra/lib/jars/spring-beans-5.3.18.jar");
-        cpy_file("build/dist/spring-context-5.3.18.jar",                            "$stage_base_dir/opt/zimbra/lib/jars/spring-context-5.3.18.jar");
-        cpy_file("build/dist/spring-core-5.3.18.jar",                               "$stage_base_dir/opt/zimbra/lib/jars/spring-core-5.3.18.jar");
-        cpy_file("build/dist/spring-expression-5.3.18.jar",                         "$stage_base_dir/opt/zimbra/lib/jars/spring-expression-5.3.18.jar");
+        cpy_file("build/dist/spring-aop-6.0.8.jar",                                "$stage_base_dir/opt/zimbra/lib/jars/spring-aop-6.0.8.jar");
+        cpy_file("build/dist/spring-beans-6.0.8.jar",                              "$stage_base_dir/opt/zimbra/lib/jars/spring-beans-6.0.8.jar");
+        cpy_file("build/dist/spring-context-6.0.8.jar",                            "$stage_base_dir/opt/zimbra/lib/jars/spring-context-6.0.8.jar");
+        cpy_file("build/dist/spring-core-6.0.8.jar",                               "$stage_base_dir/opt/zimbra/lib/jars/spring-core-6.0.8.jar");
+        cpy_file("build/dist/spring-expression-6.0.8.jar",                         "$stage_base_dir/opt/zimbra/lib/jars/spring-expression-6.0.8.jar");
         cpy_file("build/dist/spymemcached-2.12.1.jar",                              "$stage_base_dir/opt/zimbra/lib/jars/spymemcached-2.12.1.jar");
         cpy_file("build/dist/jedis-2.9.0.jar",                                      "$stage_base_dir/opt/zimbra/lib/jars/jedis-2.9.0.jar");
         cpy_file("build/dist/commons-pool2-2.4.2.jar",                              "$stage_base_dir/opt/zimbra/lib/jars/commons-pool2-2.4.2.jar");
