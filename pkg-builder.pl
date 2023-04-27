@@ -128,7 +128,7 @@ sub stage_zimbra_core_lib($)
         cpy_file("build/dist/curator-framework-2.0.1-incubating.jar",               "$stage_base_dir/opt/zimbra/lib/jars/curator-framework-2.0.1-incubating.jar");
         cpy_file("build/dist/curator-recipes-2.0.1-incubating.jar",                 "$stage_base_dir/opt/zimbra/lib/jars/curator-recipes-2.0.1-incubating.jar");
         cpy_file("build/dist/curator-x-discovery-2.0.1-incubating.jar",             "$stage_base_dir/opt/zimbra/lib/jars/curator-x-discovery-2.0.1-incubating.jar");
-        cpy_file("build/dist/cxf-core-3.5.1.jar",                                   "$stage_base_dir/opt/zimbra/lib/jars/cxf-core-3.5.1.jar");
+        cpy_file("build/dist/cxf-core-3.5.5.jar",                                   "$stage_base_dir/opt/zimbra/lib/jars/cxf-core-3.5.5.jar");
         cpy_file("build/dist/dom4j-1.5.2.jar",                                      "$stage_base_dir/opt/zimbra/lib/jars/dom4j-1.5.2.jar");
         cpy_file("build/dist/freemarker-2.3.19.jar",                                "$stage_base_dir/opt/zimbra/lib/jars/freemarker-2.3.19.jar");
         cpy_file("build/dist/gifencoder-0.9.jar",                                   "$stage_base_dir/opt/zimbra/lib/jars/gifencoder-0.9.jar");
@@ -202,12 +202,12 @@ sub stage_zimbra_core_lib($)
         cpy_file("build/dist/smackx-3.1.0.jar",                                     "$stage_base_dir/opt/zimbra/lib/jars/smackx-3.1.0.jar");
         cpy_file("build/dist/smackx-debug-3.2.1.jar",                               "$stage_base_dir/opt/zimbra/lib/jars/smackx-debug-3.2.1.jar");
         cpy_file("build/dist/smackx-jingle-3.2.1.jar",                              "$stage_base_dir/opt/zimbra/lib/jars/smackx-jingle-3.2.1.jar");
-        cpy_file("build/dist/spring-aop-5.3.18.jar",                                "$stage_base_dir/opt/zimbra/lib/jars/spring-aop-5.3.18.jar");
+        cpy_file("build/dist/spring-aop-6.0.8.jar",                                "$stage_base_dir/opt/zimbra/lib/jars/spring-aop-6.0.8.jar");
         cpy_file("build/dist/spring-asm-3.0.7.RELEASE.jar",                         "$stage_base_dir/opt/zimbra/lib/jars/spring-asm-3.0.7.RELEASE.jar");
-        cpy_file("build/dist/spring-beans-5.3.18.jar",                              "$stage_base_dir/opt/zimbra/lib/jars/spring-beans-5.3.18.jar");
-        cpy_file("build/dist/spring-context-5.3.18.jar",                            "$stage_base_dir/opt/zimbra/lib/jars/spring-context-5.3.18.jar");
-        cpy_file("build/dist/spring-core-5.3.18.jar",                               "$stage_base_dir/opt/zimbra/lib/jars/spring-core-5.3.18.jar");
-        cpy_file("build/dist/spring-expression-5.3.18.jar",                         "$stage_base_dir/opt/zimbra/lib/jars/spring-expression-5.3.18.jar");
+        cpy_file("build/dist/spring-beans-6.0.8.jar",                              "$stage_base_dir/opt/zimbra/lib/jars/spring-beans-6.0.8.jar");
+        cpy_file("build/dist/spring-context-6.0.8.jar",                            "$stage_base_dir/opt/zimbra/lib/jars/spring-context-6.0.8.jar");
+        cpy_file("build/dist/spring-core-6.0.8.jar",                               "$stage_base_dir/opt/zimbra/lib/jars/spring-core-6.0.8.jar");
+        cpy_file("build/dist/spring-expression-6.0.8.jar",                         "$stage_base_dir/opt/zimbra/lib/jars/spring-expression-6.0.8.jar");
         cpy_file("build/dist/spymemcached-2.12.1.jar",                              "$stage_base_dir/opt/zimbra/lib/jars/spymemcached-2.12.1.jar");
         cpy_file("build/dist/jedis-2.9.0.jar",                                      "$stage_base_dir/opt/zimbra/lib/jars/jedis-2.9.0.jar");
         cpy_file("build/dist/commons-pool2-2.4.2.jar",                              "$stage_base_dir/opt/zimbra/lib/jars/commons-pool2-2.4.2.jar");
