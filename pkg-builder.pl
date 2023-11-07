@@ -245,6 +245,7 @@ sub stage_zimbra_store_lib($)
        cpy_file("build/dist/bcmail-jdk15on-1.64.jar",                               "$stage_base_dir/opt/zimbra/lib/ext-common/bcmail-jdk15on-1.64.jar");
        cpy_file("build/dist/xmlsec-3.0.0.jar",                                      "$stage_base_dir/opt/zimbra/lib/ext-common/xmlsec-3.0.0.jar");
        cpy_file("build/dist/jakarta.json-api-2.1.3.jar",                            "$stage_base_dir/opt/zimbra/lib/ext-common/jakarta.json-api-2.1.3.jar");
+       cpy_file("build/dist/jakarta.json-1.1.5.jar",                                "$stage_base_dir/opt/zimbra/lib/ext-common/jakarta.json-1.1.5.jar");
        cpy_file("build/dist/jcharset-2.0.jar",                                      "$stage_base_dir/opt/zimbra/jetty_base/common/endorsed/jcharset.jar");
        cpy_file("build/dist/zimbra-charset.jar",                                    "$stage_base_dir/opt/zimbra/jetty_base/common/endorsed/zimbra-charset.jar");
        cpy_file("build/dist/apache-log4j-extras-1.0.jar",                           "$stage_base_dir/opt/zimbra/jetty_base/common/lib/apache-log4j-extras-1.0.jar");
