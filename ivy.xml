@@ -177,6 +177,7 @@
     <dependency org="org.apache.james" name="apache-mime4j-core" rev="0.8.7"/>
     <dependency org="jakarta.json" name="jakarta.json-api" rev="2.1.3"/>
     <dependency org="org.eclipse.parsson" name="jakarta.json" rev="1.1.5"/>
+    <dependency org="com.github.ben-manes.caffeine" name="caffeine" rev="2.9.3"/>
     <exclude org="com.noelios.restlet" module="com.noelios.restlet"/>
     <exclude org="javax.sql" module="jdbc-stdext"/>
     <exclude org="javax.transaction" module="jta"/>
