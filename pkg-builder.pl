@@ -388,7 +388,8 @@ sub make_package($)
          }
       }
    }
-   if ( $pkg_name =~ "zimbra-common-core-libs" ){
+   if ( $pkg_name =~ "zimbra-mbox-store-libs" ){
+	   push( @cmd, "--pkg-pre-install-script=scripts/preinst.sh" );
 	   push( @cmd, "--pkg-post-install-script=scripts/postinst.sh" );
    }
    push( @cmd, @{ [ map { "--pkg-replaces=$_"; } @{ $pkg_info->{replaces} } ] } )                                                              if ( $pkg_info->{replaces} );
