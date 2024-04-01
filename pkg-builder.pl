@@ -231,6 +231,7 @@ sub stage_zimbra_core_lib($)
         cpy_file("build/dist/apache-jsp-9.4.46.v20220331.jar",                      "$stage_base_dir/opt/zimbra/lib/jars/apache-jsp-9.4.46.v20220331.jar");
         cpy_file("build/dist/UserAgentUtils-1.21.jar",                              "$stage_base_dir/opt/zimbra/lib/jars/UserAgentUtils-1.21.jar");
         cpy_file("build/dist/tika-core-1.24.1.jar",                                 "$stage_base_dir/opt/zimbra/lib/jars/tika-core-1.24.1.jar");
+        cpy_file("build/dist/failureaccess-1.0.1.jar",                              "$stage_base_dir/opt/zimbra/lib/jars/failureaccess-1.0.1.jar");
 	cpy_file("build/dist/apache-mime4j-core-0.8.7.jar",                         "$stage_base_dir/opt/zimbra/lib/jars/apache-mime4j-core-0.8.7.jar");
 	cpy_file("build/dist/zmlocalconfig",                                        "$stage_base_dir/opt/zimbra/lib/patches/localconfig/zmlocalconfig");
         return ["."];
