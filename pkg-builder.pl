@@ -243,7 +243,6 @@ sub stage_zimbra_store_lib($)
    my $stage_base_dir = shift;
 
        cpy_file("build/dist/bcpkix-jdk15on-1.64.jar",                               "$stage_base_dir/opt/zimbra/jetty_base/common/lib/bcpkix-jdk15on-1.64.jar");
-       cpy_file("build/dist/bcmail-jdk15on-1.64.jar",                               "$stage_base_dir/opt/zimbra/lib/ext-common/bcmail-jdk15on-1.64.jar");
        cpy_file("build/dist/xmlsec-3.0.0.jar",                                      "$stage_base_dir/opt/zimbra/lib/ext-common/xmlsec-3.0.0.jar");
        cpy_file("build/dist/jakarta.json-api-2.1.3.jar",                            "$stage_base_dir/opt/zimbra/lib/ext-common/jakarta.json-api-2.1.3.jar");
        cpy_file("build/dist/jakarta.json-1.1.5.jar",                                "$stage_base_dir/opt/zimbra/lib/ext-common/jakarta.json-1.1.5.jar");
@@ -323,7 +322,6 @@ sub stage_zimbra_store_lib($)
        cpy_file("build/dist/commons-math3-3.6.1.jar",                               "$stage_base_dir/opt/zimbra/jetty_base/common/lib/commons-math3-3.6.1.jar");
        cpy_file("build/dist/commons-csv-1.2.jar",                                   "$stage_base_dir/opt/zimbra/jetty_base/common/lib/commons-csv-1.2.jar");
        cpy_file("build/dist/xz-1.9.jar",                                            "$stage_base_dir/opt/zimbra/jetty_base/common/lib/xz-1.9.jar");
-       cpy_file("build/dist/saaj-impl-1.5.1.jar",                                   "$stage_base_dir/opt/zimbra/lib/ext-common/saaj-impl-1.5.1.jar");
        cpy_file("build/dist/antisamy-1.5.8z2.jar",                                   "$stage_base_dir/opt/zimbra/jetty_base/webapps/service/WEB-INF/lib/antisamy-1.5.8z2.jar");
        cpy_file("build/dist/UserAgentUtils-1.21.jar",                               "$stage_base_dir/opt/zimbra/jetty_base/common/lib/UserAgentUtils-1.21.jar");
        cpy_file("build/dist/poi-4.1.2.jar",                                         "$stage_base_dir/opt/zimbra/jetty_base/common/lib/poi-4.1.2.jar");
