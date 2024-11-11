@@ -89,11 +89,11 @@
     <dependency org="org.bouncycastle" name="bcmail-jdk15on" rev="1.64"/>
     <dependency org="org.bouncycastle" name="bcpkix-jdk15on" rev="1.64"/>
     <dependency org="org.bouncycastle" name="bcprov-jdk15on" rev="1.64"/>
-    <dependency org="com.fasterxml.jackson.core" name="jackson-core" rev="2.10.1"/>
-    <dependency org="com.fasterxml.jackson.core" name="jackson-annotations" rev="2.10.1"/>
-    <dependency org="com.fasterxml.jackson.core" name="jackson-databind" rev="2.10.1"/>
-    <dependency org="com.fasterxml.jackson.dataformat" name="jackson-dataformat-smile" rev="2.9.2" />
-    <dependency org="com.fasterxml.jackson.module" name="jackson-module-jaxb-annotations" rev="2.8.9"/>
+    <dependency org="com.fasterxml.jackson.core" name="jackson-core" rev="2.18.1"/>
+    <dependency org="com.fasterxml.jackson.core" name="jackson-annotations" rev="2.18.1"/>
+    <dependency org="com.fasterxml.jackson.core" name="jackson-databind" rev="2.18.1"/>
+    <dependency org="com.fasterxml.jackson.dataformat" name="jackson-dataformat-smile" rev="2.18.1"/>
+    <dependency org="com.fasterxml.jackson.module" name="jackson-module-jaxb-annotations" rev="2.18.1"/>
     <dependency org="org.codehaus.woodstox" name="stax2-api" rev="3.1.1"/>
     <dependency org="org.codehaus.woodstox" name="woodstox-core-asl" rev="4.2.0"/>
     <dependency org="org.eclipse.jetty" name="jetty-continuation" rev="9.4.46.v20220331"/>
