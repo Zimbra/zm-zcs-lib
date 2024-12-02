@@ -240,7 +240,6 @@ sub stage_zimbra_store_lib($)
    my $stage_base_dir = shift;
 
        cpy_file("build/dist/bcpkix-jdk15on-1.64.jar",                               "$stage_base_dir/opt/zimbra/jetty_base/common/lib/bcpkix-jdk15on-1.64.jar");
-       cpy_file("build/dist/bcmail-jdk15on-1.64.jar",                               "$stage_base_dir/opt/zimbra/lib/ext-common/bcmail-jdk15on-1.64.jar");
        cpy_file("build/dist/xmlsec-3.0.0.jar",                                      "$stage_base_dir/opt/zimbra/lib/ext-common/xmlsec-3.0.0.jar");
        cpy_file("build/dist/jcharset-2.0.jar",                                      "$stage_base_dir/opt/zimbra/jetty_base/common/endorsed/jcharset.jar");
        cpy_file("build/dist/zimbra-charset.jar",                                    "$stage_base_dir/opt/zimbra/jetty_base/common/endorsed/zimbra-charset.jar");
@@ -310,7 +309,6 @@ sub stage_zimbra_store_lib($)
        cpy_file("build/dist/jaxb-impl-2.3.1.jar",                                   "$stage_base_dir/opt/zimbra/jetty_base/common/lib/jaxb-impl-2.3.1.jar");
        cpy_file("build/dist/jaxb-api-2.3.1.jar",                                    "$stage_base_dir/opt/zimbra/jetty_base/common/lib/jaxb-api-2.3.1.jar");
        cpy_file("build/dist/jaxws-api-2.3.1.jar",                                   "$stage_base_dir/opt/zimbra/jetty_base/common/lib/jaxws-api-2.3.1.jar");
-       cpy_file("build/dist/saaj-impl-1.5.1.jar",                                   "$stage_base_dir/opt/zimbra/lib/ext-common/saaj-impl-1.5.1.jar");
        cpy_file("build/dist/antisamy-1.5.8z3.jar",                                   "$stage_base_dir/opt/zimbra/jetty_base/webapps/service/WEB-INF/lib/antisamy-1.5.8z3.jar");
        cpy_file("build/dist/UserAgentUtils-1.21.jar",                               "$stage_base_dir/opt/zimbra/jetty_base/common/lib/UserAgentUtils-1.21.jar");
        return ["."];
