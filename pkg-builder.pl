@@ -228,7 +228,7 @@ sub stage_zimbra_core_lib($)
         cpy_file("build/dist/activation-1.1.1.jar",                                 "$stage_base_dir/opt/zimbra/lib/jars/activation-1.1.1.jar");
         cpy_file("build/dist/istack-commons-runtime-3.0.8.jar",                     "$stage_base_dir/opt/zimbra/lib/jars/istack-commons-runtime-3.0.8.jar");
         cpy_file("build/dist/javax.annotation-api-1.2.jar",                         "$stage_base_dir/opt/zimbra/lib/jars/javax.annotation-api-1.2.jar");
-        cpy_file("build/dist/apache-jsp-12.0.16.v20241209.jar",                     "$stage_base_dir/opt/zimbra/lib/jars/apache-jsp-12.0.16.v20241209.jar");
+        cpy_file("build/dist/apache-jsp-12.0.16.jar",                               "$stage_base_dir/opt/zimbra/lib/jars/apache-jsp-12.0.16.jar");
         cpy_file("build/dist/UserAgentUtils-1.21.jar",                              "$stage_base_dir/opt/zimbra/lib/jars/UserAgentUtils-1.21.jar");
         cpy_file("build/dist/tika-core-1.24.1.jar",                                 "$stage_base_dir/opt/zimbra/lib/jars/tika-core-1.24.1.jar");
         cpy_file("build/dist/failureaccess-1.0.1.jar",                              "$stage_base_dir/opt/zimbra/lib/jars/failureaccess-1.0.1.jar");
