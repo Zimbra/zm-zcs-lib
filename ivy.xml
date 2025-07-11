@@ -29,7 +29,7 @@
     <dependency org="com.sun.xml.stream.buffer" name="streambuffer" rev="2.2.6"/>
     <dependency org="com.sun.xml.ws" name="jaxws-rt" rev="4.0.0"/>
     <dependency org="com.sun.xml.ws" name="policy" rev="2.3"/>
-    <dependency org="com.unboundid" name="unboundid-ldapsdk" rev="2.3.5"/>
+    <dependency org="com.unboundid" name="unboundid-ldapsdk" rev="7.0.3"/>
     <dependency org="com.yahoo.platform.yui" name="yuicompressor" rev="2.4.2-zimbra"/>
     <dependency org="commons-cli" name="commons-cli" rev="1.2"/>
     <dependency org="commons-codec" name="commons-codec" rev="1.14"/>
