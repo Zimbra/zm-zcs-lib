@@ -211,7 +211,7 @@ sub stage_zimbra_core_lib($)
         cpy_file("build/dist/stax2-api-3.1.1.jar",                                  "$stage_base_dir/opt/zimbra/lib/jars/stax2-api-3.1.1.jar");
         cpy_file("build/dist/streambuffer-2.2.6.jar",                               "$stage_base_dir/opt/zimbra/lib/jars/streambuffer-2.2.6.jar");
         cpy_file("build/dist/syslog4j-0.9.46.jar",                                  "$stage_base_dir/opt/zimbra/lib/jars/syslog4j-0.9.46.jar");
-        cpy_file("build/dist/unboundid-ldapsdk-2.3.5.jar",                          "$stage_base_dir/opt/zimbra/lib/jars/unboundid-ldapsdk-2.3.5.jar");
+        cpy_file("build/dist/unboundid-ldapsdk-7.0.3.jar",                          "$stage_base_dir/opt/zimbra/lib/jars/unboundid-ldapsdk-7.0.3.jar");
         cpy_file("build/dist/woodstox-core-asl-4.2.0.jar",                          "$stage_base_dir/opt/zimbra/lib/jars/woodstox-core-asl-4.2.0.jar");
         cpy_file("build/dist/wsdl4j-1.6.3.jar",                                     "$stage_base_dir/opt/zimbra/lib/jars/wsdl4j-1.6.3.jar");
         cpy_file("build/dist/xercesImpl-2.9.1-patch-01.jar",                        "$stage_base_dir/opt/zimbra/lib/jars/xercesImpl-2.9.1-patch-01.jar");
@@ -292,7 +292,7 @@ sub stage_zimbra_store_lib($)
        cpy_file("build/dist/mariadb-java-client-2.4.3.jar",                         "$stage_base_dir/opt/zimbra/jetty_base/common/lib/mariadb-java-client-2.4.3.jar");
        cpy_file("build/dist/oauth-20100527.jar",                                    "$stage_base_dir/opt/zimbra/jetty_base/common/lib/oauth-20100527.jar");
        cpy_file("build/dist/spymemcached-2.12.1.jar",                               "$stage_base_dir/opt/zimbra/jetty_base/common/lib/spymemcached-2.12.1.jar");
-       cpy_file("build/dist/unboundid-ldapsdk-2.3.5.jar",                           "$stage_base_dir/opt/zimbra/jetty_base/common/lib/unboundid-ldapsdk-2.3.5.jar");
+       cpy_file("build/dist/unboundid-ldapsdk-7.0.3.jar",                           "$stage_base_dir/opt/zimbra/jetty_base/common/lib/unboundid-ldapsdk-7.0.3.jar");
        cpy_file("build/dist/xercesImpl-2.9.1-patch-01.jar",                         "$stage_base_dir/opt/zimbra/jetty_base/common/lib/xercesImpl-2.9.1-patch-01.jar");
        cpy_file("build/dist/yuicompressor-2.4.2-zimbra.jar",                        "$stage_base_dir/opt/zimbra/jetty_base/common/lib/yuicompressor-2.4.2-zimbra.jar");
        cpy_file("build/dist/ant-1.7.0-ziputil-patched.jar",                         "$stage_base_dir/opt/zimbra/jetty_base/common/lib/ant-1.7.0-ziputil-patched.jar");
