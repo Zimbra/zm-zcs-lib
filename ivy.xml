@@ -177,9 +177,6 @@
     <dependency org="org.apache.james" name="apache-mime4j-core" rev="0.8.7"/>
     <dependency org="jakarta.json" name="jakarta.json-api" rev="2.1.3"/>
     <dependency org="org.eclipse.parsson" name="jakarta.json" rev="1.1.5"/>
-    <dependency org="org.apache.httpcomponents.client5" name="httpclient5" rev="5.4.4"/>
-    <dependency org="org.apache.httpcomponents.core5" name="httpcore5" rev="5.3.4"/>
-    <dependency org="org.htmlunit" name="neko-htmlunit" rev="4.11.0"/>
     <!-- Required this jar in runtime. We are using the same jar since long time.
     But we didn't encounter any issues. But after integrating some cache things with licensing,
     we need this jar in the classpath at runtime
