@@ -49,7 +49,7 @@
   </target>
 
 <!-- Property added to have the functionality of passing version as an argument  -->
-  <property name="zmzcslibs.ext.patch.revision" value="1" />
+  <property name="zmzcslibs.ext.patch.revision" value="${zimbra.buildinfo.revision}" />
   <property name="zmzcslibs.ext.patch.version"
       value="${zimbra.buildinfo.majorversion}.${zimbra.buildinfo.minorversion}.${zimbra.buildinfo.microversion}"/>
 
