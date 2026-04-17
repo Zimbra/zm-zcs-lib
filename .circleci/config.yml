@@ -61,7 +61,8 @@ references:
               ant -Dzimbra.buildinfo.version="${BUILD_RELEASE_NUMBER}_${CIRCLE_BUILD_NUM}" -Dzimbra.buildinfo.revision="${BUILDINFO_REVISION}" -Dzmzcslibs.ext.patch.version="${BUILD_RELEASE_NUMBER}" -Dzmzcslibs.ext.patch.revision="${PKG_RELEASE}" clean pkg
               JOB_OUT_DIR="build/dist/${CIRCLE_JOB}"
               mkdir -p "$JOB_OUT_DIR"
-              find build/dist -maxdepth 1 -type f \( -name '*.deb' -o -name '*.rpm' \) -exec mv -f {} "$JOB_OUT_DIR"/ \;
+              # Collect every package (pkg-build may nest under build/dist, not only depth 1).
+              find build/dist -type f \( -name '*.deb' -o -name '*.rpm' \) ! -path "${JOB_OUT_DIR}/*" -exec mv -f {} "$JOB_OUT_DIR"/ \;
               rm -rf build/dist/jetty
               # Ivy leaves identical jar paths under build/dist on every OS job; persisting
               # build/dist/* from parallel jobs causes workspace merge collisions. Keep only
@@ -112,7 +113,7 @@ references:
               ant -Dzimbra.buildinfo.version="${BUILD_RELEASE_NUMBER}_${CIRCLE_BUILD_NUM}" -Dzimbra.buildinfo.revision="${BUILDINFO_REVISION}" -Dzmzcslibs.ext.patch.version="${BUILD_RELEASE_NUMBER}" -Dzmzcslibs.ext.patch.revision="${PKG_RELEASE}" clean pkg
               JOB_OUT_DIR="build/dist/${CIRCLE_JOB}"
               mkdir -p "$JOB_OUT_DIR"
-              find build/dist -maxdepth 1 -type f \( -name '*.deb' -o -name '*.rpm' \) -exec mv -f {} "$JOB_OUT_DIR"/ \;
+              find build/dist -type f \( -name '*.deb' -o -name '*.rpm' \) ! -path "${JOB_OUT_DIR}/*" -exec mv -f {} "$JOB_OUT_DIR"/ \;
               rm -rf build/dist/jetty
          - store_artifacts:
             path: build/dist
@@ -145,6 +146,8 @@ references:
               API_BASE="$RAW_BASE/service/rest/v1/components"
               PACKAGE_FILES="$(find "$ROOT" -type f \( -name '*.deb' -o -name '*.rpm' \))"
               if [ -z "$PACKAGE_FILES" ]; then
+                echo "No .deb or .rpm under $(pwd)/$ROOT" >&2
+                find "$ROOT" -type f 2>/dev/null | head -100 >&2 || true
                 exit 1
               fi
               package_list_file="$(mktemp)"
