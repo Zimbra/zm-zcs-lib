@@ -63,8 +63,16 @@ references:
               mkdir -p "$JOB_OUT_DIR"
               find build/dist -maxdepth 1 -type f \( -name '*.deb' -o -name '*.rpm' \) -exec mv -f {} "$JOB_OUT_DIR"/ \;
               rm -rf build/dist/jetty
+              # Ivy leaves identical jar paths under build/dist on every OS job; persisting
+              # build/dist/* from parallel jobs causes workspace merge collisions. Keep only
+              # this job's package directory for the workspace (artifacts below keep full tree).
          - store_artifacts:
             path: build/dist
+         - run:
+            name: Trim build/dist for workspace (avoid parallel job path collisions)
+            command: |
+              cd ../zm-zcs-lib
+              find build/dist -mindepth 1 -maxdepth 1 ! -name "${CIRCLE_JOB}" -exec rm -rf {} +
          - persist_to_workspace:
             root: ..
             paths: zm-zcs-lib/build/dist/*
@@ -108,6 +116,11 @@ references:
               rm -rf build/dist/jetty
          - store_artifacts:
             path: build/dist
+         - run:
+            name: Trim build/dist for workspace (avoid parallel job path collisions)
+            command: |
+              cd ../zm-zcs-lib
+              find build/dist -mindepth 1 -maxdepth 1 ! -name "${CIRCLE_JOB}" -exec rm -rf {} +
          - persist_to_workspace:
             root: ..
             paths: zm-zcs-lib/build/dist/*
