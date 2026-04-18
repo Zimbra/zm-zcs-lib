@@ -22,7 +22,6 @@
     <ant antfile="../ant-1.7.0-ziputil-patched/build.xml" inheritAll="false" target="jar" />
     <ant antfile="../ant-tar-patched/build.xml" inheritAll="false" target="jar" />
     <ant antfile="../nekohtml-1.9.13/build.xml" inheritAll="false" target="jar" />
-    <mkdir dir="${basedir}/../ical4j-0.9.16-patched/bin" />
     <ant antfile="../ical4j-0.9.16-patched/build.xml" inheritAll="false" target="package" />
     <ant antfile="../java-html-sanitizer-release-20190610.1/build.xml" inheritAll="false" target="jar" />
     <ant antfile="../antisamy/build.xml" inheritAll="false" target="jar" />
@@ -50,7 +49,7 @@
   </target>
 
 <!-- Property added to have the functionality of passing version as an argument  -->
-  <property name="zmzcslibs.ext.patch.revision" value="1" />
+  <property name="zmzcslibs.ext.patch.revision" value="${zimbra.buildinfo.revision}" />
   <property name="zmzcslibs.ext.patch.version"
       value="${zimbra.buildinfo.majorversion}.${zimbra.buildinfo.minorversion}.${zimbra.buildinfo.microversion}"/>
 

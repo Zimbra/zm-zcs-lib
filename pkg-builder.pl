@@ -400,7 +400,7 @@ sub make_package($)
    System(@cmd);
 }
 
-sub depth_first_traverse_package
+sub depth_first_traverse_package($)
 {
    my $pkg_name = shift;
 
@@ -522,5 +522,4 @@ sub Die($;$)
 ##############################################################################################
 
 main();
-
 
