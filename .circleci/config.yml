@@ -1,9 +1,5 @@
 version: 2.1
 
-############################################################################
-# zm-zcs-lib expects sibling FOSS trees (see build.xml + zm-build FOSS_repo_list.pl).
-############################################################################
-
 references:
    checkout_job_steps: &checkout_job_steps
       steps:
@@ -316,7 +312,7 @@ workflows:
             context:
                - docker-dev-registry
                - build-number
-               - nexus-artifactory
+               - nexus-dev-artifactory
             requires:
                - checkout
                - build_u24
