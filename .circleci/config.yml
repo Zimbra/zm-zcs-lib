@@ -117,7 +117,11 @@ references:
               BUILDINFO_REVISION="1_develop_snapshot"
               cd ../zm-zcs-lib
               ant -Dzimbra.buildinfo.version="${BUILD_RELEASE_NUMBER}_${CIRCLE_BUILD_NUM}" -Dzimbra.buildinfo.majorversion="${MAJOR_VERSION}" -Dzimbra.buildinfo.minorversion="${MINOR_VERSION}" -Dzimbra.buildinfo.microtag="${MICRO_TAG}" -Dzimbra.buildinfo.revision="${BUILDINFO_REVISION}" -Dzmzcslibs.ext.patch.revision="${BUILDINFO_REVISION}" clean pkg
-              JOB_OUT_DIR="build/dist/${CIRCLE_JOB}"
+              case "${CIRCLE_JOB}" in
+                build_c8) JOB_OUT_DIR="build/dist/r8" ;;
+                build_c9) JOB_OUT_DIR="build/dist/r9" ;;
+                *) JOB_OUT_DIR="build/dist/${CIRCLE_JOB}" ;;
+              esac
               mkdir -p "$JOB_OUT_DIR"
               find build/dist -type f \( -name '*.deb' -o -name '*.rpm' \) ! -path "${JOB_OUT_DIR}/*" -exec mv -f {} "$JOB_OUT_DIR"/ \;
               rm -rf build/dist/jetty
@@ -127,7 +131,12 @@ references:
             name: Trim build/dist for workspace merge
             command: |
               cd ../zm-zcs-lib
-              find build/dist -mindepth 1 -maxdepth 1 ! -name "${CIRCLE_JOB}" -exec rm -rf {} +
+              case "${CIRCLE_JOB}" in
+                build_c8) KEEP_DIR="r8" ;;
+                build_c9) KEEP_DIR="r9" ;;
+                *) KEEP_DIR="${CIRCLE_JOB}" ;;
+              esac
+              find build/dist -mindepth 1 -maxdepth 1 ! -name "${KEEP_DIR}" -exec rm -rf {} +
          - persist_to_workspace:
             root: ..
             paths: zm-zcs-lib/build/dist/*
