@@ -64,6 +64,11 @@ references:
               rm -rf build/dist/jetty
          - store_artifacts:
             path: build/dist
+         - run:
+            name: Trim build/dist for workspace merge
+            command: |
+              cd ../zm-zcs-lib
+              find build/dist -mindepth 1 -maxdepth 1 ! -name "${CIRCLE_JOB}" -exec rm -rf {} +
          - persist_to_workspace:
             root: ..
             paths: zm-zcs-lib/build/dist/*
@@ -109,6 +114,11 @@ references:
               rm -rf build/dist/jetty
          - store_artifacts:
             path: build/dist
+         - run:
+            name: Trim build/dist for workspace merge
+            command: |
+              cd ../zm-zcs-lib
+              find build/dist -mindepth 1 -maxdepth 1 ! -name "${CIRCLE_JOB}" -exec rm -rf {} +
          - persist_to_workspace:
             root: ..
             paths: zm-zcs-lib/build/dist/*
