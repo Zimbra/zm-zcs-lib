@@ -8,7 +8,7 @@ references:
             name: Checking out dependencies.
             command: |
                git clone -b develop --single-branch https://github.com/Zimbra/zm-pkg-tool.git ~/zm-pkg-tool
-               git clone -b ZCS-18832 --single-branch https://github.com/Zimbra/zm-zcs.git ~/zm-zcs
+               git clone -b develop --single-branch https://github.com/Zimbra/zm-zcs.git ~/zm-zcs
                git clone -b master --single-branch https://github.com/Zimbra/zimbra-package-stub.git ~/zimbra-package-stub
                git clone -b master --single-branch https://$GITHUB_ACCESS_TOKEN@github.com/Zimbra/zm-nexus.git ~/zm-nexus
                git clone -b develop --single-branch https://github.com/Zimbra/zm-charset.git ~/zm-charset
@@ -16,7 +16,7 @@ references:
                git clone -b develop --single-branch https://github.com/Zimbra/ant-1.7.0-ziputil-patched.git ~/ant-1.7.0-ziputil-patched
                git clone -b develop --single-branch https://github.com/Zimbra/ant-tar-patched.git ~/ant-tar-patched
                git clone -b develop --single-branch https://github.com/Zimbra/nekohtml-1.9.13.git ~/nekohtml-1.9.13
-               git clone -b ZCS-18968 --single-branch https://github.com/Zimbra/ical4j-0.9.16-patched.git ~/ical4j-0.9.16-patched
+               git clone -b develop --single-branch https://github.com/Zimbra/ical4j-0.9.16-patched.git ~/ical4j-0.9.16-patched
                git clone -b develop --single-branch https://github.com/Zimbra/java-html-sanitizer-release-20190610.1.git ~/java-html-sanitizer-release-20190610.1
                git clone -b develop --single-branch https://github.com/Zimbra/antisamy.git ~/antisamy
                mkdir -p ~/.zcs-deps
@@ -257,7 +257,6 @@ workflows:
             filters:
                branches:
                   only:
-                    - ZCS-18921
                     - develop
          - build_u24:
             context:
@@ -268,7 +267,6 @@ workflows:
             filters:
                branches:
                   only:
-                    - ZCS-18921
                     - develop
          - build_u22:
             context:
@@ -279,7 +277,6 @@ workflows:
             filters:
                branches:
                   only:
-                    - ZCS-18921
                     - develop
          - build_u20:
             context:
@@ -290,7 +287,6 @@ workflows:
             filters:
                branches:
                   only:
-                    - ZCS-18921
                     - develop
          - build_u18:
             context:
@@ -301,7 +297,6 @@ workflows:
             filters:
                branches:
                   only:
-                    - ZCS-18921
                     - develop
          - build_c9:
             context:
@@ -312,7 +307,6 @@ workflows:
             filters:
                branches:
                   only:
-                    - ZCS-18921
                     - develop
          - build_c8:
             context:
@@ -323,7 +317,6 @@ workflows:
             filters:
                branches:
                   only:
-                    - ZCS-18921
                     - develop
          - publish:
             context:
@@ -341,5 +334,4 @@ workflows:
             filters:
                branches:
                  only:
-                   - ZCS-18921
                    - develop
