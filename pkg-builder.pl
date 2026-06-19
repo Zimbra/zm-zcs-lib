@@ -190,7 +190,7 @@ sub stage_zimbra_core_lib($)
         cpy_file("build/dist/neethi-3.0.2.jar",                                     "$stage_base_dir/opt/zimbra/lib/jars/neethi-3.0.2.jar");
         cpy_file("build/dist/nekohtml-1.9.13.1z.jar",                               "$stage_base_dir/opt/zimbra/lib/jars/nekohtml-1.9.13.1z.jar");
         cpy_file("build/dist/oauth-20100527.jar",                                   "$stage_base_dir/opt/zimbra/lib/jars/oauth-20100527.jar");
-        cpy_file("build/dist/antisamy-1.5.8z3.jar",                                  "$stage_base_dir/opt/zimbra/lib/jars/antisamy-1.5.8z3.jar");
+        cpy_file("build/dist/antisamy-1.7.8z.jar",                                  "$stage_base_dir/opt/zimbra/lib/jars/antisamy-1.7.8z.jar");
         cpy_file("build/dist/batik-css-1.7.jar",                                    "$stage_base_dir/opt/zimbra/lib/jars/batik-css-1.7.jar");
         cpy_file("build/dist/batik-i18n-1.14.jar",                                  "$stage_base_dir/opt/zimbra/lib/jars/batik-i18n-1.14.jar");
         cpy_file("build/dist/batik-util-1.14.jar",                                  "$stage_base_dir/opt/zimbra/lib/jars/batik-util-1.14.jar");
@@ -322,7 +322,7 @@ sub stage_zimbra_store_lib($)
        cpy_file("build/dist/commons-math3-3.6.1.jar",                               "$stage_base_dir/opt/zimbra/jetty_base/common/lib/commons-math3-3.6.1.jar");
        cpy_file("build/dist/commons-csv-1.2.jar",                                   "$stage_base_dir/opt/zimbra/jetty_base/common/lib/commons-csv-1.2.jar");
        cpy_file("build/dist/xz-1.9.jar",                                            "$stage_base_dir/opt/zimbra/jetty_base/common/lib/xz-1.9.jar");
-       cpy_file("build/dist/antisamy-1.5.8z3.jar",                                   "$stage_base_dir/opt/zimbra/jetty_base/webapps/service/WEB-INF/lib/antisamy-1.5.8z3.jar");
+       cpy_file("build/dist/antisamy-1.7.8z.jar",                                   "$stage_base_dir/opt/zimbra/jetty_base/webapps/service/WEB-INF/lib/antisamy-1.7.8z.jar");
        cpy_file("build/dist/UserAgentUtils-1.21.jar",                               "$stage_base_dir/opt/zimbra/jetty_base/common/lib/UserAgentUtils-1.21.jar");
        cpy_file("build/dist/poi-4.1.2.jar",                                         "$stage_base_dir/opt/zimbra/jetty_base/common/lib/poi-4.1.2.jar");
        cpy_file("build/dist/poi-ooxml-4.1.2.jar",                                   "$stage_base_dir/opt/zimbra/jetty_base/common/lib/poi-ooxml-4.1.2.jar");
@@ -340,6 +340,9 @@ sub stage_zimbra_store_lib($)
        cpy_file("build/dist/openio-api-2.0.3.jar",                                  "$stage_base_dir/opt/zimbra/jetty_base/common/lib/openio-api-2.0.3.jar");
        cpy_file("build/dist/gson-2.8.2.jar",                                        "$stage_base_dir/opt/zimbra/jetty_base/common/lib/gson-2.8.2.jar");
        cpy_file("build/dist/apache-mime4j-core-0.8.7.jar",                          "$stage_base_dir/opt/zimbra/jetty_base/common/lib/apache-mime4j-core-0.8.7.jar");
+       cpy_file("build/dist/httpclient5-5.4.4.jar",                                 "$stage_base_dir/opt/zimbra/jetty_base/common/lib/httpclient5-5.4.4.jar");
+       cpy_file("build/dist/httpcore5-5.3.4.jar",                                   "$stage_base_dir/opt/zimbra/jetty_base/common/lib/httpcore5-5.3.4.jar");
+       cpy_file("build/dist/neko-htmlunit-4.11.0.jar",                              "$stage_base_dir/opt/zimbra/jetty_base/common/lib/neko-htmlunit-4.11.0.jar");
        return ["."];
 }
 
